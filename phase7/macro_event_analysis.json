@@ -1,0 +1,36 @@
+{
+  "point_in_time_only": true,
+  "event_outcomes_used": false,
+  "groups": {
+    "NO_SCHEDULED_EVENT": {
+      "sessions": 1027,
+      "net_profit": 77397.3,
+      "expectancy_r": 0.100468,
+      "positive_years": 5
+    },
+    "KNOWN_EVENT_DAY": {
+      "sessions": 468,
+      "net_profit": 40193.2,
+      "expectancy_r": 0.059082,
+      "positive_years": 4
+    },
+    "KNOWN_10AM_EVENT": {
+      "sessions": 72,
+      "net_profit": -12267.2,
+      "expectancy_r": -0.159746,
+      "positive_years": 2
+    },
+    "KNOWN_EVENT_AFTER_ENTRY": {
+      "sessions": 31,
+      "net_profit": -7578.1,
+      "expectancy_r": -0.104281,
+      "positive_years": 2
+    }
+  },
+  "status": "DESCRIPTIVE",
+  "missing": [
+    "verified point-in-time retail sales archive",
+    "verified private ISM history",
+    "Fed speaker schedule with publication timestamps"
+  ]
+}

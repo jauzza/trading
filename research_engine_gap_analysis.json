@@ -1,0 +1,146 @@
+[
+  {
+    "principle_id": "chronological_validation",
+    "finding": "The engine separates 2018-2021 discovery, 2022-2023 validation, and 2024-2025 historical evaluation, labels the latter as already inspected, and rejects protected 2026 paths before reading them.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_1f8v70e", "src_post_12iu751", "src_post_1j187b3", "src_post_qtyuxb"],
+    "recommended_change": "Keep the current boundary and never relabel 2024-2025 as an untouched holdout. Require a separately authorized prospective/future protocol for new evidence.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "prevent_leakage",
+    "finding": "Completed-bar timestamps, feature cutoffs, causal pivots, post-entry feature exclusions, deterministic replay, and an explicit 2026 pre-read guard are tested.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_m9y9k6", "src_post_hyvzq1", "src_comment_k8qjrpg"],
+    "recommended_change": "Retain invariant tests for every new feature and require metadata declaring feature availability time, not merely observation time.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "point_in_time_universe",
+    "finding": "Equity-universe survivorship is not applicable to a single continuous NQ/MNQ futures series, but point-in-time contract mapping and roll selection are analogous and can still create selection leakage.",
+    "current_status": "audit",
+    "evidence_source_ids": ["src_post_1t0ny8o", "src_post_1m5keqj", "src_comment_lwqyhrr"],
+    "recommended_change": "Add a roll-by-roll audit that records the active contract known at each timestamp, mapping changes, gaps, duplicated minutes, and any back-adjustment policy.",
+    "priority": "medium"
+  },
+  {
+    "principle_id": "survivorship_selection_bias",
+    "finding": "The single-market design avoids equity delisting bias, while retrospective Reddit idea selection and repeated candidate tournaments remain a material selection-bias channel.",
+    "current_status": "audit",
+    "evidence_source_ids": ["src_post_1m5keqj", "src_post_qtyuxb", "src_post_ft2hd9"],
+    "recommended_change": "Keep every attempted rule in the experiment registry, count shadow and rejected variants in the search family, and preserve source-vintage warnings.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "multiple_testing_control",
+    "finding": "Session-aligned stationary bootstrap, BH/BY corrections, White reality check, SPA-style testing, Deflated Sharpe, and PBO are implemented with 50,000 resamples in Phase 7.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_1f8v70e", "src_post_1um3mn2", "src_post_qtyuxb"],
+    "recommended_change": "Before any new tournament, freeze the complete family—including controls and abandoned variants—and report family-level results even when no candidate passes.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "walk_forward_design",
+    "finding": "Chronological folds and expanding walk-forward audits exist, but all 2018-2025 observations are now known and cannot supply new holdout evidence.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_1f8v70e", "src_post_1j187b3", "src_post_4bengr"],
+    "recommended_change": "Use walk-forward only as historical stability evidence. Freeze any future model selection cadence and hyperparameter grid before prospective evaluation.",
+    "priority": "medium"
+  },
+  {
+    "principle_id": "parameter_stability",
+    "finding": "Plateaus and sensitivity checks exist in prior phases, but no single reusable promotion gate appears to reject unstable parameter neighborhoods automatically.",
+    "current_status": "audit",
+    "evidence_source_ids": ["src_post_qtyuxb", "src_post_znplcx", "src_comment_omi7rph"],
+    "recommended_change": "Add a generic stability report: neighboring-parameter sign consistency, rank persistence by fold/year, degradation under cost stress, and rejection when the winner is an isolated peak.",
+    "priority": "medium"
+  },
+  {
+    "principle_id": "realistic_execution",
+    "finding": "NQ/MNQ point values and fee schedules are separate; direction-aware slippage, spread, commissions, exchange/clearing/regulatory fees, tick rounding, gap-through stops, adverse-first ambiguous bars, and gross-to-net reconciliation are tested.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_1t0ny8o", "src_post_qrj76v", "src_post_1anohov", "src_comment_dvq1a0j"],
+    "recommended_change": "Keep one-minute OHLCV limitations explicit. Do not claim queue, order-book, footprint, true delta, or market-impact fidelity; calibrate slippage only from timestamped forward fills.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "backtest_live_equivalence",
+    "finding": "Deterministic historical replay is covered, but there is no shared strategy runtime proving that backtest, shadow, paper, and future live modes consume identical signals and order semantics.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_1anohov", "src_post_hyvzq1", "src_post_1um3mn2", "src_post_1e4xk9m"],
+    "recommended_change": "Create a common event-driven strategy adapter and a golden-replay test comparing signal, intended order, simulated fill, broker fill, fees, position, and P&L at every transition.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "data_quality_validation",
+    "finding": "Session checks detect duplicate and unordered timestamps, missing key New York bars, extreme ranges, and mapping changes, but acceptance is narrow and does not persist a full anomaly ledger.",
+    "current_status": "audit",
+    "evidence_source_ids": ["src_post_1t0ny8o", "src_post_8kmcon", "src_comment_f4hhdfy", "src_post_ld9nku"],
+    "recommended_change": "Persist per-partition checksums and anomaly counts for OHLC consistency, zero/negative prices, volume anomalies, missing intervals by session calendar, roll discontinuities, and duplicate instrument mappings.",
+    "priority": "medium"
+  },
+  {
+    "principle_id": "portfolio_tail_risk",
+    "finding": "Position sizing, margin caps, drawdown, tail concentration, cost stress, best-trade removal, and descriptive portfolio combinations exist. Portfolio allocation is not yet a production risk service.",
+    "current_status": "audit",
+    "evidence_source_ids": ["src_post_12iu751", "src_post_1phv4zz", "src_post_wcumx4", "src_comment_etqeh7u"],
+    "recommended_change": "Implement account-level exposure, correlated-strategy risk, daily loss, rolling drawdown, stale-price, and maximum-open-risk limits independent of strategy code.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "paper_to_live_promotion",
+    "finding": "The prospective paper journal is immutable and append-only, but it is manual, has no broker connection, and lacks quantitative promotion gates based on realized fill quality and operational reliability.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_qrj76v", "src_post_1anohov", "src_post_1lohze3", "src_comment_og77qer"],
+    "recommended_change": "Define frozen gates for minimum prospective sessions, fill slippage tolerance, missing-signal rate, reconciliation errors, drawdown, rule deviations, and zero unresolved incidents before any live authorization.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "monitoring_reconciliation_alerts",
+    "finding": "No production heartbeat, broker/account reconciliation, stale-data alert, rejected-order alert, position mismatch detector, or incident state is implemented.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_qrj76v", "src_post_1kh84nc", "src_post_izlk8c", "src_post_1rvk302"],
+    "recommended_change": "Add an append-only operational event ledger plus health dashboard for data freshness, signal latency, intended-versus-realized fills, order status, positions, cash, fees, and alert acknowledgement.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "restart_recovery_idempotency",
+    "finding": "SQLite WAL and immutable paper events preserve journal history, but order submission/retry IDs, restart state reconstruction, duplicate-order prevention, and broker reconciliation are absent.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_1anohov", "src_post_qfksk2", "src_post_13c623e", "src_comment_k8qjrpg"],
+    "recommended_change": "Use deterministic client-order IDs, durable state transitions, at-least-once event handling with idempotent effects, startup reconciliation, and tests for crashes at every order lifecycle boundary.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "kill_switches_operational_safety",
+    "finding": "Research-level daily loss and margin limits exist, but no live kill switch or fail-closed behavior exists because the application has no broker execution layer.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_1anohov", "src_post_1u7ixpv", "src_post_13c623e", "src_comment_fvjis40"],
+    "recommended_change": "Implement manual and automatic disable controls for stale data, excessive slippage, repeated rejects, position mismatch, daily loss, drawdown, connectivity loss, and duplicate orders; require explicit reset with audit trail.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "strategy_degradation_shutdown",
+    "finding": "The research artifacts diagnose regime decay and tail dependence historically, but no frozen prospective degradation monitor or shutdown decision rule exists.",
+    "current_status": "missing",
+    "evidence_source_ids": ["src_post_m9y9k6", "src_post_1um3mn2", "src_post_1pnzf9l", "src_post_1rvk302"],
+    "recommended_change": "Pre-register rolling realized-versus-expected slippage, expectancy, drawdown, tail contribution, missed-signal rate, and control-relative performance thresholds with warning, pause, and retire states.",
+    "priority": "high"
+  },
+  {
+    "principle_id": "reproducibility",
+    "finding": "Frozen specifications, hashes, experiment registries, deterministic seeds, raw-cache checksums, and artifact regression tests are strong.",
+    "current_status": "covered",
+    "evidence_source_ids": ["src_post_m9y9k6", "src_post_1f8v70e", "src_post_12iu751", "src_post_1irhrcw"],
+    "recommended_change": "Extend the same hash-and-registry discipline to paper configuration, runtime version, broker adapter, incidents, and every prospective signal/fill record.",
+    "priority": "medium"
+  },
+  {
+    "principle_id": "equity_corporate_actions",
+    "finding": "Corporate actions and delisted-equity point-in-time membership do not apply to NQ/MNQ futures bars.",
+    "current_status": "not_relevant",
+    "evidence_source_ids": ["src_post_1t0ny8o", "src_comment_l0y95y4"],
+    "recommended_change": "No equity corporate-action subsystem is needed unless the application expands to stocks; keep futures roll handling as the relevant analogue.",
+    "priority": "low"
+  }
+]

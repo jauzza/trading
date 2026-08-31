@@ -1,0 +1,50 @@
+/* ============================================================================
+   OPEN / TEN — Late-cascade refinements
+   Loaded after the component sheets. Everything here is cross-cutting polish
+   that must win the cascade, not a patch for a specific layout.
+   ========================================================================== */
+
+/* Selection matches the interface accent rather than the browser default. */
+::selection{background:rgba(92,199,245,.28);color:#fff}
+
+/* Any number that sits next to another number should align on its digits. */
+.kpis strong,
+.compareTable>button,
+.phase5Row,
+.splitRow b,
+.costPanel dd,
+.phase5Delay dd,
+.tradeRows time,
+.tradeRows strong,
+.fillAudit,
+.duelMetrics strong,
+.exitStats strong,
+.walkRows strong,
+.plateauGrid strong{
+  font-variant-numeric:tabular-nums;
+  font-feature-settings:"tnum" 1,"zero" 1;
+}
+
+/* Charts render into third-party canvases; keep their frames flush. */
+.equityChart,
+.yearChart,
+.tradeChart{width:100%}
+
+/* Honour the reduced-motion preference across every transition and the
+   ECharts entry animation is short enough to remain acceptable. */
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:.001ms!important;
+    animation-iteration-count:1!important;
+    transition-duration:.001ms!important;
+    scroll-behavior:auto!important;
+  }
+}
+
+/* Printing a research view should produce legible black-on-white pages. */
+@media print{
+  html,body,.appShell{background:#fff;color:#111}
+  .appHeader,.tradeRail,.timeframe,.chartLegend,.researchSwitch{display:none}
+  .panel,.kpis,.phase5Plain{box-shadow:none;border-color:#ccc;break-inside:avoid}
+  .page{max-width:none;padding:0}
+}

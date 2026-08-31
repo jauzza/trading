@@ -1,0 +1,25 @@
+NEXT TASK: Build a prospective execution-parity, reconciliation, and operational-safety subsystem. Do not run a new strategy backtest, browse external links, download market data, or access/hash/inspect any 2026 market partition.
+
+Goal: prove that one frozen strategy produces the same causal signal and intended order in replay, shadow, and paper, then capture forward-only information to compare intended versus realized execution. This is infrastructure and prospective evidence, not a profitability claim or authorization for live trading.
+
+Implement:
+
+1. A versioned append-only event schema with UTC event time, source time, receive time, deterministic event/order ID, strategy/config/runtime hashes, instrument, session, and original payload. Events must cover market snapshot, feature snapshot, signal, intended order, broker/paper acknowledgement, partial/full fill, fee, cancel/reject, position, cash, heartbeat, alert, incident, reconciliation, pause, and audited reset.
+
+2. One strategy adapter/state machine shared by replay, shadow, and paper. It must consume only data available at each event cutoff. Add a golden-replay test asserting identical feature snapshots, signals, intended orders, stops/targets, and state transitions across modes for the same input stream.
+
+3. Deterministic client-order IDs and idempotent event handling. Persist state before/after every order lifecycle transition. On restart, rebuild state from the ledger, query the adapter/broker snapshot when available, reconcile open orders, positions, cash, and fills, and fail closed on any unresolved mismatch. Add crash-injection tests at each lifecycle boundary and prove retries cannot duplicate orders.
+
+4. Reconciliation metrics: intended versus simulated/realized fill price and timestamp, spread/slippage, fees, quantity, order rejects, partial fills, missed/late signals, position/cash mismatch, stale data, and unacknowledged events. Preserve original and corrected records; corrections must be new events, never updates.
+
+5. Health and safety controls independent of strategy code: heartbeat/data freshness, maximum order quantity/open risk, daily loss, rolling drawdown, excessive slippage, repeated rejects, duplicate-order detection, position mismatch, connectivity loss, manual emergency stop, and automatic kill switch. Hard breaches block new entries and require an explicit audited reset. No live order transport should be enabled.
+
+6. A paper/shadow status API and UI panel showing mode, config hash, last heartbeat, data age, signal/order/fill timeline, reconciliation state, fill-quality distribution, alerts/incidents, current risk state, and kill-switch state. Keep historical research and prospective results separate.
+
+7. Frozen promotion/degradation configuration fields, initially unset where evidence is unavailable: minimum prospective sessions, maximum missing-signal/reconciliation-error rate, fill-slippage tolerance, drawdown/daily-loss limits, warning/pause/retire states, and reset authority. Do not choose favorable thresholds after observing results.
+
+Tests must cover append-only immutability, causal cutoff, parity across modes, duplicate delivery, out-of-order events, partial fills, rejects, clock skew, stale data, crash/restart at every transition, mismatch fail-closed behavior, kill-switch persistence, audited reset, gross-to-net fill reconciliation, and continued rejection of protected 2026 paths before read/hash.
+
+Deliver code, migrations, tests, API/UI changes, a concise operational runbook, and screenshots. Run backend tests, frontend type/build checks, and integration tests. Preserve all existing cached Databento/FRED data and research artifacts.
+
+After this subsystem passes, the next research-only task is to obtain a complete explicit rule set for one slow time-series-trend candidate (SL06) and one RSI2 candidate (SL04), freeze both before results, and request explicit authorization before any historical backtest.

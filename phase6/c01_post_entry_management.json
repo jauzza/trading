@@ -1,0 +1,95 @@
+{
+  "baseline_net_profit": 117590.5,
+  "rules": {
+    "adverse_half_r_5m": {
+      "triggers": 70,
+      "trades": 1495,
+      "net_profit": 123400.5,
+      "improvement_vs_causal_c01": 5810.0,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 26666.2,
+        "2019": -6377.6,
+        "2020": 14876.7,
+        "2021": -1699.0,
+        "2022": 39035.9,
+        "2023": 11265.2,
+        "2024": 15541.7,
+        "2025": 24091.4
+      },
+      "label": "POST_ENTRY_MANAGEMENT"
+    },
+    "inside_or_10m": {
+      "triggers": 98,
+      "trades": 1495,
+      "net_profit": 124730.5,
+      "improvement_vs_causal_c01": 7140.0,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 26151.2,
+        "2019": -7117.6,
+        "2020": 14696.7,
+        "2021": -1419.0,
+        "2022": 41245.9,
+        "2023": 11485.2,
+        "2024": 13166.7,
+        "2025": 26521.4
+      },
+      "label": "POST_ENTRY_MANAGEMENT"
+    },
+    "inside_or_5m": {
+      "triggers": 87,
+      "trades": 1495,
+      "net_profit": 129770.5,
+      "improvement_vs_causal_c01": 12180.0,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 23746.2,
+        "2019": -6642.6,
+        "2020": 18681.7,
+        "2021": -1269.0,
+        "2022": 41955.9,
+        "2023": 13115.2,
+        "2024": 14171.7,
+        "2025": 26011.4
+      },
+      "label": "POST_ENTRY_MANAGEMENT"
+    },
+    "stagnation_10m": {
+      "triggers": 360,
+      "trades": 1495,
+      "net_profit": 118730.5,
+      "improvement_vs_causal_c01": 1140.0,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 24031.2,
+        "2019": -13082.6,
+        "2020": 15936.7,
+        "2021": -8814.0,
+        "2022": 35455.9,
+        "2023": 13955.2,
+        "2024": 17146.7,
+        "2025": 34101.4
+      },
+      "label": "POST_ENTRY_MANAGEMENT"
+    },
+    "stagnation_15m": {
+      "triggers": 274,
+      "trades": 1495,
+      "net_profit": 103235.5,
+      "improvement_vs_causal_c01": -14355.0,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 22821.2,
+        "2019": -15547.6,
+        "2020": 10946.7,
+        "2021": -10009.0,
+        "2022": 34410.9,
+        "2023": 16100.2,
+        "2024": 16776.7,
+        "2025": 27736.4
+      },
+      "label": "POST_ENTRY_MANAGEMENT"
+    }
+  }
+}

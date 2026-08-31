@@ -1,0 +1,151 @@
+{
+  "earlier_only": true,
+  "selection_eligible": false,
+  "representations": {
+    "OPENING_STRUCTURE": {
+      "5": {
+        "auc": 0.505645,
+        "economic_lift": -31.76,
+        "coverage": 0.268789,
+        "net_retained": 16954.6,
+        "false_positives": 195,
+        "false_negatives": 300,
+        "status": "DESCRIPTIVE"
+      },
+      "10": {
+        "auc": 0.506536,
+        "economic_lift": -76.64,
+        "coverage": 0.219275,
+        "net_retained": 2700.2,
+        "false_positives": 165,
+        "false_negatives": 326,
+        "status": "DESCRIPTIVE"
+      },
+      "20": {
+        "auc": 0.508564,
+        "economic_lift": -92.09,
+        "coverage": 0.129973,
+        "net_retained": -669.7,
+        "false_positives": 99,
+        "false_negatives": 361,
+        "status": "DESCRIPTIVE"
+      }
+    },
+    "OVERNIGHT_STATE": {
+      "5": {
+        "auc": 0.493017,
+        "economic_lift": 108.33,
+        "coverage": 0.252874,
+        "net_retained": 56016.4,
+        "false_positives": 178,
+        "false_negatives": 301,
+        "status": "DESCRIPTIVE"
+      },
+      "10": {
+        "auc": 0.513244,
+        "economic_lift": 274.75,
+        "coverage": 0.183908,
+        "net_retained": 75354.2,
+        "false_positives": 125,
+        "false_negatives": 326,
+        "status": "DESCRIPTIVE"
+      },
+      "20": {
+        "auc": 0.514619,
+        "economic_lift": 271.71,
+        "coverage": 0.100796,
+        "net_retained": 40953.6,
+        "false_positives": 64,
+        "false_negatives": 359,
+        "status": "DESCRIPTIVE"
+      }
+    },
+    "GAP_STATE": {
+      "5": {
+        "auc": 0.503898,
+        "economic_lift": -103.82,
+        "coverage": 0.238727,
+        "net_retained": -4397.0,
+        "false_positives": 179,
+        "false_negatives": 318,
+        "status": "DESCRIPTIVE"
+      },
+      "10": {
+        "auc": 0.49679,
+        "economic_lift": -55.99,
+        "coverage": 0.183024,
+        "net_retained": 6529.3,
+        "false_positives": 129,
+        "false_negatives": 331,
+        "status": "DESCRIPTIVE"
+      },
+      "20": {
+        "auc": 0.502509,
+        "economic_lift": -197.98,
+        "coverage": 0.10168,
+        "net_retained": -12701.5,
+        "false_positives": 73,
+        "false_negatives": 367,
+        "status": "DESCRIPTIVE"
+      }
+    },
+    "VOLATILITY_STATE": {
+      "5": {
+        "auc": 0.500098,
+        "economic_lift": -97.6,
+        "coverage": 0.263484,
+        "net_retained": -2999.8,
+        "false_positives": 185,
+        "false_negatives": 296,
+        "status": "DESCRIPTIVE"
+      },
+      "10": {
+        "auc": 0.50831,
+        "economic_lift": -100.51,
+        "coverage": 0.214854,
+        "net_retained": -3154.3,
+        "false_positives": 149,
+        "false_negatives": 315,
+        "status": "DESCRIPTIVE"
+      },
+      "20": {
+        "auc": 0.497738,
+        "economic_lift": -53.04,
+        "coverage": 0.128205,
+        "net_retained": 5000.5,
+        "false_positives": 90,
+        "false_negatives": 354,
+        "status": "DESCRIPTIVE"
+      }
+    },
+    "VOLUME_STATE": {
+      "5": {
+        "auc": 0.475122,
+        "economic_lift": -59.61,
+        "coverage": 0.265252,
+        "net_retained": 8375.0,
+        "false_positives": 198,
+        "false_negatives": 307,
+        "status": "DESCRIPTIVE"
+      },
+      "10": {
+        "auc": 0.491681,
+        "economic_lift": -60.12,
+        "coverage": 0.204244,
+        "net_retained": 6331.9,
+        "false_positives": 157,
+        "false_negatives": 335,
+        "status": "DESCRIPTIVE"
+      },
+      "20": {
+        "auc": 0.490003,
+        "economic_lift": 68.32,
+        "coverage": 0.121132,
+        "net_retained": 21351.3,
+        "false_positives": 84,
+        "false_negatives": 356,
+        "status": "DESCRIPTIVE"
+      }
+    }
+  }
+}

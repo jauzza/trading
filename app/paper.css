@@ -1,0 +1,413 @@
+/* ============================================================================
+   OPEN / TEN — Phase 4 exit audit and the prospective paper journal
+   ========================================================================== */
+
+.sectionLabel{
+  margin:26px 0 12px;
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+}
+
+/* ----------------------------------------------------------------------------
+   Phase 4 decision
+   -------------------------------------------------------------------------- */
+
+.phase4Decision{margin:16px 0}
+
+.phase4Head{
+  padding:22px 24px;
+  border:1px solid var(--green-line);
+  border-radius:var(--r-lg);
+  background:
+    radial-gradient(600px 280px at 90% 10%,rgba(61,220,151,.1),transparent 62%),
+    linear-gradient(104deg,rgba(61,220,151,.05),transparent 52%),
+    var(--surface);
+  box-shadow:var(--hairline),var(--shadow-2);
+  display:flex;
+  align-items:center;
+  gap:24px;
+}
+
+.phase4Head>div{display:flex;flex-direction:column;gap:7px;min-width:0}
+
+.phase4Head span,
+.paperHead span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--green);
+}
+
+.phase4Head h2,
+.paperHead h2{margin:0;font-size:18px;font-weight:600;letter-spacing:-.022em}
+
+.phase4Head p,
+.paperHead p{margin:0;color:var(--text-3);font-size:12px;line-height:1.6}
+
+.choiceBadge{
+  margin-left:auto;
+  flex:none;
+  min-width:200px;
+  padding:14px 16px;
+  border:1px solid var(--green-line);
+  border-radius:var(--r-md);
+  background:var(--green-wash);
+  display:flex;
+  flex-direction:column!important;
+  gap:6px;
+  box-shadow:var(--hairline);
+}
+
+.choiceBadge strong{
+  color:var(--green-ink);
+  font-family:var(--font-mono);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.05em;
+}
+
+.choiceBadge small{color:var(--muted);font-size:10.5px}
+
+/* --- Exit option cards ---------------------------------------------------- */
+
+.exitAuditGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px;margin-top:13px}
+
+.exitCard{
+  padding:18px;
+  border:1px solid var(--border);
+  border-radius:var(--r-md);
+  background:var(--surface);
+  box-shadow:var(--hairline),var(--shadow-1);
+  transition:border-color .18s var(--ease),background .18s var(--ease);
+}
+
+.exitCard:hover{border-color:var(--border-2)}
+
+.exitCard.selected{
+  border-color:var(--green-line);
+  background:linear-gradient(180deg,rgba(61,220,151,.05),transparent 42%),var(--surface);
+  box-shadow:var(--hairline),0 0 0 1px var(--green-line),var(--shadow-2);
+}
+
+.exitCard header{display:flex;align-items:center;gap:12px}
+.exitCard header div{display:flex;flex-direction:column;gap:6px;min-width:0}
+
+.exitCard header span{
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+}
+
+.exitCard header strong{font-size:14.5px;font-weight:600;letter-spacing:-.018em}
+
+.exitCard header b{
+  margin-left:auto;
+  flex:none;
+  padding:5px 10px;
+  border:1px solid var(--green-line);
+  border-radius:var(--r-pill);
+  background:var(--green-wash);
+  color:var(--green);
+  font-family:var(--font-mono);
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.08em;
+  white-space:nowrap;
+}
+
+.exitStats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  margin-top:16px;
+  border-top:1px solid var(--border);
+  border-left:1px solid var(--border);
+  border-radius:var(--r-sm);
+  overflow:hidden;
+}
+
+.exitStats div{
+  padding:12px;
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+
+.exitStats span{
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:9px;
+  font-weight:650;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+
+.exitStats strong{font-family:var(--font-mono);font-size:13px;font-weight:550;letter-spacing:-.015em}
+
+.exitCard p{color:var(--muted);font-size:11px;line-height:1.65;margin:14px 0 0}
+
+/* --- Bounded facts -------------------------------------------------------- */
+
+.boundedFacts{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px}
+
+.boundedFacts div{
+  padding:15px;
+  border:1px solid var(--border);
+  background:var(--surface);
+  border-radius:var(--r-md);
+  display:flex;
+  flex-direction:column;
+  gap:9px;
+  box-shadow:var(--hairline);
+}
+
+.boundedFacts span{
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:650;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.boundedFacts strong{font-family:var(--font-mono);font-size:12.5px;font-weight:550;color:var(--text)}
+.boundedFacts p{margin:0;margin-top:auto;color:var(--muted);font-size:11px;line-height:1.6}
+
+/* ----------------------------------------------------------------------------
+   Prospective paper journal
+   -------------------------------------------------------------------------- */
+
+.paperPanel{margin:16px 0;border-color:var(--border-2)}
+.paperPanel>p{margin:0;padding:24px;color:var(--muted);font-size:12.5px}
+
+.paperHead{
+  padding:20px 22px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg-elev);
+  display:flex;
+  align-items:center;
+  gap:24px;
+}
+
+.paperHead>div:first-child{display:flex;flex-direction:column;gap:7px;min-width:0}
+
+.evidenceLabels{
+  margin-left:auto;
+  display:flex;
+  gap:7px;
+  flex-wrap:wrap;
+  justify-content:flex-end;
+}
+
+.evidenceLabels b{
+  padding:7px 11px;
+  border:1px solid var(--border-2);
+  border-radius:var(--r-pill);
+  color:var(--muted);
+  font-family:var(--font-mono);
+  font-size:9px;
+  font-weight:650;
+  letter-spacing:.07em;
+  text-transform:uppercase;
+  white-space:nowrap;
+}
+
+.evidenceLabels .active{border-color:var(--green-line);background:var(--green-wash);color:var(--green)}
+.evidenceLabels .disabled{border-color:var(--red-line);background:var(--red-wash);color:var(--red)}
+
+/* --- Activation ----------------------------------------------------------- */
+
+.activationBox{
+  padding:22px;
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 290px 200px;
+  align-items:center;
+  gap:14px;
+}
+
+.activationBox>div:first-child{display:flex;flex-direction:column;gap:5px}
+.activationBox strong{font-size:13px;font-weight:600}
+.activationBox p{margin:0;color:var(--muted);font-size:11px;line-height:1.6}
+
+.activationBox label span,
+.formGrid label span,
+.paperStatus span{
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:9px;
+  font-weight:650;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}
+
+.activationBox input,
+.formGrid input,
+.formGrid select{
+  border:0;
+  background:transparent;
+  color:var(--text);
+  outline:0;
+  font-size:12.5px;
+  width:100%;
+  min-width:0;
+}
+
+.formGrid select{
+  appearance:none;
+  -webkit-appearance:none;
+  background:var(--chevron) no-repeat right center;
+  background-size:12px 12px;
+  padding-right:18px;
+}
+
+.activationBox input::placeholder,
+.formGrid input::placeholder{color:var(--faint)}
+
+.activationBox input::-webkit-calendar-picker-indicator,
+.formGrid input::-webkit-calendar-picker-indicator{filter:invert(.62);cursor:pointer}
+
+.activationBox button,
+.appendButton{
+  height:46px;
+  border:1px solid var(--green-line);
+  border-radius:var(--r-md);
+  background:var(--green-wash);
+  color:var(--green);
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.1em;
+  box-shadow:var(--hairline);
+  transition:background .16s var(--ease);
+}
+
+.activationBox button:hover:not(:disabled),
+.appendButton:hover:not(:disabled){background:rgba(61,220,151,.15)}
+
+.activationBox button:disabled,
+.appendButton:disabled{opacity:.38;cursor:not-allowed}
+
+/* --- Status strip --------------------------------------------------------- */
+
+.paperStatus{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  border-bottom:1px solid var(--border);
+}
+
+.paperStatus div{
+  padding:15px 18px;
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:9px;
+}
+
+.paperStatus div:last-child{border-right:0}
+.paperStatus strong{font-family:var(--font-mono);font-size:12px;font-weight:550;color:var(--text)}
+
+/* --- Composer & log ------------------------------------------------------- */
+
+.journalGrid{display:grid;grid-template-columns:1.35fr .65fr}
+
+.journalComposer,
+.auditLog{padding:20px}
+
+.auditLog{
+  border-left:1px solid var(--border);
+  max-height:420px;
+  overflow-y:auto;
+  background:var(--bg-elev);
+}
+
+.composerHead{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.composerHead strong{font-size:12.5px;font-weight:600}
+.composerHead small{margin-left:auto;color:var(--faint);font-size:10px;white-space:nowrap}
+
+.formGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.formGrid .notes{grid-column:1/-1}
+
+.appendButton{width:210px;margin-top:14px}
+
+.auditLog article{
+  padding:12px 0;
+  border-top:1px solid var(--border);
+  display:grid;
+  grid-template-columns:132px 1fr;
+  gap:4px 10px;
+  align-items:baseline;
+}
+
+.auditLog article:first-of-type{border-top:0}
+.auditLog time{color:var(--faint);font-family:var(--font-mono);font-size:9.5px}
+.auditLog b{color:var(--text-2);font-size:11px;font-weight:600;text-transform:capitalize}
+.auditLog p{grid-column:1/-1;margin:0;color:var(--muted);font-size:10.5px;line-height:1.5}
+
+.paperError{
+  margin:0;
+  padding:14px 20px;
+  color:var(--red);
+  background:var(--red-wash);
+  border-top:1px solid var(--red-line);
+  font-size:12px;
+}
+
+.separationNote{
+  padding:14px 20px;
+  border-top:1px solid var(--border);
+  background:var(--bg-elev);
+  display:flex;
+  align-items:center;
+  gap:22px;
+  color:var(--muted);
+  font-size:10.5px;
+}
+
+.separationNote strong{
+  color:var(--violet);
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.1em;
+  white-space:nowrap;
+}
+
+/* ----------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media(max-width:1100px){
+  .exitAuditGrid{grid-template-columns:1fr}
+  .boundedFacts{grid-template-columns:1fr 1fr}
+  .activationBox{grid-template-columns:1fr}
+  .journalGrid{grid-template-columns:1fr}
+  .auditLog{border-left:0;border-top:1px solid var(--border);max-height:340px}
+  .paperStatus{grid-template-columns:1fr 1fr}
+  .paperStatus div{border-bottom:1px solid var(--border)}
+  .paperStatus div:nth-child(2n){border-right:0}
+  .paperHead{align-items:flex-start;flex-direction:column;gap:16px}
+  .evidenceLabels{margin-left:0;justify-content:flex-start}
+}
+
+@media(max-width:760px){
+  .phase4Head{align-items:flex-start;flex-direction:column;gap:18px}
+  .choiceBadge{margin-left:0;min-width:0;width:100%}
+  .boundedFacts,.formGrid{grid-template-columns:1fr}
+  .paperStatus{grid-template-columns:1fr}
+  .paperStatus div{border-right:0}
+  .appendButton{width:100%}
+  .separationNote{flex-direction:column;align-items:flex-start;gap:7px}
+}

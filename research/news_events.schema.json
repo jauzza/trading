@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.open-ten/research/news_events.schema.json",
+  "title": "Point-in-time NQ-relevant news event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source",
+    "stable_id",
+    "published_at_utc",
+    "updated_at_utc",
+    "title_sha256",
+    "category",
+    "mapping_rule_version",
+    "sentiment_provenance"
+  ],
+  "properties": {
+    "source": {"type": "string"},
+    "stable_id": {"type": "string"},
+    "published_at_utc": {"type": "string", "format": "date-time"},
+    "updated_at_utc": {"type": ["string", "null"], "format": "date-time"},
+    "title_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "category": {"type": "string"},
+    "instrument_topics": {"type": "array", "items": {"type": "string"}},
+    "mapping_rule_version": {"type": "string"},
+    "raw_sentiment": {"type": ["number", "null"]},
+    "derived_sentiment": {"type": ["number", "null"]},
+    "sentiment_provenance": {"enum": ["provider", "local_model", "none"]},
+    "license_storage_class": {"type": ["string", "null"]},
+    "known_at": {"type": ["string", "null"], "format": "date-time"}
+  }
+}

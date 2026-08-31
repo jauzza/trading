@@ -1,0 +1,397 @@
+{
+  "threshold_source": "2018-2021 only",
+  "selection_eligible": false,
+  "interactions": {
+    "opening_range_x_overnight": {
+      "sample": 454,
+      "coverage": 0.303679,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 232,
+          "net_profit": 18341.8,
+          "expectancy_r": 0.171851
+        },
+        "validation": {
+          "trades": 116,
+          "net_profit": 15648.4,
+          "expectancy_r": 0.275626
+        },
+        "historical_evaluation": {
+          "trades": 106,
+          "net_profit": 14034.4,
+          "expectancy_r": 0.156084
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_range_x_volume": {
+      "sample": 354,
+      "coverage": 0.236789,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 169,
+          "net_profit": 12308.1,
+          "expectancy_r": 0.042762
+        },
+        "validation": {
+          "trades": 90,
+          "net_profit": 13986.0,
+          "expectancy_r": 0.165207
+        },
+        "historical_evaluation": {
+          "trades": 95,
+          "net_profit": 30815.5,
+          "expectancy_r": 0.141299
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_range_x_gap": {
+      "sample": 463,
+      "coverage": 0.309699,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 237,
+          "net_profit": 20531.3,
+          "expectancy_r": 0.133984
+        },
+        "validation": {
+          "trades": 117,
+          "net_profit": 29493.3,
+          "expectancy_r": 0.305305
+        },
+        "historical_evaluation": {
+          "trades": 109,
+          "net_profit": 22049.1,
+          "expectancy_r": 0.232912
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_range_x_volatility": {
+      "sample": 298,
+      "coverage": 0.199331,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 140,
+          "net_profit": 18926.0,
+          "expectancy_r": 0.207968
+        },
+        "validation": {
+          "trades": 79,
+          "net_profit": 21702.1,
+          "expectancy_r": 0.170725
+        },
+        "historical_evaluation": {
+          "trades": 79,
+          "net_profit": 31257.1,
+          "expectancy_r": 0.363314
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_direction_x_overnight": {
+      "sample": 861,
+      "coverage": 0.57592,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 444,
+          "net_profit": 37295.6,
+          "expectancy_r": 0.187945
+        },
+        "validation": {
+          "trades": 217,
+          "net_profit": 37383.3,
+          "expectancy_r": 0.22797
+        },
+        "historical_evaluation": {
+          "trades": 200,
+          "net_profit": -8060.0,
+          "expectancy_r": 0.0404
+        }
+      },
+      "chronologically_positive": false
+    },
+    "opening_direction_x_vwap": {
+      "sample": 1486,
+      "coverage": 0.99398,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 734,
+          "net_profit": 30711.6,
+          "expectancy_r": 0.079697
+        },
+        "validation": {
+          "trades": 387,
+          "net_profit": 49356.3,
+          "expectancy_r": 0.115137
+        },
+        "historical_evaluation": {
+          "trades": 365,
+          "net_profit": 35703.5,
+          "expectancy_r": 0.05466
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_direction_x_ema": {
+      "sample": 886,
+      "coverage": 0.592642,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 461,
+          "net_profit": 36833.9,
+          "expectancy_r": 0.089075
+        },
+        "validation": {
+          "trades": 197,
+          "net_profit": 25030.3,
+          "expectancy_r": 0.160399
+        },
+        "historical_evaluation": {
+          "trades": 228,
+          "net_profit": 37247.2,
+          "expectancy_r": 0.132168
+        }
+      },
+      "chronologically_positive": true
+    },
+    "opening_direction_x_key_level": {
+      "sample": 760,
+      "coverage": 0.508361,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 369,
+          "net_profit": 18733.1,
+          "expectancy_r": 0.14013
+        },
+        "validation": {
+          "trades": 203,
+          "net_profit": 2944.7,
+          "expectancy_r": 0.076004
+        },
+        "historical_evaluation": {
+          "trades": 188,
+          "net_profit": 30116.2,
+          "expectancy_r": 0.068269
+        }
+      },
+      "chronologically_positive": true
+    },
+    "volume_x_volatility": {
+      "sample": 359,
+      "coverage": 0.240134,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 190,
+          "net_profit": 31926.0,
+          "expectancy_r": 0.289534
+        },
+        "validation": {
+          "trades": 88,
+          "net_profit": 24041.2,
+          "expectancy_r": 0.138452
+        },
+        "historical_evaluation": {
+          "trades": 81,
+          "net_profit": 33266.9,
+          "expectancy_r": 0.052107
+        }
+      },
+      "chronologically_positive": true
+    },
+    "volume_x_gap": {
+      "sample": 397,
+      "coverage": 0.265552,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 204,
+          "net_profit": 1739.6,
+          "expectancy_r": 0.025921
+        },
+        "validation": {
+          "trades": 96,
+          "net_profit": 23060.4,
+          "expectancy_r": 0.190471
+        },
+        "historical_evaluation": {
+          "trades": 97,
+          "net_profit": -4009.7,
+          "expectancy_r": -0.013324
+        }
+      },
+      "chronologically_positive": false
+    },
+    "vwap_x_overnight": {
+      "sample": 856,
+      "coverage": 0.572575,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 442,
+          "net_profit": 37005.8,
+          "expectancy_r": 0.182946
+        },
+        "validation": {
+          "trades": 215,
+          "net_profit": 35103.5,
+          "expectancy_r": 0.216672
+        },
+        "historical_evaluation": {
+          "trades": 199,
+          "net_profit": -8139.9,
+          "expectancy_r": 0.024543
+        }
+      },
+      "chronologically_positive": false
+    },
+    "vwap_x_opening_range": {
+      "sample": 776,
+      "coverage": 0.519064,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 367,
+          "net_profit": 20773.3,
+          "expectancy_r": 0.032212
+        },
+        "validation": {
+          "trades": 203,
+          "net_profit": 22479.7,
+          "expectancy_r": 0.126849
+        },
+        "historical_evaluation": {
+          "trades": 206,
+          "net_profit": 30949.4,
+          "expectancy_r": 0.12
+        }
+      },
+      "chronologically_positive": true
+    },
+    "volatility_x_gap": {
+      "sample": 425,
+      "coverage": 0.284281,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 214,
+          "net_profit": 9028.6,
+          "expectancy_r": 0.182793
+        },
+        "validation": {
+          "trades": 100,
+          "net_profit": 14945.0,
+          "expectancy_r": 0.135069
+        },
+        "historical_evaluation": {
+          "trades": 111,
+          "net_profit": -926.1,
+          "expectancy_r": 0.272114
+        }
+      },
+      "chronologically_positive": false
+    },
+    "prior_trend_x_overnight": {
+      "sample": 487,
+      "coverage": 0.325753,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 255,
+          "net_profit": -9750.5,
+          "expectancy_r": 0.087801
+        },
+        "validation": {
+          "trades": 122,
+          "net_profit": 1522.8,
+          "expectancy_r": 0.18526
+        },
+        "historical_evaluation": {
+          "trades": 110,
+          "net_profit": 779.0,
+          "expectancy_r": 0.149806
+        }
+      },
+      "chronologically_positive": false
+    },
+    "key_level_x_breakout": {
+      "sample": 921,
+      "coverage": 0.616054,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 453,
+          "net_profit": 24534.7,
+          "expectancy_r": 0.118399
+        },
+        "validation": {
+          "trades": 241,
+          "net_profit": 19605.9,
+          "expectancy_r": 0.117367
+        },
+        "historical_evaluation": {
+          "trades": 227,
+          "net_profit": 33047.3,
+          "expectancy_r": 0.108675
+        }
+      },
+      "chronologically_positive": true
+    },
+    "time_x_volatility": {
+      "sample": 461,
+      "coverage": 0.308361,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 216,
+          "net_profit": 16963.4,
+          "expectancy_r": 0.159451
+        },
+        "validation": {
+          "trades": 108,
+          "net_profit": 13664.2,
+          "expectancy_r": 0.024282
+        },
+        "historical_evaluation": {
+          "trades": 137,
+          "net_profit": 30216.3,
+          "expectancy_r": 0.270209
+        }
+      },
+      "chronologically_positive": true
+    },
+    "time_x_volume": {
+      "sample": 364,
+      "coverage": 0.243478,
+      "status": "DESCRIPTIVE",
+      "periods": {
+        "development": {
+          "trades": 178,
+          "net_profit": 30982.2,
+          "expectancy_r": 0.278542
+        },
+        "validation": {
+          "trades": 89,
+          "net_profit": 9526.1,
+          "expectancy_r": 0.086388
+        },
+        "historical_evaluation": {
+          "trades": 97,
+          "net_profit": 24410.3,
+          "expectancy_r": 0.172821
+        }
+      },
+      "chronologically_positive": true
+    }
+  }
+}

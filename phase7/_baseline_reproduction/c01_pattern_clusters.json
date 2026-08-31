@@ -1,0 +1,145 @@
+{
+  "regimes": {
+    "definition": "KMeans k=4 fit on 2018-2021 pre-entry features only; later sessions assigned without refitting",
+    "clusters": {
+      "0": {
+        "sessions": 674,
+        "net_profit": 59117.6,
+        "expectancy_r": 0.081011,
+        "win_rate": 0.341246,
+        "average_mae_r": 0.912657,
+        "average_mfe_r": 1.455793,
+        "positive_years": "5",
+        "feature_means": {
+          "opening_range_atr": 0.299596,
+          "overnight_range_atr": 0.64341,
+          "gap_atr": 0.054166,
+          "breakout_time_minutes": 118.063798,
+          "breakout_volume_ratio": 1.256564,
+          "ema_distance_atr": 0.823533,
+          "entry_vs_vwap_atr": 0.218329,
+          "key_level_room_r": 1.424633
+        }
+      },
+      "1": {
+        "sessions": 210,
+        "net_profit": 31074.0,
+        "expectancy_r": 0.207853,
+        "win_rate": 0.414286,
+        "average_mae_r": 0.822031,
+        "average_mfe_r": 1.469428,
+        "positive_years": "6",
+        "feature_means": {
+          "opening_range_atr": 0.555237,
+          "overnight_range_atr": 1.187992,
+          "gap_atr": -0.419129,
+          "breakout_time_minutes": 131.5,
+          "breakout_volume_ratio": 1.287777,
+          "ema_distance_atr": 1.378606,
+          "entry_vs_vwap_atr": 0.451806,
+          "key_level_room_r": 6.404071
+        }
+      },
+      "2": {
+        "sessions": 14,
+        "net_profit": -896.4,
+        "expectancy_r": 0.0723,
+        "win_rate": 0.5,
+        "average_mae_r": 0.649876,
+        "average_mfe_r": 0.746134,
+        "positive_years": "4",
+        "feature_means": {
+          "opening_range_atr": 0.302671,
+          "overnight_range_atr": 0.63727,
+          "gap_atr": -0.068594,
+          "breakout_time_minutes": 292.5,
+          "breakout_volume_ratio": 6.648033,
+          "ema_distance_atr": 0.808112,
+          "entry_vs_vwap_atr": 0.451486,
+          "key_level_room_r": 5.276409
+        }
+      },
+      "3": {
+        "sessions": 597,
+        "net_profit": 28295.3,
+        "expectancy_r": 0.052878,
+        "win_rate": 0.356784,
+        "average_mae_r": 1.016944,
+        "average_mfe_r": 1.555273,
+        "positive_years": "6",
+        "feature_means": {
+          "opening_range_atr": 0.315021,
+          "overnight_range_atr": 0.61793,
+          "gap_atr": 0.150489,
+          "breakout_time_minutes": 117.261307,
+          "breakout_volume_ratio": 1.291988,
+          "ema_distance_atr": 1.039672,
+          "entry_vs_vwap_atr": 0.256101,
+          "key_level_room_r": 10.27401
+        }
+      }
+    }
+  },
+  "bounded_interactions": {
+    "opening_range_atr_high__overnight_alignment_high": {
+      "sessions": 408,
+      "net_profit": 18564.2,
+      "expectancy_r": 0.121568,
+      "development_thresholds": {
+        "opening_range_atr": 0.3189135910634104,
+        "overnight_alignment": 1.0
+      },
+      "descriptive_only": true
+    },
+    "opening_range_atr_high__gap_atr_high": {
+      "sessions": 312,
+      "net_profit": 70228.8,
+      "expectancy_r": 0.167108,
+      "development_thresholds": {
+        "opening_range_atr": 0.3189135910634104,
+        "gap_atr": 0.059354485776805244
+      },
+      "descriptive_only": true
+    },
+    "breakout_volume_ratio_high__breakout_time_minutes_high": {
+      "sessions": 406,
+      "net_profit": 92824.4,
+      "expectancy_r": 0.106253,
+      "development_thresholds": {
+        "breakout_volume_ratio": 1.1887130001084245,
+        "breakout_time_minutes": 105.0
+      },
+      "descriptive_only": true
+    },
+    "key_level_room_r_high__gap_atr_high": {
+      "sessions": 380,
+      "net_profit": 61952.0,
+      "expectancy_r": 0.228093,
+      "development_thresholds": {
+        "key_level_room_r": 4.175141242937853,
+        "gap_atr": 0.059354485776805244
+      },
+      "descriptive_only": true
+    },
+    "vwap_alignment_high__opening_direction_high": {
+      "sessions": 780,
+      "net_profit": 67472.0,
+      "expectancy_r": 0.126301,
+      "development_thresholds": {
+        "vwap_alignment": 1.0,
+        "opening_direction": 1.0
+      },
+      "descriptive_only": true
+    },
+    "prior_return_atr_high__overnight_return_high": {
+      "sessions": 334,
+      "net_profit": 60071.6,
+      "expectancy_r": 0.219704,
+      "development_thresholds": {
+        "prior_return_atr": 0.041857683874825594,
+        "overnight_return": 8.5
+      },
+      "descriptive_only": true
+    }
+  }
+}

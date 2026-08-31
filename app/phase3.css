@@ -1,0 +1,425 @@
+/* ============================================================================
+   OPEN / TEN — Direction audit (Phase 3)
+   Question hero, the head-to-head comparison cards, and the practical grid.
+   ========================================================================== */
+
+/* ----------------------------------------------------------------------------
+   Question hero
+   -------------------------------------------------------------------------- */
+
+.questionHero{
+  margin-bottom:16px;
+  padding:26px 28px;
+  border:1px solid var(--border-2);
+  border-radius:var(--r-lg);
+  background:
+    radial-gradient(620px 300px at 88% 6%,rgba(92,199,245,.08),transparent 62%),
+    linear-gradient(112deg,rgba(92,199,245,.04),transparent 52%),
+    var(--surface);
+  box-shadow:var(--hairline),var(--shadow-2);
+  display:flex;
+  align-items:center;
+  gap:28px;
+}
+
+.questionHero>div:first-child{max-width:860px}
+
+.questionHero span{
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--cyan);
+}
+
+.questionHero h1{
+  margin:12px 0 8px;
+  font-size:25px;
+  font-weight:600;
+  letter-spacing:-.028em;
+  line-height:1.18;
+}
+
+.questionHero p{margin:0;color:var(--text-3);font-size:12.5px;line-height:1.65}
+
+.instrumentToggle{
+  margin-left:auto;
+  display:flex;
+  border:1px solid var(--border-2);
+  border-radius:var(--r-sm);
+  overflow:hidden;
+  background:var(--surface-2);
+  flex:none;
+}
+
+.instrumentToggle button{
+  min-width:70px;
+  height:40px;
+  border:0;
+  border-right:1px solid var(--border-2);
+  background:transparent;
+  color:var(--muted);
+  font-family:var(--font-mono);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.08em;
+  padding:0 12px;
+  transition:background .16s var(--ease),color .16s var(--ease);
+}
+
+.instrumentToggle button:last-child{border-right:0}
+.instrumentToggle button:disabled{opacity:.45;cursor:default}
+.instrumentToggle .active{background:var(--cyan-wash);color:var(--cyan-ink);box-shadow:inset 0 -2px 0 var(--cyan)}
+
+/* ----------------------------------------------------------------------------
+   Head-to-head duel cards
+   -------------------------------------------------------------------------- */
+
+.duelGrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+
+.duelCard{
+  border:1px solid var(--border);
+  border-radius:var(--r-lg);
+  background:var(--surface);
+  overflow:hidden;
+  box-shadow:var(--hairline),var(--shadow-2);
+  transition:border-color .18s var(--ease),box-shadow .18s var(--ease);
+  position:relative;
+}
+
+/* A hairline of accent along the top edge identifies each rule family. */
+.duelCard:before{
+  content:"";
+  position:absolute;
+  inset:0 0 auto;
+  height:2px;
+  z-index:1;
+}
+
+.duelCard.simple:before{background:linear-gradient(90deg,var(--green),rgba(61,220,151,0))}
+.duelCard.ema:before{background:linear-gradient(90deg,var(--violet),rgba(160,140,255,0))}
+
+.duelCard.selected{
+  border-color:var(--cyan-line);
+  box-shadow:var(--hairline),0 0 0 1px var(--cyan-line),var(--shadow-3);
+}
+
+.duelHead{
+  min-height:94px;
+  padding:18px 20px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg-elev);
+  display:flex;
+  align-items:center;
+  gap:16px;
+}
+
+.duelHead>div{min-width:0}
+
+.duelHead span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.13em;
+  text-transform:uppercase;
+  color:var(--green);
+}
+
+.duelCard.ema .duelHead span{color:var(--violet)}
+
+.duelHead h2{margin:8px 0 5px;font-size:17px;font-weight:600;letter-spacing:-.02em}
+.duelHead p{margin:0;color:var(--text-3);font-size:11.5px;line-height:1.5}
+
+.duelHead button{
+  margin-left:auto;
+  flex:none;
+  min-width:112px;
+  height:34px;
+  border:1px solid var(--border-2);
+  border-radius:var(--r-pill);
+  background:var(--surface-2);
+  color:var(--text-2);
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.08em;
+  transition:background .16s var(--ease),color .16s var(--ease),border-color .16s var(--ease);
+}
+
+.duelHead button:hover{background:var(--hover);border-color:var(--border-3);color:var(--text)}
+.duelCard.selected .duelHead button{border-color:var(--cyan-line);background:var(--cyan-wash);color:var(--cyan-ink)}
+
+.duelMetrics{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--border)}
+
+.duelMetrics>div{
+  min-height:86px;
+  padding:15px 16px;
+  border-right:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:11px;
+}
+
+.duelMetrics>div:nth-child(3n){border-right:0}
+.duelMetrics>div:nth-last-child(-n+3){border-bottom:0}
+
+.duelMetrics span,
+.directionSplit span,
+.costRibbon>span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:650;
+  letter-spacing:.11em;
+  text-transform:uppercase;
+  color:var(--faint);
+}
+
+.duelMetrics strong{font-family:var(--font-mono);font-size:17px;font-weight:520;letter-spacing:-.02em}
+
+/* --- Year ribbon ---------------------------------------------------------- */
+
+.yearRibbon{
+  min-height:66px;
+  padding:12px 18px;
+  display:flex;
+  align-items:flex-end;
+  gap:12px;
+  border-bottom:1px solid var(--border);
+  background:var(--bg-elev);
+}
+
+.yearRibbon div{
+  height:42px;
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:flex-end;
+  gap:5px;
+}
+
+.yearRibbon i{
+  width:100%;
+  max-width:34px;
+  border-radius:2px 2px 0 0;
+  background:linear-gradient(180deg,var(--green),rgba(61,220,151,.45));
+}
+
+.yearRibbon i.down{background:linear-gradient(180deg,rgba(251,107,124,.45),var(--red))}
+
+.yearRibbon span{
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:650;
+  letter-spacing:.04em;
+}
+
+/* --- Direction split & cost ribbon ---------------------------------------- */
+
+.directionSplit{display:grid;grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--border)}
+
+.directionSplit div{
+  padding:14px 16px;
+  border-right:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:7px;
+}
+
+.directionSplit div:last-child{border-right:0}
+.directionSplit b{font-family:var(--font-mono);font-size:12.5px;font-weight:550;color:var(--text-2)}
+.directionSplit small{color:var(--faint);font-size:10px}
+
+.costRibbon{
+  min-height:68px;
+  padding:14px 16px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  border-bottom:1px solid var(--border);
+}
+
+.costRibbon>span{margin-right:auto}
+
+.costRibbon div{
+  min-width:78px;
+  padding-left:12px;
+  border-left:1px solid var(--border);
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+}
+
+.costRibbon b{font-family:var(--font-mono);font-size:9.5px;font-weight:700;letter-spacing:.06em;color:var(--muted)}
+.costRibbon em{font-family:var(--font-mono);font-size:11px;font-weight:600;font-style:normal}
+
+.duelFoot{
+  padding:13px 16px;
+  display:flex;
+  gap:20px;
+  flex-wrap:wrap;
+  color:var(--faint);
+  font-family:var(--font-mono);
+  font-size:10px;
+  letter-spacing:.04em;
+  background:var(--bg-elev);
+}
+
+/* ----------------------------------------------------------------------------
+   Difference band
+   -------------------------------------------------------------------------- */
+
+.differenceBand{
+  margin:16px 0;
+  min-height:84px;
+  border:1px solid var(--violet-line);
+  border-radius:var(--r-lg);
+  background:linear-gradient(100deg,rgba(160,140,255,.07),transparent 58%),var(--surface);
+  display:grid;
+  grid-template-columns:minmax(230px,.85fr) minmax(230px,.85fr) minmax(0,1.5fr);
+  align-items:center;
+  padding:18px 24px;
+  gap:28px;
+  box-shadow:var(--hairline),var(--shadow-2);
+}
+
+.differenceBand div{display:flex;flex-direction:column;gap:8px;min-width:0}
+
+.differenceBand span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:650;
+  letter-spacing:.1em;
+  line-height:1.5;
+  text-transform:uppercase;
+  color:var(--violet);
+}
+
+.differenceBand strong{font-family:var(--font-mono);font-size:15px;font-weight:550;letter-spacing:-.02em}
+.differenceBand .notConvincing{color:var(--amber)}
+.differenceBand p{margin:0;color:var(--text-3);font-size:11.5px;line-height:1.65}
+
+/* ----------------------------------------------------------------------------
+   Practical insight cards
+   -------------------------------------------------------------------------- */
+
+.practicalGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0}
+
+.insightCard{
+  min-height:126px;
+  padding:18px;
+  border:1px solid var(--border);
+  border-radius:var(--r-md);
+  background:var(--surface);
+  display:flex;
+  flex-direction:column;
+  box-shadow:var(--hairline),var(--shadow-1);
+  transition:border-color .16s var(--ease),background .16s var(--ease);
+}
+
+.insightCard:hover{border-color:var(--border-2);background:var(--surface-2)}
+
+.insightCard.caution{border-color:var(--amber-line);background:var(--amber-wash)}
+.insightCard.caution span{color:var(--amber)}
+
+.insightCard span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--faint);
+  line-height:1.5;
+}
+
+.insightCard strong{
+  margin:14px 0 9px;
+  font-family:var(--font-mono);
+  font-size:17px;
+  font-weight:550;
+  letter-spacing:-.02em;
+}
+
+.insightCard p{margin:0;margin-top:auto;color:var(--muted);font-size:11px;line-height:1.6}
+
+/* ----------------------------------------------------------------------------
+   Research detail grid
+   -------------------------------------------------------------------------- */
+
+.researchDetailGrid{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid var(--border)}
+
+.researchDetailGrid article,
+.researchDetailGrid>div{
+  min-height:136px;
+  padding:20px;
+  border-right:1px solid var(--border);
+}
+
+.researchDetailGrid article:last-child,
+.researchDetailGrid>div:last-child{border-right:0}
+
+.researchDetailGrid span{
+  font-family:var(--font-mono);
+  font-size:9.5px;
+  font-weight:700;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--violet);
+}
+
+.researchDetailGrid strong{
+  display:block;
+  margin:14px 0 9px;
+  font-family:var(--font-mono);
+  font-size:14px;
+  font-weight:550;
+}
+
+.researchDetailGrid p{margin:12px 0 0;color:var(--text-3);font-size:11px;line-height:1.65}
+
+/* ----------------------------------------------------------------------------
+   Responsive
+   -------------------------------------------------------------------------- */
+
+@media(max-width:1200px){
+  .duelGrid{grid-template-columns:1fr}
+  .practicalGrid{grid-template-columns:repeat(2,1fr)}
+  .differenceBand{grid-template-columns:repeat(2,1fr)}
+  .differenceBand p{grid-column:1/-1}
+}
+
+@media(max-width:900px){
+  .researchDetailGrid{grid-template-columns:1fr}
+  .researchDetailGrid article,
+  .researchDetailGrid>div{border-right:0;border-bottom:1px solid var(--border)}
+  .researchDetailGrid article:last-child,
+  .researchDetailGrid>div:last-child{border-bottom:0}
+}
+
+@media(max-width:760px){
+  .questionHero{padding:20px;align-items:flex-start;gap:16px}
+  .questionHero h1{font-size:20px}
+  .instrumentToggle{margin-left:auto;flex-shrink:0}
+  .instrumentToggle button{min-width:52px;padding:0 8px}
+
+  .duelGrid,.duelCard,.costRibbon{min-width:0;max-width:100%}
+  .duelHead{flex-wrap:wrap}
+  .duelHead button{margin-left:0}
+  .duelMetrics{grid-template-columns:repeat(2,1fr)}
+  .duelMetrics>div:nth-child(3n){border-right:1px solid var(--border)}
+  .duelMetrics>div:nth-child(2n){border-right:0}
+  .duelMetrics>div:nth-last-child(-n+3){border-bottom:1px solid var(--border)}
+  .duelMetrics>div:last-child{border-bottom:0}
+
+  .directionSplit{grid-template-columns:1fr}
+  .directionSplit div{border-right:0;border-bottom:1px solid var(--border)}
+  .directionSplit div:last-child{border-bottom:0}
+
+  .costRibbon{overflow-x:auto}
+
+  .practicalGrid,.differenceBand{grid-template-columns:1fr}
+  .differenceBand p{grid-column:auto}
+}

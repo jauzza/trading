@@ -1,0 +1,6050 @@
+{
+  "categories": {
+    "clear_key_level_room": {
+      "sessions": 401,
+      "share_of_c01_trades": 0.268227,
+      "loss_rate": 0.0,
+      "net_profit": 592304.9,
+      "expectancy_r": 2.173884,
+      "average_mae_r": 0.413928,
+      "average_mfe_r": 2.819945,
+      "by_year": {
+        "2018": 53,
+        "2019": 43,
+        "2020": 54,
+        "2021": 58,
+        "2022": 52,
+        "2023": 44,
+        "2024": 50,
+        "2025": 47
+      }
+    },
+    "early_breakout": {
+      "sessions": 220,
+      "share_of_c01_trades": 0.147157,
+      "loss_rate": 0.0,
+      "net_profit": 384818.0,
+      "expectancy_r": 2.118994,
+      "average_mae_r": 0.429166,
+      "average_mfe_r": 2.662225,
+      "by_year": {
+        "2018": 28,
+        "2019": 29,
+        "2020": 23,
+        "2021": 26,
+        "2022": 22,
+        "2023": 22,
+        "2024": 40,
+        "2025": 30
+      }
+    },
+    "immediate_continuation": {
+      "sessions": 110,
+      "share_of_c01_trades": 0.073579,
+      "loss_rate": 0.0,
+      "net_profit": 160009.0,
+      "expectancy_r": 3.030512,
+      "average_mae_r": 0.268812,
+      "average_mfe_r": 3.902271,
+      "by_year": {
+        "2018": 13,
+        "2019": 17,
+        "2020": 17,
+        "2021": 15,
+        "2022": 10,
+        "2023": 15,
+        "2024": 12,
+        "2025": 11
+      }
+    },
+    "moderate_opening_range": {
+      "sessions": 282,
+      "share_of_c01_trades": 0.188629,
+      "loss_rate": 0.0,
+      "net_profit": 451971.8,
+      "expectancy_r": 2.022823,
+      "average_mae_r": 0.404074,
+      "average_mfe_r": 2.662794,
+      "by_year": {
+        "2018": 36,
+        "2019": 31,
+        "2020": 30,
+        "2021": 38,
+        "2022": 47,
+        "2023": 38,
+        "2024": 33,
+        "2025": 29
+      }
+    },
+    "overnight_alignment": {
+      "sessions": 327,
+      "share_of_c01_trades": 0.218729,
+      "loss_rate": 0.0,
+      "net_profit": 446882.3,
+      "expectancy_r": 2.132912,
+      "average_mae_r": 0.407864,
+      "average_mfe_r": 2.780523,
+      "by_year": {
+        "2018": 47,
+        "2019": 33,
+        "2020": 48,
+        "2021": 49,
+        "2022": 41,
+        "2023": 37,
+        "2024": 39,
+        "2025": 33
+      }
+    },
+    "strong_relative_volume": {
+      "sessions": 279,
+      "share_of_c01_trades": 0.186622,
+      "loss_rate": 0.0,
+      "net_profit": 442042.1,
+      "expectancy_r": 1.819222,
+      "average_mae_r": 0.426564,
+      "average_mfe_r": 2.365595,
+      "by_year": {
+        "2018": 40,
+        "2019": 32,
+        "2020": 37,
+        "2021": 38,
+        "2022": 30,
+        "2023": 40,
+        "2024": 35,
+        "2025": 27
+      }
+    },
+    "vwap_alignment": {
+      "sessions": 533,
+      "share_of_c01_trades": 0.356522,
+      "loss_rate": 0.0,
+      "net_profit": 839891.7,
+      "expectancy_r": 2.07434,
+      "average_mae_r": 0.416307,
+      "average_mfe_r": 2.633139,
+      "by_year": {
+        "2018": 72,
+        "2019": 56,
+        "2020": 71,
+        "2021": 70,
+        "2022": 69,
+        "2023": 64,
+        "2024": 69,
+        "2025": 62
+      }
+    }
+  },
+  "sessions": [
+    {
+      "date": "2018-01-12",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 289.9,
+      "net_r": 0.7835
+    },
+    {
+      "date": "2018-01-17",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 644.9,
+      "net_r": 1.8693
+    },
+    {
+      "date": "2018-01-22",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 614.9,
+      "net_r": 3.2363
+    },
+    {
+      "date": "2018-01-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 739.9,
+      "net_r": 3.8942
+    },
+    {
+      "date": "2018-02-02",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1554.9,
+      "net_r": 2.3559
+    },
+    {
+      "date": "2018-02-05",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 739.9,
+      "net_r": 3.8942
+    },
+    {
+      "date": "2018-02-08",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1739.9,
+      "net_r": 3.9543
+    },
+    {
+      "date": "2018-02-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 799.9,
+      "net_r": 3.902
+    },
+    {
+      "date": "2018-02-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 799.9,
+      "net_r": 3.902
+    },
+    {
+      "date": "2018-02-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 224.9,
+      "net_r": 1.071
+    },
+    {
+      "date": "2018-03-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1759.9,
+      "net_r": 3.9548
+    },
+    {
+      "date": "2018-03-09",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1129.9,
+      "net_r": 3.3728
+    },
+    {
+      "date": "2018-03-19",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 829.9,
+      "net_r": 1.4186
+    },
+    {
+      "date": "2018-03-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 3219.9,
+      "net_r": 3.9752
+    },
+    {
+      "date": "2018-04-02",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2219.9,
+      "net_r": 3.9641
+    },
+    {
+      "date": "2018-04-04",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 554.9,
+      "net_r": 0.7871
+    },
+    {
+      "date": "2018-04-09",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 759.9,
+      "net_r": 3.8969
+    },
+    {
+      "date": "2018-04-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 324.9,
+      "net_r": 0.6017
+    },
+    {
+      "date": "2018-04-17",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1039.9,
+      "net_r": 3.9242
+    },
+    {
+      "date": "2018-04-20",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 704.9,
+      "net_r": 1.6986
+    },
+    {
+      "date": "2018-04-24",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2919.9,
+      "net_r": 3.9727
+    },
+    {
+      "date": "2018-04-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 0.3686
+    },
+    {
+      "date": "2018-04-30",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 249.9,
+      "net_r": 0.5553
+    },
+    {
+      "date": "2018-05-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 399.9,
+      "net_r": 3.8086
+    },
+    {
+      "date": "2018-05-04",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1549.9,
+      "net_r": 2.0945
+    },
+    {
+      "date": "2018-05-09",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 629.9,
+      "net_r": 1.4649
+    },
+    {
+      "date": "2018-05-23",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 0.7702
+    },
+    {
+      "date": "2018-05-30",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 134.9,
+      "net_r": 0.3174
+    },
+    {
+      "date": "2018-06-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 269.9,
+      "net_r": 1.4994
+    },
+    {
+      "date": "2018-06-06",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 359.9,
+      "net_r": 2.3219
+    },
+    {
+      "date": "2018-06-13",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 199.9,
+      "net_r": 3.6345
+    },
+    {
+      "date": "2018-06-18",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 334.9,
+      "net_r": 0.7611
+    },
+    {
+      "date": "2018-06-25",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 474.9,
+      "net_r": 0.605
+    },
+    {
+      "date": "2018-06-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1659.9,
+      "net_r": 3.9521
+    },
+    {
+      "date": "2018-07-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1379.9,
+      "net_r": 3.9426
+    },
+    {
+      "date": "2018-07-06",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 734.9,
+      "net_r": 2.7732
+    },
+    {
+      "date": "2018-07-09",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 179.9,
+      "net_r": 1.285
+    },
+    {
+      "date": "2018-07-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 679.9,
+      "net_r": 2.3856
+    },
+    {
+      "date": "2018-07-17",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 919.9,
+      "net_r": 3.9145
+    },
+    {
+      "date": "2018-07-23",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 334.9,
+      "net_r": 1.9137
+    },
+    {
+      "date": "2018-07-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 999.9,
+      "net_r": 3.9212
+    },
+    {
+      "date": "2018-07-27",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1839.9,
+      "net_r": 3.9568
+    },
+    {
+      "date": "2018-08-02",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1199.9,
+      "net_r": 3.9341
+    },
+    {
+      "date": "2018-08-06",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 239.9,
+      "net_r": 0.9408
+    },
+    {
+      "date": "2018-08-08",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 269.9,
+      "net_r": 0.9307
+    },
+    {
+      "date": "2018-08-14",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 114.9,
+      "net_r": 0.6047
+    },
+    {
+      "date": "2018-08-15",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 94.9,
+      "net_r": 0.1416
+    },
+    {
+      "date": "2018-08-22",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 169.9,
+      "net_r": 0.6293
+    },
+    {
+      "date": "2018-08-24",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 229.9,
+      "net_r": 0.7663
+    },
+    {
+      "date": "2018-08-29",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 594.9,
+      "net_r": 1.8886
+    },
+    {
+      "date": "2018-09-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 709.9,
+      "net_r": 0.7244
+    },
+    {
+      "date": "2018-09-06",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 199.9,
+      "net_r": 0.1886
+    },
+    {
+      "date": "2018-09-20",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 164.9,
+      "net_r": 0.8044
+    },
+    {
+      "date": "2018-09-24",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 364.9,
+      "net_r": 0.6346
+    },
+    {
+      "date": "2018-10-04",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1459.9,
+      "net_r": 3.9457
+    },
+    {
+      "date": "2018-10-05",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1059.9,
+      "net_r": 3.9256
+    },
+    {
+      "date": "2018-10-10",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1679.9,
+      "net_r": 3.9527
+    },
+    {
+      "date": "2018-10-16",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 3.8511
+    },
+    {
+      "date": "2018-10-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1959.9,
+      "net_r": 3.9594
+    },
+    {
+      "date": "2018-10-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1639.9,
+      "net_r": 3.9516
+    },
+    {
+      "date": "2018-11-01",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1129.9,
+      "net_r": 2.3787
+    },
+    {
+      "date": "2018-11-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1754.9,
+      "net_r": 2.7208
+    },
+    {
+      "date": "2018-11-13",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 149.9,
+      "net_r": 0.3059
+    },
+    {
+      "date": "2018-11-14",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1069.9,
+      "net_r": 1.7256
+    },
+    {
+      "date": "2018-11-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1509.9,
+      "net_r": 3.1132
+    },
+    {
+      "date": "2018-11-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1874.9,
+      "net_r": 1.1718
+    },
+    {
+      "date": "2018-12-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 3189.9,
+      "net_r": 2.8355
+    },
+    {
+      "date": "2018-12-11",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 724.9,
+      "net_r": 1.1239
+    },
+    {
+      "date": "2018-12-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 684.9,
+      "net_r": 1.0377
+    },
+    {
+      "date": "2018-12-19",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1554.9,
+      "net_r": 0.5192
+    },
+    {
+      "date": "2018-12-20",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 2679.9,
+      "net_r": 3.9702
+    },
+    {
+      "date": "2018-12-21",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 2814.9,
+      "net_r": 2.6185
+    },
+    {
+      "date": "2019-01-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1269.9,
+      "net_r": 0.7405
+    },
+    {
+      "date": "2019-01-07",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 729.9,
+      "net_r": 2.1788
+    },
+    {
+      "date": "2019-01-10",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 914.9,
+      "net_r": 1.0338
+    },
+    {
+      "date": "2019-01-17",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1139.9,
+      "net_r": 3.9307
+    },
+    {
+      "date": "2019-01-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 754.9,
+      "net_r": 1.2582
+    },
+    {
+      "date": "2019-01-30",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 899.9,
+      "net_r": 3.9126
+    },
+    {
+      "date": "2019-01-31",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 0.9362
+    },
+    {
+      "date": "2019-02-04",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 699.9,
+      "net_r": 1.3082
+    },
+    {
+      "date": "2019-02-08",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 194.9,
+      "net_r": 1.1137
+    },
+    {
+      "date": "2019-02-14",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 559.9,
+      "net_r": 1.6967
+    },
+    {
+      "date": "2019-03-21",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 799.9,
+      "net_r": 3.902
+    },
+    {
+      "date": "2019-04-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 254.9,
+      "net_r": 1.2434
+    },
+    {
+      "date": "2019-04-22",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 139.9,
+      "net_r": 3.4975
+    },
+    {
+      "date": "2019-04-23",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 789.9,
+      "net_r": 2.8724
+    },
+    {
+      "date": "2019-04-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 114.9,
+      "net_r": 0.8207
+    },
+    {
+      "date": "2019-05-03",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 539.9,
+      "net_r": 3.8564
+    },
+    {
+      "date": "2019-05-06",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 134.9,
+      "net_r": 0.355
+    },
+    {
+      "date": "2019-05-07",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1249.9,
+      "net_r": 1.8381
+    },
+    {
+      "date": "2019-05-10",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1099.9,
+      "net_r": 3.9282
+    },
+    {
+      "date": "2019-05-13",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 649.9,
+      "net_r": 1.8307
+    },
+    {
+      "date": "2019-05-28",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 404.9,
+      "net_r": 1.3275
+    },
+    {
+      "date": "2019-06-03",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1539.9,
+      "net_r": 3.9485
+    },
+    {
+      "date": "2019-06-06",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 104.9,
+      "net_r": 0.1734
+    },
+    {
+      "date": "2019-06-07",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 9.9,
+      "net_r": 0.0202
+    },
+    {
+      "date": "2019-06-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 809.9,
+      "net_r": 1.2179
+    },
+    {
+      "date": "2019-06-26",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 54.9,
+      "net_r": 0.1893
+    },
+    {
+      "date": "2019-07-03",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 464.9,
+      "net_r": 2.0213
+    },
+    {
+      "date": "2019-07-05",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 94.9,
+      "net_r": 0.5752
+    },
+    {
+      "date": "2019-07-09",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 779.9,
+      "net_r": 3.8995
+    },
+    {
+      "date": "2019-07-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 314.9,
+      "net_r": 1.7022
+    },
+    {
+      "date": "2019-07-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 19.9,
+      "net_r": 0.1895
+    },
+    {
+      "date": "2019-07-31",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 744.9,
+      "net_r": 0.5246
+    },
+    {
+      "date": "2019-08-05",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1379.9,
+      "net_r": 3.9426
+    },
+    {
+      "date": "2019-08-08",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 679.9,
+      "net_r": 1.4622
+    },
+    {
+      "date": "2019-08-14",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1359.9,
+      "net_r": 3.9417
+    },
+    {
+      "date": "2019-08-27",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 729.9,
+      "net_r": 1.7588
+    },
+    {
+      "date": "2019-09-17",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 1.7873
+    },
+    {
+      "date": "2019-09-20",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 799.9,
+      "net_r": 3.902
+    },
+    {
+      "date": "2019-09-24",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1539.9,
+      "net_r": 3.9485
+    },
+    {
+      "date": "2019-09-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 894.9,
+      "net_r": 0.752
+    },
+    {
+      "date": "2019-10-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1209.9,
+      "net_r": 0.9029
+    },
+    {
+      "date": "2019-10-02",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 274.9,
+      "net_r": 0.632
+    },
+    {
+      "date": "2019-10-04",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 989.9,
+      "net_r": 2.3292
+    },
+    {
+      "date": "2019-10-11",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 579.9,
+      "net_r": 3.866
+    },
+    {
+      "date": "2019-10-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 774.9,
+      "net_r": 1.9869
+    },
+    {
+      "date": "2019-10-25",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1179.9,
+      "net_r": 3.933
+    },
+    {
+      "date": "2019-10-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 284.9,
+      "net_r": 1.4995
+    },
+    {
+      "date": "2019-10-30",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 209.9,
+      "net_r": 0.4156
+    },
+    {
+      "date": "2019-11-11",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 99.9,
+      "net_r": 3.33
+    },
+    {
+      "date": "2019-11-18",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 49.9,
+      "net_r": 0.3219
+    },
+    {
+      "date": "2019-11-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 119.9,
+      "net_r": 0.5849
+    },
+    {
+      "date": "2019-11-27",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 499.9,
+      "net_r": 2.7022
+    },
+    {
+      "date": "2019-12-02",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 959.9,
+      "net_r": 3.918
+    },
+    {
+      "date": "2019-12-06",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 179.9,
+      "net_r": 3.598
+    },
+    {
+      "date": "2019-12-19",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 549.9,
+      "net_r": 1.9639
+    },
+    {
+      "date": "2019-12-26",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 449.9,
+      "net_r": 3.3326
+    },
+    {
+      "date": "2020-01-02",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 474.9,
+      "net_r": 2.7137
+    },
+    {
+      "date": "2020-01-06",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 719.9,
+      "net_r": 1.8225
+    },
+    {
+      "date": "2020-01-08",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 629.9,
+      "net_r": 1.2855
+    },
+    {
+      "date": "2020-01-13",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 619.9,
+      "net_r": 3.8744
+    },
+    {
+      "date": "2020-01-16",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 139.9,
+      "net_r": 0.5181
+    },
+    {
+      "date": "2020-01-31",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 884.9,
+      "net_r": 1.3719
+    },
+    {
+      "date": "2020-02-04",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1079.9,
+      "net_r": 3.9269
+    },
+    {
+      "date": "2020-02-06",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 269.9,
+      "net_r": 0.5998
+    },
+    {
+      "date": "2020-02-12",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 259.9,
+      "net_r": 0.8962
+    },
+    {
+      "date": "2020-02-19",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 219.9,
+      "net_r": 1.1277
+    },
+    {
+      "date": "2020-02-21",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1034.9,
+      "net_r": 1.9526
+    },
+    {
+      "date": "2020-02-25",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 4129.9,
+      "net_r": 2.819
+    },
+    {
+      "date": "2020-03-05",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 534.9,
+      "net_r": 0.3272
+    },
+    {
+      "date": "2020-03-11",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1139.9,
+      "net_r": 3.9307
+    },
+    {
+      "date": "2020-03-20",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 5064.9,
+      "net_r": 2.7304
+    },
+    {
+      "date": "2020-03-30",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2769.9,
+      "net_r": 2.252
+    },
+    {
+      "date": "2020-04-01",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 459.9,
+      "net_r": 0.4531
+    },
+    {
+      "date": "2020-04-06",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 4814.9,
+      "net_r": 3.4148
+    },
+    {
+      "date": "2020-04-13",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1149.9,
+      "net_r": 2.0534
+    },
+    {
+      "date": "2020-04-22",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1459.9,
+      "net_r": 3.9457
+    },
+    {
+      "date": "2020-04-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1789.9,
+      "net_r": 3.1963
+    },
+    {
+      "date": "2020-04-29",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 834.9,
+      "net_r": 0.9125
+    },
+    {
+      "date": "2020-05-04",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 494.9,
+      "net_r": 1.222
+    },
+    {
+      "date": "2020-05-11",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1574.9,
+      "net_r": 2.8635
+    },
+    {
+      "date": "2020-05-13",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 234.9,
+      "net_r": 0.3132
+    },
+    {
+      "date": "2020-05-15",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1449.9,
+      "net_r": 3.222
+    },
+    {
+      "date": "2020-05-22",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 124.9,
+      "net_r": 0.301
+    },
+    {
+      "date": "2020-05-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1364.9,
+      "net_r": 0.6453
+    },
+    {
+      "date": "2020-06-03",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 114.9,
+      "net_r": 0.4889
+    },
+    {
+      "date": "2020-06-08",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 649.9,
+      "net_r": 1.34
+    },
+    {
+      "date": "2020-06-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 149.9,
+      "net_r": 0.2498
+    },
+    {
+      "date": "2020-06-11",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3539.9,
+      "net_r": 3.2035
+    },
+    {
+      "date": "2020-06-12",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4419.9,
+      "net_r": 3.9819
+    },
+    {
+      "date": "2020-06-24",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 224.9,
+      "net_r": 0.154
+    },
+    {
+      "date": "2020-07-06",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1119.9,
+      "net_r": 3.9295
+    },
+    {
+      "date": "2020-07-08",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 244.9,
+      "net_r": 0.3655
+    },
+    {
+      "date": "2020-07-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1339.9,
+      "net_r": 3.5731
+    },
+    {
+      "date": "2020-07-20",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1879.9,
+      "net_r": 3.9577
+    },
+    {
+      "date": "2020-07-23",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3339.9,
+      "net_r": 3.9761
+    },
+    {
+      "date": "2020-07-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 689.9,
+      "net_r": 0.8465
+    },
+    {
+      "date": "2020-07-30",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1129.9,
+      "net_r": 1.3062
+    },
+    {
+      "date": "2020-08-06",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2139.9,
+      "net_r": 3.9628
+    },
+    {
+      "date": "2020-08-12",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1004.9,
+      "net_r": 1.6748
+    },
+    {
+      "date": "2020-08-20",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1774.9,
+      "net_r": 2.886
+    },
+    {
+      "date": "2020-08-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1979.9,
+      "net_r": 3.9598
+    },
+    {
+      "date": "2020-09-01",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1219.9,
+      "net_r": 3.9352
+    },
+    {
+      "date": "2020-09-03",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1119.9,
+      "net_r": 3.9295
+    },
+    {
+      "date": "2020-09-08",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 599.9,
+      "net_r": 0.3592
+    },
+    {
+      "date": "2020-09-10",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 4149.9,
+      "net_r": 1.7849
+    },
+    {
+      "date": "2020-09-18",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 4739.9,
+      "net_r": 3.9831
+    },
+    {
+      "date": "2020-09-23",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2539.9,
+      "net_r": 3.9686
+    },
+    {
+      "date": "2020-09-25",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2214.9,
+      "net_r": 1.744
+    },
+    {
+      "date": "2020-09-30",
+      "tags": [
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 0.1657
+    },
+    {
+      "date": "2020-10-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1479.9,
+      "net_r": 1.6722
+    },
+    {
+      "date": "2020-10-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3039.9,
+      "net_r": 3.9737
+    },
+    {
+      "date": "2020-10-15",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 399.9,
+      "net_r": 1.0254
+    },
+    {
+      "date": "2020-10-19",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3369.9,
+      "net_r": 1.7877
+    },
+    {
+      "date": "2020-10-26",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1619.9,
+      "net_r": 3.951
+    },
+    {
+      "date": "2020-10-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1679.9,
+      "net_r": 1.826
+    },
+    {
+      "date": "2020-11-02",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2239.9,
+      "net_r": 3.9644
+    },
+    {
+      "date": "2020-11-04",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 609.9,
+      "net_r": 0.316
+    },
+    {
+      "date": "2020-11-11",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 959.9,
+      "net_r": 2.3701
+    },
+    {
+      "date": "2020-11-23",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 469.9,
+      "net_r": 0.3381
+    },
+    {
+      "date": "2020-11-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 2209.9,
+      "net_r": 1.7265
+    },
+    {
+      "date": "2020-11-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 14.9,
+      "net_r": 0.0514
+    },
+    {
+      "date": "2020-12-02",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1079.9,
+      "net_r": 3.9269
+    },
+    {
+      "date": "2020-12-07",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 3.8511
+    },
+    {
+      "date": "2020-12-08",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 634.9,
+      "net_r": 2.3958
+    },
+    {
+      "date": "2020-12-09",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1054.9,
+      "net_r": 0.8439
+    },
+    {
+      "date": "2020-12-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 79.9,
+      "net_r": 0.3073
+    },
+    {
+      "date": "2020-12-28",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 114.9,
+      "net_r": 0.4419
+    },
+    {
+      "date": "2021-01-04",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1694.9,
+      "net_r": 0.8033
+    },
+    {
+      "date": "2021-01-05",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 179.9,
+      "net_r": 0.2768
+    },
+    {
+      "date": "2021-01-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1104.9,
+      "net_r": 1.2485
+    },
+    {
+      "date": "2021-01-13",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 284.9,
+      "net_r": 0.5325
+    },
+    {
+      "date": "2021-01-15",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 389.9,
+      "net_r": 0.2407
+    },
+    {
+      "date": "2021-01-20",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1334.9,
+      "net_r": 1.0037
+    },
+    {
+      "date": "2021-01-27",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1934.9,
+      "net_r": 1.1586
+    },
+    {
+      "date": "2021-02-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 614.9,
+      "net_r": 0.5941
+    },
+    {
+      "date": "2021-02-02",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 109.9,
+      "net_r": 0.1653
+    },
+    {
+      "date": "2021-02-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 654.9,
+      "net_r": 1.5055
+    },
+    {
+      "date": "2021-02-12",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1689.9,
+      "net_r": 1.6018
+    },
+    {
+      "date": "2021-02-22",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 199.9,
+      "net_r": 3.6345
+    },
+    {
+      "date": "2021-02-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 6699.9,
+      "net_r": 3.988
+    },
+    {
+      "date": "2021-03-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 344.9,
+      "net_r": 0.4131
+    },
+    {
+      "date": "2021-03-02",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1684.9,
+      "net_r": 1.0274
+    },
+    {
+      "date": "2021-03-09",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 859.9,
+      "net_r": 3.9086
+    },
+    {
+      "date": "2021-03-11",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 459.9,
+      "net_r": 0.5508
+    },
+    {
+      "date": "2021-03-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1799.9,
+      "net_r": 3.9558
+    },
+    {
+      "date": "2021-03-22",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1359.9,
+      "net_r": 3.9417
+    },
+    {
+      "date": "2021-03-31",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 219.9,
+      "net_r": 3.665
+    },
+    {
+      "date": "2021-04-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1379.9,
+      "net_r": 3.9426
+    },
+    {
+      "date": "2021-04-20",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 544.9,
+      "net_r": 0.456
+    },
+    {
+      "date": "2021-04-21",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1279.9,
+      "net_r": 3.0841
+    },
+    {
+      "date": "2021-04-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 529.9,
+      "net_r": 0.8216
+    },
+    {
+      "date": "2021-04-26",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 419.9,
+      "net_r": 3.8173
+    },
+    {
+      "date": "2021-05-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1754.9,
+      "net_r": 1.5954
+    },
+    {
+      "date": "2021-05-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 574.9,
+      "net_r": 1.8849
+    },
+    {
+      "date": "2021-05-20",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1159.9,
+      "net_r": 3.9319
+    },
+    {
+      "date": "2021-05-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 599.9,
+      "net_r": 0.8218
+    },
+    {
+      "date": "2021-06-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 749.9,
+      "net_r": 1.0868
+    },
+    {
+      "date": "2021-06-07",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 364.9,
+      "net_r": 0.7682
+    },
+    {
+      "date": "2021-06-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 509.9,
+      "net_r": 1.7285
+    },
+    {
+      "date": "2021-06-17",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 3.9617
+    },
+    {
+      "date": "2021-06-22",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1439.9,
+      "net_r": 2.7168
+    },
+    {
+      "date": "2021-06-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 794.9,
+      "net_r": 2.0647
+    },
+    {
+      "date": "2021-06-29",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 319.9,
+      "net_r": 0.7189
+    },
+    {
+      "date": "2021-07-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 944.9,
+      "net_r": 1.1182
+    },
+    {
+      "date": "2021-07-21",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1239.9,
+      "net_r": 2.275
+    },
+    {
+      "date": "2021-07-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 839.9,
+      "net_r": 1.2536
+    },
+    {
+      "date": "2021-08-05",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 279.9,
+      "net_r": 0.6085
+    },
+    {
+      "date": "2021-08-11",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 999.9,
+      "net_r": 3.9212
+    },
+    {
+      "date": "2021-08-18",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1579.9,
+      "net_r": 1.0226
+    },
+    {
+      "date": "2021-08-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1444.9,
+      "net_r": 1.8765
+    },
+    {
+      "date": "2021-08-27",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 584.9,
+      "net_r": 0.2532
+    },
+    {
+      "date": "2021-08-30",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1279.9,
+      "net_r": 2.9089
+    },
+    {
+      "date": "2021-09-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 404.9,
+      "net_r": 0.3838
+    },
+    {
+      "date": "2021-09-10",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 2639.9,
+      "net_r": 3.9698
+    },
+    {
+      "date": "2021-09-17",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 639.9,
+      "net_r": 0.8826
+    },
+    {
+      "date": "2021-09-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2374.9,
+      "net_r": 1.6047
+    },
+    {
+      "date": "2021-09-30",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 969.9,
+      "net_r": 0.6257
+    },
+    {
+      "date": "2021-10-04",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1254.9,
+      "net_r": 1.2009
+    },
+    {
+      "date": "2021-10-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 449.9,
+      "net_r": 1.1997
+    },
+    {
+      "date": "2021-10-18",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1699.9,
+      "net_r": 3.9533
+    },
+    {
+      "date": "2021-10-19",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 289.9,
+      "net_r": 0.3514
+    },
+    {
+      "date": "2021-10-25",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1359.9,
+      "net_r": 3.9417
+    },
+    {
+      "date": "2021-10-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 159.9,
+      "net_r": 3.5533
+    },
+    {
+      "date": "2021-10-29",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1199.9,
+      "net_r": 3.9341
+    },
+    {
+      "date": "2021-11-03",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2049.9,
+      "net_r": 2.4404
+    },
+    {
+      "date": "2021-11-11",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 374.9,
+      "net_r": 0.528
+    },
+    {
+      "date": "2021-11-12",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1499.9,
+      "net_r": 1.7646
+    },
+    {
+      "date": "2021-11-16",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 0.4928
+    },
+    {
+      "date": "2021-11-18",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 689.9,
+      "net_r": 0.4824
+    },
+    {
+      "date": "2021-11-19",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 399.9,
+      "net_r": 3.8086
+    },
+    {
+      "date": "2021-11-24",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 189.9,
+      "net_r": 0.2404
+    },
+    {
+      "date": "2021-11-29",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1329.9,
+      "net_r": 1.209
+    },
+    {
+      "date": "2021-11-30",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 0.0706
+    },
+    {
+      "date": "2021-12-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1694.9,
+      "net_r": 0.8129
+    },
+    {
+      "date": "2021-12-08",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1164.9,
+      "net_r": 1.5031
+    },
+    {
+      "date": "2021-12-16",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2834.9,
+      "net_r": 1.2886
+    },
+    {
+      "date": "2021-12-22",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1994.9,
+      "net_r": 1.8218
+    },
+    {
+      "date": "2021-12-23",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1039.9,
+      "net_r": 3.9242
+    },
+    {
+      "date": "2022-01-05",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 5034.9,
+      "net_r": 3.7296
+    },
+    {
+      "date": "2022-01-13",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 6379.9,
+      "net_r": 3.9874
+    },
+    {
+      "date": "2022-01-20",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 6339.9,
+      "net_r": 3.9874
+    },
+    {
+      "date": "2022-01-24",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 4539.9,
+      "net_r": 3.9824
+    },
+    {
+      "date": "2022-01-26",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 4369.9,
+      "net_r": 1.0671
+    },
+    {
+      "date": "2022-01-27",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3904.9,
+      "net_r": 2.3106
+    },
+    {
+      "date": "2022-01-31",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3954.9,
+      "net_r": 3.2023
+    },
+    {
+      "date": "2022-02-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 859.9,
+      "net_r": 1.0749
+    },
+    {
+      "date": "2022-02-04",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 49.9,
+      "net_r": 0.0489
+    },
+    {
+      "date": "2022-02-09",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 769.9,
+      "net_r": 0.8554
+    },
+    {
+      "date": "2022-02-11",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 6939.9,
+      "net_r": 3.9884
+    },
+    {
+      "date": "2022-02-17",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 4509.9,
+      "net_r": 2.8817
+    },
+    {
+      "date": "2022-02-22",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1919.9,
+      "net_r": 3.9586
+    },
+    {
+      "date": "2022-03-01",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 974.9,
+      "net_r": 0.5908
+    },
+    {
+      "date": "2022-03-10",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 639.9,
+      "net_r": 3.8782
+    },
+    {
+      "date": "2022-03-14",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2989.9,
+      "net_r": 2.3268
+    },
+    {
+      "date": "2022-03-17",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3719.9,
+      "net_r": 3.9785
+    },
+    {
+      "date": "2022-03-24",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 3549.9,
+      "net_r": 3.349
+    },
+    {
+      "date": "2022-03-28",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 384.9,
+      "net_r": 0.3234
+    },
+    {
+      "date": "2022-04-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1014.9,
+      "net_r": 1.3715
+    },
+    {
+      "date": "2022-04-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1519.9,
+      "net_r": 1.7777
+    },
+    {
+      "date": "2022-04-08",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 624.9,
+      "net_r": 0.5186
+    },
+    {
+      "date": "2022-04-14",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3164.9,
+      "net_r": 1.9008
+    },
+    {
+      "date": "2022-04-20",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 1179.9,
+      "net_r": 0.8676
+    },
+    {
+      "date": "2022-04-21",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 3699.9,
+      "net_r": 3.9784
+    },
+    {
+      "date": "2022-04-22",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3384.9,
+      "net_r": 1.701
+    },
+    {
+      "date": "2022-04-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3339.9,
+      "net_r": 3.0501
+    },
+    {
+      "date": "2022-04-29",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 4339.9,
+      "net_r": 3.9816
+    },
+    {
+      "date": "2022-05-05",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 5919.9,
+      "net_r": 3.9865
+    },
+    {
+      "date": "2022-05-11",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 3559.9,
+      "net_r": 2.3575
+    },
+    {
+      "date": "2022-05-18",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 5299.9,
+      "net_r": 3.9849
+    },
+    {
+      "date": "2022-05-27",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1879.9,
+      "net_r": 1.834
+    },
+    {
+      "date": "2022-06-02",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3989.9,
+      "net_r": 2.1451
+    },
+    {
+      "date": "2022-06-16",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 514.9,
+      "net_r": 0.2942
+    },
+    {
+      "date": "2022-06-24",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1224.9,
+      "net_r": 0.6202
+    },
+    {
+      "date": "2022-06-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1424.9,
+      "net_r": 1.122
+    },
+    {
+      "date": "2022-07-05",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3199.9,
+      "net_r": 3.216
+    },
+    {
+      "date": "2022-07-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2699.9,
+      "net_r": 3.9704
+    },
+    {
+      "date": "2022-07-11",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 169.9,
+      "net_r": 0.3734
+    },
+    {
+      "date": "2022-07-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2564.9,
+      "net_r": 2.9999
+    },
+    {
+      "date": "2022-07-21",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2204.9,
+      "net_r": 3.2909
+    },
+    {
+      "date": "2022-07-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1719.9,
+      "net_r": 3.9538
+    },
+    {
+      "date": "2022-07-27",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3459.9,
+      "net_r": 3.9769
+    },
+    {
+      "date": "2022-07-29",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2039.9,
+      "net_r": 3.961
+    },
+    {
+      "date": "2022-08-12",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2159.9,
+      "net_r": 3.9631
+    },
+    {
+      "date": "2022-08-15",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 839.9,
+      "net_r": 0.8659
+    },
+    {
+      "date": "2022-08-18",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 159.9,
+      "net_r": 0.1501
+    },
+    {
+      "date": "2022-08-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 5279.9,
+      "net_r": 2.8852
+    },
+    {
+      "date": "2022-08-30",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1929.9,
+      "net_r": 1.3543
+    },
+    {
+      "date": "2022-09-02",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 2784.9,
+      "net_r": 1.6098
+    },
+    {
+      "date": "2022-09-12",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 3.8511
+    },
+    {
+      "date": "2022-09-30",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1954.9,
+      "net_r": 2.2089
+    },
+    {
+      "date": "2022-10-05",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1999.9,
+      "net_r": 3.9602
+    },
+    {
+      "date": "2022-10-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1999.9,
+      "net_r": 3.9602
+    },
+    {
+      "date": "2022-10-14",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3354.9,
+      "net_r": 1.173
+    },
+    {
+      "date": "2022-10-21",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3564.9,
+      "net_r": 2.9708
+    },
+    {
+      "date": "2022-10-24",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 914.9,
+      "net_r": 0.6203
+    },
+    {
+      "date": "2022-10-25",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1029.9,
+      "net_r": 0.5643
+    },
+    {
+      "date": "2022-10-27",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1519.9,
+      "net_r": 1.1514
+    },
+    {
+      "date": "2022-11-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1214.9,
+      "net_r": 0.486
+    },
+    {
+      "date": "2022-11-10",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4239.9,
+      "net_r": 3.9811
+    },
+    {
+      "date": "2022-11-11",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 2839.9,
+      "net_r": 1.1932
+    },
+    {
+      "date": "2022-11-22",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1859.9,
+      "net_r": 1.9076
+    },
+    {
+      "date": "2022-11-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1349.9,
+      "net_r": 1.1841
+    },
+    {
+      "date": "2022-12-02",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1194.9,
+      "net_r": 0.6547
+    },
+    {
+      "date": "2022-12-12",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 234.9,
+      "net_r": 0.3981
+    },
+    {
+      "date": "2022-12-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2499.9,
+      "net_r": 3.9681
+    },
+    {
+      "date": "2022-12-16",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 779.9,
+      "net_r": 3.8995
+    },
+    {
+      "date": "2022-12-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1144.9,
+      "net_r": 0.812
+    },
+    {
+      "date": "2023-01-06",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2539.9,
+      "net_r": 2.605
+    },
+    {
+      "date": "2023-01-11",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 499.9,
+      "net_r": 3.8454
+    },
+    {
+      "date": "2023-01-13",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2214.9,
+      "net_r": 1.877
+    },
+    {
+      "date": "2023-01-20",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3314.9,
+      "net_r": 3.3654
+    },
+    {
+      "date": "2023-01-23",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1559.9,
+      "net_r": 3.9491
+    },
+    {
+      "date": "2023-01-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 284.9,
+      "net_r": 0.6402
+    },
+    {
+      "date": "2023-02-07",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 3259.9,
+      "net_r": 3.9755
+    },
+    {
+      "date": "2023-02-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 669.9,
+      "net_r": 0.9053
+    },
+    {
+      "date": "2023-02-13",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 674.9,
+      "net_r": 0.888
+    },
+    {
+      "date": "2023-02-14",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2439.9,
+      "net_r": 3.9673
+    },
+    {
+      "date": "2023-02-15",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 904.9,
+      "net_r": 0.9049
+    },
+    {
+      "date": "2023-02-21",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1449.9,
+      "net_r": 3.3331
+    },
+    {
+      "date": "2023-02-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 469.9,
+      "net_r": 0.4371
+    },
+    {
+      "date": "2023-03-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 209.9,
+      "net_r": 0.1007
+    },
+    {
+      "date": "2023-03-07",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 79.9,
+      "net_r": 0.1239
+    },
+    {
+      "date": "2023-03-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 2954.9,
+      "net_r": 3.078
+    },
+    {
+      "date": "2023-03-21",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 979.9,
+      "net_r": 3.9196
+    },
+    {
+      "date": "2023-03-31",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 719.9,
+      "net_r": 3.8914
+    },
+    {
+      "date": "2023-04-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 339.9,
+      "net_r": 1.0458
+    },
+    {
+      "date": "2023-04-06",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1099.9,
+      "net_r": 1.1223
+    },
+    {
+      "date": "2023-04-12",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2259.9,
+      "net_r": 1.5218
+    },
+    {
+      "date": "2023-04-13",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1784.9,
+      "net_r": 1.389
+    },
+    {
+      "date": "2023-04-19",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 714.9,
+      "net_r": 1.014
+    },
+    {
+      "date": "2023-04-20",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 819.9,
+      "net_r": 3.9043
+    },
+    {
+      "date": "2023-04-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2604.9,
+      "net_r": 2.6312
+    },
+    {
+      "date": "2023-04-27",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2359.9,
+      "net_r": 2.697
+    },
+    {
+      "date": "2023-05-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1104.9,
+      "net_r": 1.4443
+    },
+    {
+      "date": "2023-05-15",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 559.9,
+      "net_r": 1.9307
+    },
+    {
+      "date": "2023-05-18",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2379.9,
+      "net_r": 3.9665
+    },
+    {
+      "date": "2023-05-26",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2214.9,
+      "net_r": 2.4747
+    },
+    {
+      "date": "2023-06-07",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1389.9,
+      "net_r": 1.3494
+    },
+    {
+      "date": "2023-06-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 2259.9,
+      "net_r": 3.348
+    },
+    {
+      "date": "2023-06-15",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2279.9,
+      "net_r": 3.965
+    },
+    {
+      "date": "2023-06-26",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 2859.9,
+      "net_r": 2.434
+    },
+    {
+      "date": "2023-06-27",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1009.9,
+      "net_r": 1.5302
+    },
+    {
+      "date": "2023-07-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1539.9,
+      "net_r": 3.9485
+    },
+    {
+      "date": "2023-07-13",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 3.9617
+    },
+    {
+      "date": "2023-07-18",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 3004.9,
+      "net_r": 2.5574
+    },
+    {
+      "date": "2023-07-20",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2304.9,
+      "net_r": 1.6702
+    },
+    {
+      "date": "2023-07-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 2114.9,
+      "net_r": 1.3015
+    },
+    {
+      "date": "2023-08-02",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1359.9,
+      "net_r": 0.858
+    },
+    {
+      "date": "2023-08-04",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2649.9,
+      "net_r": 2.819
+    },
+    {
+      "date": "2023-08-10",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 694.9,
+      "net_r": 0.7393
+    },
+    {
+      "date": "2023-08-23",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1834.9,
+      "net_r": 1.2831
+    },
+    {
+      "date": "2023-08-24",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 2059.9,
+      "net_r": 3.9613
+    },
+    {
+      "date": "2023-08-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3229.9,
+      "net_r": 1.8146
+    },
+    {
+      "date": "2023-09-05",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 369.9,
+      "net_r": 0.54
+    },
+    {
+      "date": "2023-09-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 0.3939
+    },
+    {
+      "date": "2023-09-15",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 664.9,
+      "net_r": 0.5056
+    },
+    {
+      "date": "2023-09-19",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 199.9,
+      "net_r": 3.6345
+    },
+    {
+      "date": "2023-09-20",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 3819.9,
+      "net_r": 3.9791
+    },
+    {
+      "date": "2023-09-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1974.9,
+      "net_r": 1.7248
+    },
+    {
+      "date": "2023-10-03",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2264.9,
+      "net_r": 0.8177
+    },
+    {
+      "date": "2023-10-06",
+      "tags": [
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 5484.9,
+      "net_r": 2.8128
+    },
+    {
+      "date": "2023-10-10",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 3.9617
+    },
+    {
+      "date": "2023-10-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1589.9,
+      "net_r": 1.8927
+    },
+    {
+      "date": "2023-10-26",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2539.9,
+      "net_r": 3.9686
+    },
+    {
+      "date": "2023-10-27",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 284.9,
+      "net_r": 0.2688
+    },
+    {
+      "date": "2023-11-03",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 769.9,
+      "net_r": 1.0547
+    },
+    {
+      "date": "2023-11-07",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1759.9,
+      "net_r": 3.9548
+    },
+    {
+      "date": "2023-11-10",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 2919.9,
+      "net_r": 2.0491
+    },
+    {
+      "date": "2023-11-20",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1544.9,
+      "net_r": 1.9191
+    },
+    {
+      "date": "2023-12-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 554.9,
+      "net_r": 0.4387
+    },
+    {
+      "date": "2023-12-06",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1769.9,
+      "net_r": 1.1606
+    },
+    {
+      "date": "2023-12-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 329.9,
+      "net_r": 0.8569
+    },
+    {
+      "date": "2024-01-03",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 449.9,
+      "net_r": 0.2686
+    },
+    {
+      "date": "2024-01-08",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1119.9,
+      "net_r": 2.9471
+    },
+    {
+      "date": "2024-01-09",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2109.9,
+      "net_r": 2.164
+    },
+    {
+      "date": "2024-01-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1659.9,
+      "net_r": 3.9521
+    },
+    {
+      "date": "2024-01-19",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1479.9,
+      "net_r": 3.9464
+    },
+    {
+      "date": "2024-01-23",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 934.9,
+      "net_r": 1.2221
+    },
+    {
+      "date": "2024-01-29",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1439.9,
+      "net_r": 3.9449
+    },
+    {
+      "date": "2024-02-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 554.9,
+      "net_r": 0.3384
+    },
+    {
+      "date": "2024-02-08",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 34.9,
+      "net_r": 0.0554
+    },
+    {
+      "date": "2024-02-22",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 749.9,
+      "net_r": 1.0868
+    },
+    {
+      "date": "2024-03-01",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3069.9,
+      "net_r": 2.4559
+    },
+    {
+      "date": "2024-03-05",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1559.9,
+      "net_r": 0.9313
+    },
+    {
+      "date": "2024-03-07",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1239.9,
+      "net_r": 3.9362
+    },
+    {
+      "date": "2024-03-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 124.9,
+      "net_r": 0.1561
+    },
+    {
+      "date": "2024-03-19",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1609.9,
+      "net_r": 1.6512
+    },
+    {
+      "date": "2024-03-20",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2349.9,
+      "net_r": 1.5112
+    },
+    {
+      "date": "2024-03-22",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 629.9,
+      "net_r": 1.1665
+    },
+    {
+      "date": "2024-04-04",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 6519.9,
+      "net_r": 3.9877
+    },
+    {
+      "date": "2024-04-15",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 7639.9,
+      "net_r": 3.9895
+    },
+    {
+      "date": "2024-04-17",
+      "tags": [
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 3054.9,
+      "net_r": 2.5564
+    },
+    {
+      "date": "2024-04-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4239.9,
+      "net_r": 3.9811
+    },
+    {
+      "date": "2024-04-26",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 264.9,
+      "net_r": 0.2128
+    },
+    {
+      "date": "2024-04-30",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1964.9,
+      "net_r": 1.3367
+    },
+    {
+      "date": "2024-05-03",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 289.9,
+      "net_r": 0.4171
+    },
+    {
+      "date": "2024-05-14",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1264.9,
+      "net_r": 0.7333
+    },
+    {
+      "date": "2024-05-15",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2019.9,
+      "net_r": 3.9606
+    },
+    {
+      "date": "2024-05-21",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1139.9,
+      "net_r": 3.9307
+    },
+    {
+      "date": "2024-05-24",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1409.9,
+      "net_r": 1.7194
+    },
+    {
+      "date": "2024-05-29",
+      "tags": [
+        "immediate_continuation",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 179.9,
+      "net_r": 3.598
+    },
+    {
+      "date": "2024-06-03",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 3899.9,
+      "net_r": 3.9795
+    },
+    {
+      "date": "2024-06-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1899.9,
+      "net_r": 3.9581
+    },
+    {
+      "date": "2024-06-10",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 859.9,
+      "net_r": 3.9086
+    },
+    {
+      "date": "2024-06-14",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 844.9,
+      "net_r": 0.7787
+    },
+    {
+      "date": "2024-06-17",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 2099.9,
+      "net_r": 3.9621
+    },
+    {
+      "date": "2024-06-25",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1284.9,
+      "net_r": 0.9846
+    },
+    {
+      "date": "2024-07-02",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2489.9,
+      "net_r": 2.4899
+    },
+    {
+      "date": "2024-07-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2604.9,
+      "net_r": 2.7276
+    },
+    {
+      "date": "2024-07-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2049.9,
+      "net_r": 2.455
+    },
+    {
+      "date": "2024-07-17",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2099.9,
+      "net_r": 1.2244
+    },
+    {
+      "date": "2024-07-18",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 174.9,
+      "net_r": 0.0714
+    },
+    {
+      "date": "2024-07-19",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2139.9,
+      "net_r": 0.9976
+    },
+    {
+      "date": "2024-07-24",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1679.9,
+      "net_r": 3.9527
+    },
+    {
+      "date": "2024-08-01",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 6539.9,
+      "net_r": 3.9877
+    },
+    {
+      "date": "2024-08-09",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 24.9,
+      "net_r": 0.0184
+    },
+    {
+      "date": "2024-08-13",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 3819.9,
+      "net_r": 3.9791
+    },
+    {
+      "date": "2024-08-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2469.9,
+      "net_r": 3.0493
+    },
+    {
+      "date": "2024-08-16",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1004.9,
+      "net_r": 0.7499
+    },
+    {
+      "date": "2024-08-19",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 3759.9,
+      "net_r": 3.5639
+    },
+    {
+      "date": "2024-08-28",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1204.9,
+      "net_r": 0.6827
+    },
+    {
+      "date": "2024-09-03",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4819.9,
+      "net_r": 2.557
+    },
+    {
+      "date": "2024-09-06",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 0.9519
+    },
+    {
+      "date": "2024-09-13",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 374.9,
+      "net_r": 0.17
+    },
+    {
+      "date": "2024-09-16",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 14.9,
+      "net_r": 0.0211
+    },
+    {
+      "date": "2024-10-01",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1439.9,
+      "net_r": 3.9449
+    },
+    {
+      "date": "2024-10-07",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1089.9,
+      "net_r": 0.9276
+    },
+    {
+      "date": "2024-10-09",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 2999.9,
+      "net_r": 3.9734
+    },
+    {
+      "date": "2024-10-10",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 549.9,
+      "net_r": 0.6394
+    },
+    {
+      "date": "2024-10-11",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 494.9,
+      "net_r": 0.2214
+    },
+    {
+      "date": "2024-10-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 299.9,
+      "net_r": 0.6974
+    },
+    {
+      "date": "2024-10-29",
+      "tags": [
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2659.9,
+      "net_r": 3.97
+    },
+    {
+      "date": "2024-10-31",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2119.9,
+      "net_r": 1.1246
+    },
+    {
+      "date": "2024-11-06",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1279.9,
+      "net_r": 3.9382
+    },
+    {
+      "date": "2024-11-07",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2539.9,
+      "net_r": 3.9686
+    },
+    {
+      "date": "2024-11-14",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 84.9,
+      "net_r": 0.0609
+    },
+    {
+      "date": "2024-11-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2354.9,
+      "net_r": 1.764
+    },
+    {
+      "date": "2024-11-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 559.9,
+      "net_r": 0.4977
+    },
+    {
+      "date": "2024-12-04",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1939.9,
+      "net_r": 1.8301
+    },
+    {
+      "date": "2024-12-11",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 84.9,
+      "net_r": 0.1558
+    },
+    {
+      "date": "2024-12-16",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2309.9,
+      "net_r": 1.7499
+    },
+    {
+      "date": "2024-12-31",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2819.9,
+      "net_r": 3.357
+    },
+    {
+      "date": "2025-01-07",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4469.9,
+      "net_r": 1.7061
+    },
+    {
+      "date": "2025-01-14",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1139.9,
+      "net_r": 3.9307
+    },
+    {
+      "date": "2025-01-15",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 79.9,
+      "net_r": 3.196
+    },
+    {
+      "date": "2025-01-22",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1319.9,
+      "net_r": 3.94
+    },
+    {
+      "date": "2025-01-23",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1964.9,
+      "net_r": 3.195
+    },
+    {
+      "date": "2025-02-05",
+      "tags": [
+        "immediate_continuation",
+        "vwap_alignment"
+      ],
+      "net_pnl": 1699.9,
+      "net_r": 1.9427
+    },
+    {
+      "date": "2025-02-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 269.9,
+      "net_r": 0.2287
+    },
+    {
+      "date": "2025-02-12",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 459.9,
+      "net_r": 0.3538
+    },
+    {
+      "date": "2025-02-27",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 7599.9,
+      "net_r": 1.687
+    },
+    {
+      "date": "2025-03-06",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1059.9,
+      "net_r": 0.493
+    },
+    {
+      "date": "2025-03-10",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 5579.9,
+      "net_r": 3.9856
+    },
+    {
+      "date": "2025-03-12",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 234.9,
+      "net_r": 0.1284
+    },
+    {
+      "date": "2025-03-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 4784.9,
+      "net_r": 1.4814
+    },
+    {
+      "date": "2025-04-08",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 10359.9,
+      "net_r": 3.9923
+    },
+    {
+      "date": "2025-04-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 18204.9,
+      "net_r": 0.93
+    },
+    {
+      "date": "2025-04-10",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 7279.9,
+      "net_r": 3.989
+    },
+    {
+      "date": "2025-04-29",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1414.9,
+      "net_r": 0.6738
+    },
+    {
+      "date": "2025-04-30",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 5279.9,
+      "net_r": 3.9848
+    },
+    {
+      "date": "2025-05-06",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 254.9,
+      "net_r": 0.1573
+    },
+    {
+      "date": "2025-05-13",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1444.9,
+      "net_r": 0.821
+    },
+    {
+      "date": "2025-05-16",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 324.9,
+      "net_r": 0.6699
+    },
+    {
+      "date": "2025-05-19",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1734.9,
+      "net_r": 1.2006
+    },
+    {
+      "date": "2025-05-21",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1899.9,
+      "net_r": 3.9581
+    },
+    {
+      "date": "2025-05-27",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 2114.9,
+      "net_r": 1.8076
+    },
+    {
+      "date": "2025-06-02",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 954.9,
+      "net_r": 1.3641
+    },
+    {
+      "date": "2025-06-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 2.1553
+    },
+    {
+      "date": "2025-06-16",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 359.9,
+      "net_r": 0.2028
+    },
+    {
+      "date": "2025-06-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 1179.9,
+      "net_r": 1.4842
+    },
+    {
+      "date": "2025-06-30",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 744.9,
+      "net_r": 1.3794
+    },
+    {
+      "date": "2025-07-02",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 1804.9,
+      "net_r": 1.719
+    },
+    {
+      "date": "2025-07-03",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 84.9,
+      "net_r": 0.0726
+    },
+    {
+      "date": "2025-07-14",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment"
+      ],
+      "net_pnl": 789.9,
+      "net_r": 0.9936
+    },
+    {
+      "date": "2025-07-31",
+      "tags": [
+        "vwap_alignment"
+      ],
+      "net_pnl": 1064.9,
+      "net_r": 0.5035
+    },
+    {
+      "date": "2025-08-05",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "early_breakout"
+      ],
+      "net_pnl": 859.9,
+      "net_r": 0.4114
+    },
+    {
+      "date": "2025-08-06",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1759.9,
+      "net_r": 2.7075
+    },
+    {
+      "date": "2025-08-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2319.9,
+      "net_r": 2.2307
+    },
+    {
+      "date": "2025-08-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2639.9,
+      "net_r": 1.7483
+    },
+    {
+      "date": "2025-08-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 479.9,
+      "net_r": 0.6273
+    },
+    {
+      "date": "2025-08-29",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1604.9,
+      "net_r": 0.9876
+    },
+    {
+      "date": "2025-09-11",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 239.9,
+      "net_r": 0.2274
+    },
+    {
+      "date": "2025-09-15",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 584.9,
+      "net_r": 1.3293
+    },
+    {
+      "date": "2025-09-19",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1429.9,
+      "net_r": 2.0139
+    },
+    {
+      "date": "2025-09-22",
+      "tags": [
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 99.9,
+      "net_r": 3.33
+    },
+    {
+      "date": "2025-09-26",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 74.9,
+      "net_r": 0.1544
+    },
+    {
+      "date": "2025-10-01",
+      "tags": [
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 2689.9,
+      "net_r": 2.3089
+    },
+    {
+      "date": "2025-10-06",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 479.9,
+      "net_r": 3.8392
+    },
+    {
+      "date": "2025-10-10",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 10679.9,
+      "net_r": 3.9925
+    },
+    {
+      "date": "2025-10-16",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 964.9,
+      "net_r": 0.4037
+    },
+    {
+      "date": "2025-10-20",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2079.9,
+      "net_r": 3.9617
+    },
+    {
+      "date": "2025-10-27",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 1974.9,
+      "net_r": 2.1702
+    },
+    {
+      "date": "2025-10-28",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 1079.9,
+      "net_r": 1.2856
+    },
+    {
+      "date": "2025-11-12",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room",
+        "early_breakout"
+      ],
+      "net_pnl": 2019.9,
+      "net_r": 3.9606
+    },
+    {
+      "date": "2025-11-13",
+      "tags": [
+        "immediate_continuation",
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 3139.9,
+      "net_r": 3.9746
+    },
+    {
+      "date": "2025-11-17",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 224.9,
+      "net_r": 0.0724
+    },
+    {
+      "date": "2025-11-20",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "moderate_opening_range"
+      ],
+      "net_pnl": 12279.9,
+      "net_r": 3.9935
+    },
+    {
+      "date": "2025-11-24",
+      "tags": [
+        "overnight_alignment",
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 2229.9,
+      "net_r": 1.289
+    },
+    {
+      "date": "2025-11-25",
+      "tags": [
+        "vwap_alignment",
+        "moderate_opening_range",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 4234.9,
+      "net_r": 3.5587
+    },
+    {
+      "date": "2025-11-26",
+      "tags": [
+        "immediate_continuation",
+        "overnight_alignment",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 304.9,
+      "net_r": 0.5124
+    },
+    {
+      "date": "2025-12-01",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1074.9,
+      "net_r": 0.8143
+    },
+    {
+      "date": "2025-12-03",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 1164.9,
+      "net_r": 0.6099
+    },
+    {
+      "date": "2025-12-09",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment"
+      ],
+      "net_pnl": 294.9,
+      "net_r": 0.3056
+    },
+    {
+      "date": "2025-12-12",
+      "tags": [
+        "strong_relative_volume",
+        "overnight_alignment",
+        "vwap_alignment",
+        "early_breakout"
+      ],
+      "net_pnl": 4589.9,
+      "net_r": 1.8967
+    },
+    {
+      "date": "2025-12-24",
+      "tags": [
+        "strong_relative_volume",
+        "vwap_alignment",
+        "clear_key_level_room"
+      ],
+      "net_pnl": 519.9,
+      "net_r": 1.1426
+    }
+  ]
+}

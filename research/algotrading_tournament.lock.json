@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "locked_at_local": "2026-08-28",
+  "retrospective": true,
+  "results_generated": true,
+  "results_generated_at_local": "2026-08-28",
+  "specification_file": "research/algotrading_candidate_specifications_v1.json",
+  "specification_sha256": "a1dba6d922593d588e6f8d30f906f9d9b156e6ce542e1389761d9a31dadd05e4",
+  "output_sha256": {
+    "phase8/algotrading_tournament_results.json": "66f1516e3efbe280436585725cc3a801600f46e7451afa83b63cb81bf2838fbc",
+    "phase8/algotrading_trades.parquet": "8dfe2abaf5e4c535e80b46daff19e64b496c2f27be1d3a86a4abc88b38fad4dc",
+    "phase8/algotrading_tournament.csv": "24ea86555d3ebe189c4d8dd92f67510542dd253c850100d57d05de879e93eec8",
+    "phase8/ALGOTRADING_STRATEGY_TEST_REPORT.md": "7393e225dcddccceadb7b4660fb56b97539a67644b99382ccd9594d6e5c8f27a"
+  },
+  "protected_2026_market_data": "UNTOUCHED"
+}

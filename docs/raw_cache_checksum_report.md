@@ -1,0 +1,44 @@
+# Raw-cache before/after checksum audit
+
+Result: **PASS**. The allowed cached Databento and FRED inputs were byte-identical before and after Phase 5.
+
+The guard rejected any market partition at or beyond the protected boundary before file inspection. No protected market path was listed, opened, sampled, or hashed.
+
+| Allowed input | SHA-256 before | SHA-256 after | Match |
+|---|---|---|---|
+| `/Users/jauzza/Documents/ChatGPT/trading/data/manifest.json` | `85a21c308e604a3855d01c5a94ecae1c74ebc4451d7bb03a6209f75133279823` | `85a21c308e604a3855d01c5a94ecae1c74ebc4451d7bb03a6209f75133279823` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2019/bars.parquet` | `744fe3188f38864e5370ee93358b43f02b0a1211f1cfdcc0fd73756ade5b14f7` | `744fe3188f38864e5370ee93358b43f02b0a1211f1cfdcc0fd73756ade5b14f7` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2019/mapping.json` | `1a1d0d9810556b71c45a7ebf612f0435d0739f6d34fec0470b97e9ae603c0d98` | `1a1d0d9810556b71c45a7ebf612f0435d0739f6d34fec0470b97e9ae603c0d98` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2020/bars.parquet` | `c584e2ea31950e956984f908faf300ad72d27254babdae704c3b2cdea9feb6cb` | `c584e2ea31950e956984f908faf300ad72d27254babdae704c3b2cdea9feb6cb` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2020/mapping.json` | `9685f4846480076631c70dd686c4bc3da3a8c0f1b13f2644f96f6ddb652f9ff0` | `9685f4846480076631c70dd686c4bc3da3a8c0f1b13f2644f96f6ddb652f9ff0` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2021/bars.parquet` | `91c501e67e9bb7c2c6f9cf497dc717558d8a59832dafd8fcdebc47600fb2253c` | `91c501e67e9bb7c2c6f9cf497dc717558d8a59832dafd8fcdebc47600fb2253c` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2021/mapping.json` | `5928ecd057ff24d5128585ec9871f234bc953455aeecbbd3c530aa21e1d61f91` | `5928ecd057ff24d5128585ec9871f234bc953455aeecbbd3c530aa21e1d61f91` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2022/bars.parquet` | `2b33acd35ef213e284f3288d4bbb810387260d9012b27c298e24ee2467628d0f` | `2b33acd35ef213e284f3288d4bbb810387260d9012b27c298e24ee2467628d0f` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2022/mapping.json` | `5c158083e70a62a33354fe9dd3abb1fe85d0ec2494909c4e15fd5a7e385b9b6e` | `5c158083e70a62a33354fe9dd3abb1fe85d0ec2494909c4e15fd5a7e385b9b6e` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2023/bars.parquet` | `f4635cf78077660bec0ceef9cde9076783dd75de20a53692a537c15e005f0fc0` | `f4635cf78077660bec0ceef9cde9076783dd75de20a53692a537c15e005f0fc0` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2023/mapping.json` | `1c215f4a70c495a580ae99d81a888bdfb39dfd47a32d079c35769819607c91b3` | `1c215f4a70c495a580ae99d81a888bdfb39dfd47a32d079c35769819607c91b3` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2024/bars.parquet` | `d2908e927d69d82babdc3dfb86e37d0e908b69c8c7b6170bc8e61737435877ed` | `d2908e927d69d82babdc3dfb86e37d0e908b69c8c7b6170bc8e61737435877ed` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2024/mapping.json` | `2124f1faa5e2bb878acb384e93723e7b6460df5ca6ad258da0c016f264e9ca2c` | `2124f1faa5e2bb878acb384e93723e7b6460df5ca6ad258da0c016f264e9ca2c` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2025/bars.parquet` | `ab469fb19483f76448c363613119ba97a95f84c692367373923bc4c83c19f8bb` | `ab469fb19483f76448c363613119ba97a95f84c692367373923bc4c83c19f8bb` | yes |
+| `data/raw/a136a761bbf3d8a0/year=2025/mapping.json` | `cd3805f9643567a4ac48608d986d68eb9e2b429d3244b83c4c0e85f39a5dfb2f` | `cd3805f9643567a4ac48608d986d68eb9e2b429d3244b83c4c0e85f39a5dfb2f` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2016/bars.parquet` | `55e2f847b7700247b271ed3eef54aa86088ea5f830728c301ce1057a53364301` | `55e2f847b7700247b271ed3eef54aa86088ea5f830728c301ce1057a53364301` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2016/mapping.json` | `41e138baa74c339b22a357c5d62a69009d66e08afc852bef9473a27847d9f766` | `41e138baa74c339b22a357c5d62a69009d66e08afc852bef9473a27847d9f766` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2017/bars.parquet` | `117c687f85c5600282396cd648196454e5ea8a68d750b17b1603771e2a038fd1` | `117c687f85c5600282396cd648196454e5ea8a68d750b17b1603771e2a038fd1` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2017/mapping.json` | `fcd5914be5800bed4057213def8cada8e8e6834f3bdb63e9a4b7a228b4173418` | `fcd5914be5800bed4057213def8cada8e8e6834f3bdb63e9a4b7a228b4173418` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2018/bars.parquet` | `cb6bf63d3403c672c170634ce53a06feb9c41393c4590af1ce07bab18bd759f8` | `cb6bf63d3403c672c170634ce53a06feb9c41393c4590af1ce07bab18bd759f8` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2018/mapping.json` | `22ca8aed23cca3cce76955b6f5d7d588b0ba9f7209e3f7b26d4ca68b0e24bba4` | `22ca8aed23cca3cce76955b6f5d7d588b0ba9f7209e3f7b26d4ca68b0e24bba4` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2019/bars.parquet` | `a4709f883655d43724363e0bb2f77bf91bfbafdbe1553ce96755aa6b6a04a734` | `a4709f883655d43724363e0bb2f77bf91bfbafdbe1553ce96755aa6b6a04a734` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2019/mapping.json` | `30246c7ffa96eef7c66b2447c1a4f848223d71c4a33cc3cfee53b6f31c35231c` | `30246c7ffa96eef7c66b2447c1a4f848223d71c4a33cc3cfee53b6f31c35231c` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2020/bars.parquet` | `c8caf7e5abdc075013576e2435aff0872c9b2302ed199e3d37b4d0da56928366` | `c8caf7e5abdc075013576e2435aff0872c9b2302ed199e3d37b4d0da56928366` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2020/mapping.json` | `d284a4f308b0f1821779f4b4f34a457f99b575c4f1955c602d8108d3c4cc7c0b` | `d284a4f308b0f1821779f4b4f34a457f99b575c4f1955c602d8108d3c4cc7c0b` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2021/bars.parquet` | `786b8f2e27356a397995671a7d2f7edc8a55ce45d3af914e4cd134953567c8d5` | `786b8f2e27356a397995671a7d2f7edc8a55ce45d3af914e4cd134953567c8d5` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2021/mapping.json` | `49c866fe6f04a8622bd709bf2e0b9d474d8861fe2f7d611ea36fa6d888548554` | `49c866fe6f04a8622bd709bf2e0b9d474d8861fe2f7d611ea36fa6d888548554` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2022/bars.parquet` | `1d8db2586302608388aedd7431abcee102791ef2f260d7c025211fc17cacbdab` | `1d8db2586302608388aedd7431abcee102791ef2f260d7c025211fc17cacbdab` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2022/mapping.json` | `3a030d4b5c5e6c2b0c16e52e23db163d424d1980618e668c0d64535564668462` | `3a030d4b5c5e6c2b0c16e52e23db163d424d1980618e668c0d64535564668462` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2023/bars.parquet` | `e0cdd37f66de5735ec62750691bb8446f3d9180e74c1469218d5beb664ab0a7e` | `e0cdd37f66de5735ec62750691bb8446f3d9180e74c1469218d5beb664ab0a7e` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2023/mapping.json` | `70f960c65e75e0848d2200ee6fff0f307d4555ced05a014af78b063c735fc71a` | `70f960c65e75e0848d2200ee6fff0f307d4555ced05a014af78b063c735fc71a` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2024/bars.parquet` | `88a30afbe7d924e9b7001841d568cc282e2b2a2839dfad4c5bd2c76889d0d6a8` | `88a30afbe7d924e9b7001841d568cc282e2b2a2839dfad4c5bd2c76889d0d6a8` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2024/mapping.json` | `ccfeb0a47f6a81314e8e7735a596ec9de6afca710dfa3a18a235bb9912609288` | `ccfeb0a47f6a81314e8e7735a596ec9de6afca710dfa3a18a235bb9912609288` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2025/bars.parquet` | `5f9cb1a2c1acd0d7a5a854f723b730b22c15e271a0c90ef8f4f62697816e064f` | `5f9cb1a2c1acd0d7a5a854f723b730b22c15e271a0c90ef8f4f62697816e064f` | yes |
+| `data/raw/e0ae8898e1f56f76/year=2025/mapping.json` | `d5040cbccbf8c57f227d529bb62b0a95b04a316370280537ac8bbc7529d8ba33` | `d5040cbccbf8c57f227d529bb62b0a95b04a316370280537ac8bbc7529d8ba33` | yes |
+| `/Users/jauzza/Documents/ChatGPT/trading/data/fred/vixcls.json` | `fbae0623d38c5fb2470d92077de15656d9484514e296218fe8df0302f07579e5` | `fbae0623d38c5fb2470d92077de15656d9484514e296218fe8df0302f07579e5` | yes |

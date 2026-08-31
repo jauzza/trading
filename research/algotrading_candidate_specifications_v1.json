@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_ALGOTRADING_TOURNAMENT_RUN",
+  "frozen_at_local": "2026-08-28",
+  "evidence_boundary": {
+    "market_data": "2018-01-01 through 2025-12-31 preserved cache only",
+    "protected_market_boundary": "2026-01-01",
+    "holdout_status": "UNTOUCHED",
+    "warning": "All permitted years were previously inspected. This is retrospective historical evaluation, not a clean holdout."
+  },
+  "common_execution": {
+    "instruments": ["NQ", "MNQ"],
+    "bar_source": "preserved Databento GLBX.MDP3 continuous one-minute OHLCV",
+    "daily_session": "09:30-15:59 America/New_York RTH aggregated from completed one-minute bars",
+    "hourly_session": "RTH 60-minute bars anchored at 09:30 America/New_York; incomplete final 30-minute candle may be used only as the next entry open, never as a completed signal bar",
+    "entry_timing": "next executable RTH open after a completed close-based signal unless the source explicitly specifies a next-day stop order",
+    "fixed_contracts": 1,
+    "starting_balance": 100000,
+    "slippage_ticks_per_side": 1,
+    "spread_ticks_round_trip": 1,
+    "fees": "existing instrument-specific NQ/MNQ research presets",
+    "ambiguous_intrabar_order": "adverse first",
+    "gap_stop": "fill at worse of stop or bar open",
+    "roll_policy": "force exit at the last RTH close before a continuous-contract instrument mapping change; no synthetic roll-gap profit",
+    "overlap_policy": "one open position per candidate/instrument; ignore new entries until flat",
+    "indicator_warmup": "completed observations only",
+    "periods": {
+      "discovery": [2018, 2019, 2020, 2021],
+      "validation": [2022, 2023],
+      "historical_evaluation": [2024, 2025]
+    },
+    "inference": "session-aligned stationary bootstrap, 50,000 resamples, expected block lengths 5/10/20 sessions, BH and BY corrections across all causal candidate variants"
+  },
+  "candidates": [
+    {
+      "candidate_id": "ALG01_REVERSAL",
+      "source_id": "src_post_1f8v70e",
+      "source_vintage": "2024-09-04T14:47:18Z",
+      "source_rule": "After a completed daily candle has a lower high and lower low than the previous candle, place a next-session buy stop at the signal candle high. If triggered, exit that session at the RTH close.",
+      "adaptation": "NQ/MNQ RTH daily candles; a gap above the stop fills at the next RTH open; order expires after one session.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG01_DOWN_REVERSAL",
+      "source_id": "src_post_1f8v70e",
+      "source_vintage": "2024-09-04T14:47:18Z",
+      "source_rule": "ALG01 reversal plus the signal candle must close below its open.",
+      "adaptation": "Same as ALG01_REVERSAL.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG01_MOMENTUM",
+      "source_id": "src_post_1f8v70e",
+      "source_vintage": "2024-09-04T14:47:18Z",
+      "source_rule": "After a completed daily candle has a higher high and higher low than the previous candle, place a next-session buy stop at the signal candle high and exit that session at the RTH close.",
+      "adaptation": "Same fill and expiry handling as ALG01_REVERSAL.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG02_IBS_RANGE",
+      "source_id": "src_post_1rjvxjy",
+      "source_vintage": "2026-03-03T17:43:27Z",
+      "source_rule": "Long when close < rolling 10-bar highest high - 2.5 * (25-bar mean high - 25-bar mean low) and IBS=(close-low)/(high-low) < 0.3. Exit after a completed close > the prior day's high.",
+      "adaptation": "Source does not state executable fill timing; enter and exit at the next RTH open after each completed close signal.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG03_ADX_DI_INITIAL",
+      "source_id": "src_post_1irhrcw",
+      "source_vintage": "2025-02-17T11:27:13Z",
+      "source_rule": "On hourly bars, ADX > 25 and +DI crosses above -DI; enter long at the next hourly candle open; stop 1 ATR and target 2R.",
+      "adaptation": "Wilder ADX/DMI/ATR period 14 because the source does not state a period; carry until stop/target or roll exit.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG03_ADX_TUNED",
+      "source_id": "src_post_1irhrcw",
+      "source_vintage": "2025-02-17T11:27:13Z",
+      "source_rule": "When hourly ADX crosses above 25, enter long at the next hourly candle open; stop 1.5 ATR and target 3.5R.",
+      "adaptation": "Wilder period 14; the source explicitly selected these values after optimization, so they are tested unchanged and counted in the multiple-testing family.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG03_ADX_TUNED_EMA200",
+      "source_id": "src_post_1irhrcw",
+      "source_vintage": "2025-02-17T11:27:13Z",
+      "source_rule": "ALG03_ADX_TUNED plus completed hourly close above EMA200.",
+      "adaptation": "EMA200 is calculated from completed hourly RTH bars.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG04_RSI2_LONG",
+      "source_id": "src_post_1fm5lfj",
+      "source_vintage": "2024-09-21T15:30:03Z",
+      "source_rule": "Completed daily close above SMA200 and Wilder RSI(2) below 5; enter long next RTH open; after a completed close above SMA5, exit next RTH open.",
+      "adaptation": "The source itself replaces its same-close entry with next-day open. Exit is also delayed to next open to preserve causality.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG04_RSI2_LONG_SHORT",
+      "source_id": "src_post_1fm5lfj",
+      "source_vintage": "2024-09-21T15:30:03Z",
+      "source_rule": "Combine ALG04 long with reversed short: close below SMA200 and RSI(2) above 95; cover after completed close below SMA5.",
+      "adaptation": "One position at a time; next-open causal fills.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG04_RSI2_ONE_DAY",
+      "source_id": "src_post_1fm5lfj",
+      "source_vintage": "2024-09-21T15:30:03Z",
+      "source_rule": "Source variation: use the ALG04 long entry and exit at that entry session's close (the reported best fixed hold was zero days).",
+      "adaptation": "Next-open entry after the signal, scheduled RTH-close exit.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG05_BB_BASIC_MID",
+      "source_id": "src_post_1qdqnyl",
+      "source_vintage": "2026-01-15T17:58:02Z",
+      "source_rule": "Buy after a daily close below the lower Bollinger band; exit after close above the middle band.",
+      "adaptation": "Standard Bollinger 20-period SMA with 2 population standard deviations; next-open causal fills because the source omits fill timing.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG05_BB_TREND_MID",
+      "source_id": "src_post_1qdqnyl",
+      "source_vintage": "2026-01-15T17:58:02Z",
+      "source_rule": "ALG05 basic entry plus close above SMA200; exit after close above the Bollinger middle band.",
+      "adaptation": "Same Bollinger and causal fill conventions as ALG05_BB_BASIC_MID.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG05_BB_TREND_UPPER",
+      "source_id": "src_post_1qdqnyl",
+      "source_vintage": "2026-01-15T17:58:02Z",
+      "source_rule": "Close below lower Bollinger band while above SMA200; exit after close above upper Bollinger band.",
+      "adaptation": "Same Bollinger and causal fill conventions; no stop, matching the source.",
+      "selection_eligible": true
+    },
+    {
+      "candidate_id": "ALG09_BUY_DIP_20",
+      "source_id": "src_post_1f0689m",
+      "source_vintage": "2024-08-24T14:12:48Z",
+      "source_rule": "If 100*(close-low)/(high-low) < 20 after a completed daily bar, buy at that close and sell at the next daily close.",
+      "adaptation": "Primary valid lane enters at the next RTH open and exits that same session's close. A separately labeled noncausal source-literal diagnostic may use the signal close but is never promotion eligible.",
+      "selection_eligible": true
+    }
+  ],
+  "non_reproducible_leads": [
+    {"lead_id": "SL06", "reason": "Feature-labeling tutorial, not a complete entry/exit strategy."},
+    {"lead_id": "SL07", "reason": "Requires individual calendar-spread legs and OU calibration inputs not present in the NQ/MNQ continuous cache."},
+    {"lead_id": "SL08", "reason": "Requires a point-in-time ETF constituent universe and cross-sectional portfolio data."},
+    {"lead_id": "SL10", "reason": "Walk-forward methodology post does not provide a complete strategy rule."},
+    {"lead_id": "SL11", "reason": "Oscillator names, thresholds, filters, stop, and reversal-exit definitions are absent."}
+  ]
+}

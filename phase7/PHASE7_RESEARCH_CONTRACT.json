@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "contract_id": "6efe00b70615ce38b7d9",
+  "created_at": "2026-08-27T01:20:34.880163+02:00",
+  "data_boundary": "market observations <= 2025-12-31",
+  "protected_dates": {
+    "start": "2026-01-01",
+    "status": "UNTOUCHED"
+  },
+  "development_period": "2018-2021",
+  "validation_period": "2022-2023",
+  "historical_evaluation_period": "2024-2025 (not clean holdout)",
+  "frozen_candidates": [
+    "C01-v1-causal-timing-correction"
+  ],
+  "invalid_results": [
+    "Phase5 C01: INVALID_LOOKAHEAD_HISTORICAL_RESULT"
+  ],
+  "cost_assumptions": {
+    "point_value": 20,
+    "round_trip_fees": 5.1,
+    "slippage_ticks_per_side": 1,
+    "spread_ticks_round_trip": 1,
+    "tick_size": 0.25
+  },
+  "execution_assumptions": {
+    "opening_range": "09:30-09:44 America/New_York",
+    "signal": "first qualifying completed 15-minute close outside range with volume above preceding completed 15-minute bar and close agreeing with EMA200",
+    "entry": "next one-minute open after completed signal bar",
+    "stop": "opposite signal-bar extreme",
+    "target": "4R",
+    "fallback_exit": "close of 15:55 minute",
+    "max_trades": 1,
+    "same_bar": "adverse-first",
+    "gap_stop": "gap-through open"
+  },
+  "bootstrap_settings": {
+    "method": "Politis-Romano stationary",
+    "samples": 50000,
+    "block_lengths_sessions": [
+      5,
+      10,
+      20,
+      60
+    ],
+    "primary_block": 10
+  },
+  "multiple_testing": [
+    "BH",
+    "BY",
+    "White reality check",
+    "Hansen SPA",
+    "Deflated Sharpe",
+    "CSCV/PBO"
+  ],
+  "research_budget": {
+    "maximum": 150,
+    "may_expand": false
+  },
+  "promotion_gates": [
+    "causal",
+    "objective",
+    "chronological",
+    "realistic costs",
+    "year stable",
+    "tail audited",
+    "multiple testing",
+    "execution practical"
+  ],
+  "rejection_gates": [
+    "leakage",
+    "tiny subgroup",
+    "single-year dependence",
+    "cost collapse",
+    "best-1pct dependence",
+    "placebo-equivalent",
+    "test-period selection"
+  ],
+  "experiment_naming": "P7-{FAMILY}-{NNN}",
+  "random_seeds": [
+    2701
+  ],
+  "software_version": {
+    "commit": null,
+    "python": "3.14.7",
+    "platform": "macOS-26.5.1-arm64-arm-64bit-Mach-O",
+    "phase7_module_sha256": "d51410ed96b0d7b8ec1a8c8cf374e45fbfac22eaa31e233320c24b66fe77e81f"
+  },
+  "data_hashes": {
+    "/Users/jauzza/Documents/ChatGPT/trading/data/manifest.json": "85a21c308e604a3855d01c5a94ecae1c74ebc4451d7bb03a6209f75133279823",
+    "data/raw/a136a761bbf3d8a0/year=2019/bars.parquet": "744fe3188f38864e5370ee93358b43f02b0a1211f1cfdcc0fd73756ade5b14f7",
+    "data/raw/a136a761bbf3d8a0/year=2019/mapping.json": "1a1d0d9810556b71c45a7ebf612f0435d0739f6d34fec0470b97e9ae603c0d98",
+    "data/raw/a136a761bbf3d8a0/year=2020/bars.parquet": "c584e2ea31950e956984f908faf300ad72d27254babdae704c3b2cdea9feb6cb",
+    "data/raw/a136a761bbf3d8a0/year=2020/mapping.json": "9685f4846480076631c70dd686c4bc3da3a8c0f1b13f2644f96f6ddb652f9ff0",
+    "data/raw/a136a761bbf3d8a0/year=2021/bars.parquet": "91c501e67e9bb7c2c6f9cf497dc717558d8a59832dafd8fcdebc47600fb2253c",
+    "data/raw/a136a761bbf3d8a0/year=2021/mapping.json": "5928ecd057ff24d5128585ec9871f234bc953455aeecbbd3c530aa21e1d61f91",
+    "data/raw/a136a761bbf3d8a0/year=2022/bars.parquet": "2b33acd35ef213e284f3288d4bbb810387260d9012b27c298e24ee2467628d0f",
+    "data/raw/a136a761bbf3d8a0/year=2022/mapping.json": "5c158083e70a62a33354fe9dd3abb1fe85d0ec2494909c4e15fd5a7e385b9b6e",
+    "data/raw/a136a761bbf3d8a0/year=2023/bars.parquet": "f4635cf78077660bec0ceef9cde9076783dd75de20a53692a537c15e005f0fc0",
+    "data/raw/a136a761bbf3d8a0/year=2023/mapping.json": "1c215f4a70c495a580ae99d81a888bdfb39dfd47a32d079c35769819607c91b3",
+    "data/raw/a136a761bbf3d8a0/year=2024/bars.parquet": "d2908e927d69d82babdc3dfb86e37d0e908b69c8c7b6170bc8e61737435877ed",
+    "data/raw/a136a761bbf3d8a0/year=2024/mapping.json": "2124f1faa5e2bb878acb384e93723e7b6460df5ca6ad258da0c016f264e9ca2c",
+    "data/raw/a136a761bbf3d8a0/year=2025/bars.parquet": "ab469fb19483f76448c363613119ba97a95f84c692367373923bc4c83c19f8bb",
+    "data/raw/a136a761bbf3d8a0/year=2025/mapping.json": "cd3805f9643567a4ac48608d986d68eb9e2b429d3244b83c4c0e85f39a5dfb2f",
+    "data/raw/e0ae8898e1f56f76/year=2016/bars.parquet": "55e2f847b7700247b271ed3eef54aa86088ea5f830728c301ce1057a53364301",
+    "data/raw/e0ae8898e1f56f76/year=2016/mapping.json": "41e138baa74c339b22a357c5d62a69009d66e08afc852bef9473a27847d9f766",
+    "data/raw/e0ae8898e1f56f76/year=2017/bars.parquet": "117c687f85c5600282396cd648196454e5ea8a68d750b17b1603771e2a038fd1",
+    "data/raw/e0ae8898e1f56f76/year=2017/mapping.json": "fcd5914be5800bed4057213def8cada8e8e6834f3bdb63e9a4b7a228b4173418",
+    "data/raw/e0ae8898e1f56f76/year=2018/bars.parquet": "cb6bf63d3403c672c170634ce53a06feb9c41393c4590af1ce07bab18bd759f8",
+    "data/raw/e0ae8898e1f56f76/year=2018/mapping.json": "22ca8aed23cca3cce76955b6f5d7d588b0ba9f7209e3f7b26d4ca68b0e24bba4",
+    "data/raw/e0ae8898e1f56f76/year=2019/bars.parquet": "a4709f883655d43724363e0bb2f77bf91bfbafdbe1553ce96755aa6b6a04a734",
+    "data/raw/e0ae8898e1f56f76/year=2019/mapping.json": "30246c7ffa96eef7c66b2447c1a4f848223d71c4a33cc3cfee53b6f31c35231c",
+    "data/raw/e0ae8898e1f56f76/year=2020/bars.parquet": "c8caf7e5abdc075013576e2435aff0872c9b2302ed199e3d37b4d0da56928366",
+    "data/raw/e0ae8898e1f56f76/year=2020/mapping.json": "d284a4f308b0f1821779f4b4f34a457f99b575c4f1955c602d8108d3c4cc7c0b",
+    "data/raw/e0ae8898e1f56f76/year=2021/bars.parquet": "786b8f2e27356a397995671a7d2f7edc8a55ce45d3af914e4cd134953567c8d5",
+    "data/raw/e0ae8898e1f56f76/year=2021/mapping.json": "49c866fe6f04a8622bd709bf2e0b9d474d8861fe2f7d611ea36fa6d888548554",
+    "data/raw/e0ae8898e1f56f76/year=2022/bars.parquet": "1d8db2586302608388aedd7431abcee102791ef2f260d7c025211fc17cacbdab",
+    "data/raw/e0ae8898e1f56f76/year=2022/mapping.json": "3a030d4b5c5e6c2b0c16e52e23db163d424d1980618e668c0d64535564668462",
+    "data/raw/e0ae8898e1f56f76/year=2023/bars.parquet": "e0cdd37f66de5735ec62750691bb8446f3d9180e74c1469218d5beb664ab0a7e",
+    "data/raw/e0ae8898e1f56f76/year=2023/mapping.json": "70f960c65e75e0848d2200ee6fff0f307d4555ced05a014af78b063c735fc71a",
+    "data/raw/e0ae8898e1f56f76/year=2024/bars.parquet": "88a30afbe7d924e9b7001841d568cc282e2b2a2839dfad4c5bd2c76889d0d6a8",
+    "data/raw/e0ae8898e1f56f76/year=2024/mapping.json": "ccfeb0a47f6a81314e8e7735a596ec9de6afca710dfa3a18a235bb9912609288",
+    "data/raw/e0ae8898e1f56f76/year=2025/bars.parquet": "5f9cb1a2c1acd0d7a5a854f723b730b22c15e271a0c90ef8f4f62697816e064f",
+    "data/raw/e0ae8898e1f56f76/year=2025/mapping.json": "d5040cbccbf8c57f227d529bb62b0a95b04a316370280537ac8bbc7529d8ba33",
+    "/Users/jauzza/Documents/ChatGPT/trading/data/fred/vixcls.json": "fbae0623d38c5fb2470d92077de15656d9484514e296218fe8df0302f07579e5"
+  },
+  "phase6_artifact_hashes": {
+    "c01_v1_frozen_baseline.json": "0dbb0a8013048cbe62f000c9fe559f73b648babbdc77e144301323d6c1576162",
+    "phase6_c01_trades.parquet": "aecf328bf34a8276d07fe3dada9331b1bd7ab3d702432868a64aa09d313f6681",
+    "c01_session_dataset.parquet": "ad6f4fba9cff7e064e228d93467af8806ef7d2ea6a7e79fa62885de9b747ac57",
+    "c01_path_dataset.parquet": "e3d38b3c72fea90d56c81a5b280789ac467c98fb97040ea5f7f75a150d9390fe"
+  },
+  "code_version_commit": null,
+  "feature_metadata_artifact": "phase7/feature_metadata.json"
+}

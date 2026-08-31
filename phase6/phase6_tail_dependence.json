@@ -1,0 +1,86 @@
+{
+  "C01_CAUSAL": {
+    "net_after_best_1pct": -33782.5,
+    "median_session": 0.0
+  },
+  "C01_LONG_ONLY": {
+    "net_after_best_1pct": 7918.4,
+    "median_session": 0.0
+  },
+  "C01_SHORT_ONLY": {
+    "net_after_best_1pct": -118563.9,
+    "median_session": 0.0
+  },
+  "C02": {
+    "net_after_best_1pct": -118492.0,
+    "median_session": -175.1
+  },
+  "C04": {
+    "net_after_best_1pct": -81341.5,
+    "median_session": -365.1
+  },
+  "C05": {
+    "net_after_best_1pct": -154008.9,
+    "median_session": -427.6
+  },
+  "C08": {
+    "net_after_best_1pct": -164842.6,
+    "median_session": 0.0
+  },
+  "C09": {
+    "net_after_best_1pct": -144753.7,
+    "median_session": 0.0
+  },
+  "C10": {
+    "net_after_best_1pct": -99684.8,
+    "median_session": -350.1
+  },
+  "C11": {
+    "net_after_best_1pct": -49609.8,
+    "median_session": -317.6
+  },
+  "C14": {
+    "net_after_best_1pct": -77435.1,
+    "median_session": 0.0
+  },
+  "C15": {
+    "net_after_best_1pct": -170505.6,
+    "median_session": 0.0
+  },
+  "C16": {
+    "net_after_best_1pct": -92945.6,
+    "median_session": -275.1
+  },
+  "C17": {
+    "net_after_best_1pct": 10820.2,
+    "median_session": -425.1
+  },
+  "BASE_CANDLE": {
+    "net_after_best_1pct": -29048.9,
+    "median_session": -420.1
+  },
+  "BASE_EMA": {
+    "net_after_best_1pct": -13094.6,
+    "median_session": -385.1
+  },
+  "BASE_LONG": {
+    "net_after_best_1pct": -106184.1,
+    "median_session": -205.1
+  },
+  "BASE_SHORT": {
+    "net_after_best_1pct": -78008.7,
+    "median_session": -200.1
+  },
+  "BASE_RANDOM": {
+    "net_after_best_1pct": -99699.2,
+    "median_session": -220.1
+  },
+  "P6_RETEST": {
+    "net_after_best_1pct": -37500.9,
+    "median_session": 0.0
+  },
+  "P6_FAILURE_REVERSAL": {
+    "net_after_best_1pct": -95365.8,
+    "median_session": 0.0
+  }
+}

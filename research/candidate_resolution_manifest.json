@@ -1,0 +1,542 @@
+{
+  "schema_version": 1,
+  "frozen_before_results": true,
+  "frozen_date": "2026-08-25",
+  "source_package_sha256s_file": "e3fa9005602adf304aa5371fde060f7b840207677f6c7681c3ac6fd4582e9d22",
+  "provenance_warning": "Reddit text spans 2021-2026. Earlier market backtests are retrospective idea evaluations, not ex-ante evidence. Family counts are not exact-rule endorsements.",
+  "hash_definition": "sha256 of canonical JSON for the specification object only (sorted keys, compact separators)",
+  "candidates": [
+    {
+      "candidate_id": "C01",
+      "source_family": "opening_range_breakout",
+      "source_vintage": {
+        "first": "2021-01-01T04:50:37Z",
+        "last": "2026-08-25T13:12:25Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Objective close, EMA, volume, entry and stop; matched overlays resolve missing exit without claiming a native rule.",
+      "required_data_tier": 1,
+      "overlap_group": "opening_momentum_range",
+      "unresolved_core": [
+        "native target",
+        "native terminal exit"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": "first one-minute open after a completed 15-minute close beyond the 09:30-09:44 range",
+        "feature_cutoff": "qualifying close",
+        "indicator_formula": "200-period EMA of completed 15-minute RTH closes; breakout 15-minute volume > preceding completed 15-minute volume",
+        "warmup": "200 completed 15-minute RTH bars",
+        "stop": "opposite extreme of qualifying breakout 15-minute bar",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "1cd8ab1a8d7512861a2814c10a805b02127bd7a3bf73c8ac058c49f296e99c1a"
+    },
+    {
+      "candidate_id": "C02",
+      "source_family": "opening_range_breakout",
+      "source_vintage": {
+        "first": "2021-01-01T04:50:37Z",
+        "last": "2026-08-25T13:12:25Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Exact 5-minute opening range and completed-bar retest can be made objective.",
+      "required_data_tier": 1,
+      "overlap_group": "opening_momentum_range",
+      "unresolved_core": [
+        "native target",
+        "native terminal exit"
+      ],
+      "unresolved_non_core": [
+        "retest tolerance"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after a completed 5-minute retest/rejection close",
+        "feature_cutoff": "retest close",
+        "indicator_formula": "09:30-09:34 high/low; breakout is completed 5-minute close outside; retest touches edge and closes on breakout side",
+        "warmup": "opening five-minute bar",
+        "stop": "retest bar opposite extreme",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "58f03cdd344bfbf2d0131d2d4a29f00d4b24d1f20da532364286a4b6cc3dec9b"
+    },
+    {
+      "candidate_id": "C03",
+      "source_family": "keltner_strategy",
+      "source_vintage": {
+        "first": "2021-01-10T01:25:44Z",
+        "last": "2026-08-16T22:08:17Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Indicators and entry/stop/target are explicit; local completeness downgraded to B because terminal time was missing.",
+      "required_data_tier": 1,
+      "overlap_group": "trend_pullback_channel",
+      "source_completeness": "A",
+      "derived_completeness": "B",
+      "unresolved_core": [
+        "native terminal exit"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed conditions",
+        "feature_cutoff": "prior completed bars",
+        "indicator_formula": "20 EMA Keltner middle; ATR14; inner 1.75 ATR; outer 2.15 ATR; stochastic 10,3,3; 80-bar five-minute momentum",
+        "warmup": "200 one-minute bars and 80 five-minute bars",
+        "stop": "outer 1.75 ATR band as frozen source normalization",
+        "target": "matched overlay; source-native opposite 2.15 ATR reading only in native lane",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "6c889cb9f73b3055321f622c9a19d896443f222fe42608377b779a90d3533bce"
+    },
+    {
+      "candidate_id": "C04",
+      "source_family": "bollinger_reversion",
+      "source_vintage": {
+        "first": "2021-01-01T20:01:21Z",
+        "last": "2026-08-25T18:17:00Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Objective 5-minute version; local completeness downgraded to B because terminal time was missing.",
+      "required_data_tier": 1,
+      "overlap_group": "trend_pullback_channel",
+      "source_completeness": "A",
+      "derived_completeness": "B",
+      "unresolved_core": [
+        "native terminal exit"
+      ],
+      "unresolved_non_core": [
+        "5 versus 15 minute"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed 5-minute signal",
+        "feature_cutoff": "signal close",
+        "indicator_formula": "20-SMA bands at 2 population SD; close outside band; 200-EMA one-bar slope agrees; bandwidth exceeds prior completed bar",
+        "warmup": "200 completed five-minute bars",
+        "stop": "lower of signal/prior low for long; higher of signal/prior high for short",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "52af40360a0ded86325a2129c4584d980a4537d415f70e671ddd57841ffe058c"
+    },
+    {
+      "candidate_id": "C05",
+      "source_family": "ema_pullback",
+      "source_vintage": {
+        "first": "2021-01-04T19:31:50Z",
+        "last": "2026-08-25T08:20:43Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Uses only explicitly confirmed 2-left/2-right pivots and rising/falling 9/20 EMA; no look-ahead pivot.",
+      "required_data_tier": 1,
+      "overlap_group": "trend_pullback_channel",
+      "unresolved_core": [
+        "native target"
+      ],
+      "unresolved_non_core": [
+        "MA alternatives"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed five-minute confirmation",
+        "feature_cutoff": "confirmation close",
+        "indicator_formula": "five-minute EMA9 and EMA20 both rising/falling; most recent 2-left/2-right pivot available only after two right bars; confirmation exceeds prior completed bar",
+        "warmup": "20 completed five-minute bars",
+        "stop": "confirmed pullback pivot",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "e94fe4909d6fe0f15ec5b5309392a2d610d03463dd9d08a47e5a7765569346f4"
+    },
+    {
+      "candidate_id": "C06",
+      "source_family": "moving_average_trend",
+      "source_vintage": {
+        "first": "2021-01-05T20:05:59Z",
+        "last": "2026-08-25T08:20:43Z"
+      },
+      "decision": "defer_subjective",
+      "reason": "Divergence window and scanner behavior are core and not reconstructable objectively without inventing the rule.",
+      "required_data_tier": 1,
+      "overlap_group": "vwap",
+      "unresolved_core": [
+        "divergence window",
+        "private scanner behavior"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": null,
+        "feature_cutoff": null,
+        "indicator_formula": "9 EMA/VWAP/MACD concept only",
+        "warmup": null,
+        "stop": null,
+        "target": null,
+        "time_exit": null,
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "709bcb476773089c484238785b54e964d8f5ea0061efbd9ed196a136e74a5d46"
+    },
+    {
+      "candidate_id": "C07",
+      "source_family": "atr_stop_breakout",
+      "source_vintage": {
+        "first": "2021-01-06T16:49:59Z",
+        "last": "2026-08-22T22:43:14Z"
+      },
+      "decision": "defer_subjective",
+      "reason": "ATR period, multi-horizon aggregation, and overlapping-position policy are core unknowns.",
+      "required_data_tier": 1,
+      "overlap_group": "trend_pullback_channel",
+      "unresolved_core": [
+        "ATR period",
+        "aggregation",
+        "overlap policy"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": null,
+        "feature_cutoff": null,
+        "indicator_formula": "standardized-return concept only",
+        "warmup": null,
+        "stop": null,
+        "target": null,
+        "time_exit": null,
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "1e97f61c9d35df725d0101cab598803ac6ba8cdbd3e5e687e2bc3b8dfe008f2f"
+    },
+    {
+      "candidate_id": "C08",
+      "source_family": "liquidity_sweep",
+      "source_vintage": {
+        "first": "2021-01-16T06:24:17Z",
+        "last": "2026-08-25T11:45:02Z"
+      },
+      "decision": "implement_primary",
+      "reason": "OHLC-only prior-day sweep/re-entry with a frozen 50% retracement; no delta proxy.",
+      "required_data_tier": 1,
+      "overlap_group": "objective_levels",
+      "unresolved_core": [
+        "source target hierarchy"
+      ],
+      "unresolved_non_core": [
+        "50 versus 61.8 percent retrace"
+      ],
+      "specification": {
+        "entry_timestamp": "first executable one-minute open after a completed five-minute bar reaches 50% retrace following sweep/re-entry",
+        "feature_cutoff": "completed retracement bar",
+        "indicator_formula": "prior RTH high/low; five-minute extreme crosses level then closes back inside",
+        "warmup": "one completed prior RTH session",
+        "stop": "sweep extreme",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "afef6ed2a25481ec4b37ed9162b42193ec493fb8362f2b6dc2b6cfd005898244"
+    },
+    {
+      "candidate_id": "C09",
+      "source_family": "previous_day_levels",
+      "source_vintage": {
+        "first": "2021-01-09T02:13:52Z",
+        "last": "2026-08-23T22:33:49Z"
+      },
+      "decision": "implement_primary",
+      "reason": "PDH/PDL and completed-bar retest are mechanical; exact touch tolerance is one tick.",
+      "required_data_tier": 1,
+      "overlap_group": "objective_levels",
+      "unresolved_core": [
+        "native target hierarchy"
+      ],
+      "unresolved_non_core": [
+        "retest tolerance"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed five-minute retest close",
+        "feature_cutoff": "retest close",
+        "indicator_formula": "completed five-minute close beyond prior RTH high/low; later bar touches within one tick and closes on breakout side",
+        "warmup": "one completed prior RTH session",
+        "stop": "retest bar opposite extreme",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "fa6a7fb23b899782a3138b88eacc6200a1f69f61cb1da8395ee6adfe38bb80da"
+    },
+    {
+      "candidate_id": "C10",
+      "source_family": "overnight_breakout",
+      "source_vintage": {
+        "first": "2021-04-09T13:08:47Z",
+        "last": "2026-08-22T11:51:37Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Overnight range and completed five-minute close are objective; breakout-bar stop frozen before results.",
+      "required_data_tier": 1,
+      "overlap_group": "objective_levels",
+      "unresolved_core": [
+        "native target"
+      ],
+      "unresolved_non_core": [
+        "stop alternative"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after first completed RTH five-minute close outside overnight range",
+        "feature_cutoff": "breakout close",
+        "indicator_formula": "overnight is previous 18:00 through 09:29:59 ET",
+        "warmup": "complete overnight session",
+        "stop": "opposite extreme of breakout five-minute bar",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "fc6d5a2828b88b6dbce91b9fe51364cf58252288d110dd7b82c2e5e778f38cc9"
+    },
+    {
+      "candidate_id": "C11",
+      "source_family": "vwap_trend",
+      "source_vintage": {
+        "first": "2021-01-07T17:35:05Z",
+        "last": "2026-08-22T22:35:13Z"
+      },
+      "decision": "implement_primary",
+      "reason": "RTH VWAP reclaim/retest is objective; futures-session anchor is one preregistered sensitivity.",
+      "required_data_tier": 1,
+      "overlap_group": "vwap",
+      "unresolved_core": [
+        "native target"
+      ],
+      "unresolved_non_core": [
+        "VWAP anchor"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed five-minute retest close",
+        "feature_cutoff": "retest close",
+        "indicator_formula": "RTH cumulative typical-price times volume divided by cumulative volume; close crosses VWAP, later bar touches and closes in reclaim direction",
+        "warmup": "RTH bars from 09:30",
+        "stop": "retest five-minute bar opposite extreme",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "36d7990e2e08cd290c87b33171ce7e676c68a87e6f051411e1b96eff233eb852"
+    },
+    {
+      "candidate_id": "C12",
+      "source_family": "vwap_mean_reversion",
+      "source_vintage": {
+        "first": "2021-01-22T00:36:41Z",
+        "last": "2026-08-21T00:48:46Z"
+      },
+      "decision": "defer_subjective",
+      "reason": "Band construction and non-trending regime are both core and inconsistent across sources.",
+      "required_data_tier": 1,
+      "overlap_group": "vwap",
+      "unresolved_core": [
+        "band construction",
+        "non-trend definition"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": null,
+        "feature_cutoff": null,
+        "indicator_formula": "VWAP mean-reversion concept only",
+        "warmup": null,
+        "stop": null,
+        "target": null,
+        "time_exit": null,
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "5ce0cb9b62d08948d1a319c53e3d370e220abf022e3d966138b01246c821d439"
+    },
+    {
+      "candidate_id": "C13",
+      "source_family": "relative_volume_breakout",
+      "source_vintage": {
+        "first": "2021-01-01T19:36:31Z",
+        "last": "2026-08-25T17:41:52Z"
+      },
+      "decision": "defer_subjective",
+      "reason": "Consolidation shape and relative-volume threshold cannot be sourced without visual discretion or a new strategy invention.",
+      "required_data_tier": 1,
+      "overlap_group": "consolidation_relative_volume",
+      "unresolved_core": [
+        "consolidation algorithm",
+        "RVOL threshold"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": null,
+        "feature_cutoff": null,
+        "indicator_formula": "concept only",
+        "warmup": null,
+        "stop": null,
+        "target": null,
+        "time_exit": null,
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "62d222836a8916c05dc6443137e3d9e2c4bcb644cc48677afd6b6049fd54c7e9"
+    },
+    {
+      "candidate_id": "C14",
+      "source_family": "gap_fill",
+      "source_vintage": {
+        "first": "2021-01-07T03:44:46Z",
+        "last": "2026-08-25T08:20:43Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Prior close target and first-candle confirmation are objective; a conservative 5-point minimum gap is frozen.",
+      "required_data_tier": 1,
+      "overlap_group": "gap",
+      "unresolved_core": [],
+      "unresolved_non_core": [
+        "gap threshold"
+      ],
+      "specification": {
+        "entry_timestamp": "09:35 ET open after first five-minute candle closes toward prior RTH close",
+        "feature_cutoff": "09:34:59 ET",
+        "indicator_formula": "absolute RTH open minus prior RTH close at least 5 NQ/MNQ index points",
+        "warmup": "one prior RTH close",
+        "stop": "first five-minute candle opposite extreme",
+        "target": "matched overlay; prior close only in native lane",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "62f5654e0b215a8cbbb7bc5dca1ad7d8c3a64d744e28306bc17e2f8a3b1001b0"
+    },
+    {
+      "candidate_id": "C15",
+      "source_family": "failed_breakout",
+      "source_vintage": {
+        "first": "2021-01-05T13:30:03Z",
+        "last": "2026-08-24T15:19:28Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Prior-day range is the conservative canonical objective range chosen before results.",
+      "required_data_tier": 1,
+      "overlap_group": "objective_levels",
+      "unresolved_core": [],
+      "unresolved_non_core": [
+        "range class"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after completed five-minute failure close",
+        "feature_cutoff": "failure close",
+        "indicator_formula": "five-minute bar trades beyond PDH/PDL and closes back inside prior RTH range",
+        "warmup": "one prior RTH session",
+        "stop": "failed-break five-minute extreme",
+        "target": "matched overlay; range midpoint only in native lane",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "20de3e51e6dd3fa99f4d6acf0129bf027684356df26d828f5d267e01df11300f"
+    },
+    {
+      "candidate_id": "C16",
+      "source_family": "initial_balance_breakout",
+      "source_vintage": {
+        "first": "2021-02-03T06:58:44Z",
+        "last": "2026-08-18T14:38:51Z"
+      },
+      "decision": "implement_primary",
+      "reason": "Conventional first-hour initial balance and completed five-minute close are mechanical.",
+      "required_data_tier": 1,
+      "overlap_group": "opening_momentum_range",
+      "unresolved_core": [],
+      "unresolved_non_core": [
+        "source duration/target alternatives"
+      ],
+      "specification": {
+        "entry_timestamp": "next one-minute open after first completed five-minute close outside 09:30-10:29 initial balance",
+        "feature_cutoff": "breakout close",
+        "indicator_formula": "maximum high/minimum low of 09:30-10:29 ET bars",
+        "warmup": "60 RTH minutes",
+        "stop": "breakout five-minute bar opposite extreme",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "861b008f78f6918d09190192a5de2374ab03c87908c5fa39519285e606a64bfb"
+    },
+    {
+      "candidate_id": "C17",
+      "source_family": "first_candle_momentum",
+      "source_vintage": {
+        "first": "2021-01-05T01:18:32Z",
+        "last": "2026-08-25T18:35:01Z"
+      },
+      "decision": "negative_control",
+      "reason": "Large-winner anecdote and discretionary trend conviction; objective fragment retained only as a falsification control.",
+      "required_data_tier": 1,
+      "overlap_group": "opening_momentum_range",
+      "unresolved_core": [
+        "higher-timeframe definition",
+        "discretionary conviction"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": "09:36 ET open",
+        "feature_cutoff": "09:35:59 ET",
+        "indicator_formula": "first five-minute close versus lagged 200-period five-minute EMA; 09:35 one-minute close remains on same side",
+        "warmup": "200 completed five-minute bars",
+        "stop": "20.25 points",
+        "target": "matched overlay",
+        "time_exit": "15:55 ET",
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "1604318a850aa520329fe3807c3e49321a9c316ece5d06dc0b000bef2f22ad79"
+    },
+    {
+      "candidate_id": "C18",
+      "source_family": "breakout_retest",
+      "source_vintage": {
+        "first": "2021-01-05T18:59:33Z",
+        "last": "2026-08-20T21:52:59Z"
+      },
+      "decision": "duplicate_excluded",
+      "reason": "Not distinct from the mechanically separated C02/C09/C10 level-specific break-retest rules.",
+      "required_data_tier": 1,
+      "overlap_group": "objective_levels",
+      "unresolved_core": [
+        "level class",
+        "rejection shape",
+        "target hierarchy"
+      ],
+      "unresolved_non_core": [],
+      "specification": {
+        "entry_timestamp": null,
+        "feature_cutoff": null,
+        "indicator_formula": "duplicate concept only",
+        "warmup": null,
+        "stop": null,
+        "target": null,
+        "time_exit": null,
+        "reentry": false,
+        "max_trades": 1
+      },
+      "specification_hash": "e104413ee0d8716eac4624e510ae57b4516ce1fd66ef9bb313dee4840deb5819"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "C01": {
+    "status": "INVALID_LOOKAHEAD_HISTORICAL_RESULT",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C02": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C03": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C06": {
+    "status": "INCONCLUSIVE",
+    "reason": "deferred, subjective, duplicate, or insufficient exact source assumptions"
+  },
+  "C07": {
+    "status": "INCONCLUSIVE",
+    "reason": "deferred, subjective, duplicate, or insufficient exact source assumptions"
+  },
+  "C08": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C09": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C12": {
+    "status": "INCONCLUSIVE",
+    "reason": "deferred, subjective, duplicate, or insufficient exact source assumptions"
+  },
+  "C13": {
+    "status": "INCONCLUSIVE",
+    "reason": "deferred, subjective, duplicate, or insufficient exact source assumptions"
+  },
+  "C15": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "C18": {
+    "status": "INCONCLUSIVE",
+    "reason": "deferred, subjective, duplicate, or insufficient exact source assumptions"
+  },
+  "P6_RETEST": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  },
+  "P6_FAILURE_REVERSAL": {
+    "status": "REJECTED",
+    "reason": "failed one or more chronology/tail/cost/control gates"
+  }
+}

@@ -1,0 +1,1998 @@
+{
+  "nodes": [
+    {
+      "id": "LOW_VOLUME_FOLLOW_THROUGH",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "EARLY_ADVERSE_EXCURSION",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "OVERNIGHT_CONFLICT",
+      "availability": "ENTRY_TIME"
+    },
+    {
+      "id": "WRONG_SIDE_TREND",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "BREAKOUT_FAILURE",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "VWAP_CONFLICT",
+      "availability": "ENTRY_TIME"
+    },
+    {
+      "id": "KEY_LEVEL_OBSTRUCTION",
+      "availability": "ENTRY_TIME"
+    },
+    {
+      "id": "RANGE_TOO_LARGE",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "RANGE_TOO_SMALL",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "GAP_CONFLICT",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "GAP_EXHAUSTION",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "LOW_VOLATILITY",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "HIGH_VOLATILITY",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "CHOP",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "RAPID_REVERSAL",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "LATE_BREAKOUT",
+      "availability": "ENTRY_TIME"
+    },
+    {
+      "id": "NEWS_PROXIMITY",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "EVENT_VOLATILITY",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "EXTREME_OPEN",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "EXTREME_GAP",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "PRIOR_DAY_CONFLICT",
+      "availability": "PRE_ENTRY"
+    },
+    {
+      "id": "NO_FOLLOW_THROUGH",
+      "availability": "POST_ENTRY"
+    },
+    {
+      "id": "MOMENTUM_DECAY",
+      "availability": "POST_ENTRY"
+    }
+  ],
+  "edges": [
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 547,
+      "jaccard": 0.773692,
+      "conditional_expectancy_r": -0.014405,
+      "development_count": 254,
+      "later_count": 293
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 493,
+      "jaccard": 0.694366,
+      "conditional_expectancy_r": 0.172714,
+      "development_count": 242,
+      "later_count": 251
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 245,
+      "jaccard": 0.253361,
+      "conditional_expectancy_r": -0.136139,
+      "development_count": 121,
+      "later_count": 124
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 244,
+      "jaccard": 0.53159,
+      "conditional_expectancy_r": -0.722154,
+      "development_count": 127,
+      "later_count": 117
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 243,
+      "jaccard": 0.397709,
+      "conditional_expectancy_r": -0.558545,
+      "development_count": 138,
+      "later_count": 105
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 243,
+      "jaccard": 0.253918,
+      "conditional_expectancy_r": -0.093764,
+      "development_count": 120,
+      "later_count": 123
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 239,
+      "jaccard": 0.254526,
+      "conditional_expectancy_r": 0.068021,
+      "development_count": 132,
+      "later_count": 107
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 238,
+      "jaccard": 0.251852,
+      "conditional_expectancy_r": 0.125554,
+      "development_count": 128,
+      "later_count": 110
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "OVERNIGHT_CONFLICT",
+      "co_occurrence": 229,
+      "jaccard": 0.2473,
+      "conditional_expectancy_r": 0.004873,
+      "development_count": 108,
+      "later_count": 121
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "WRONG_SIDE_TREND",
+      "co_occurrence": 229,
+      "jaccard": 0.227183,
+      "conditional_expectancy_r": 0.049137,
+      "development_count": 107,
+      "later_count": 122
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 229,
+      "jaccard": 0.228315,
+      "conditional_expectancy_r": 0.107153,
+      "development_count": 112,
+      "later_count": 117
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 228,
+      "jaccard": 0.24918,
+      "conditional_expectancy_r": 0.003246,
+      "development_count": 116,
+      "later_count": 112
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 226,
+      "jaccard": 0.226226,
+      "conditional_expectancy_r": 0.123512,
+      "development_count": 105,
+      "later_count": 121
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 225,
+      "jaccard": 0.226131,
+      "conditional_expectancy_r": 0.109337,
+      "development_count": 110,
+      "later_count": 115
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 221,
+      "jaccard": 0.245556,
+      "conditional_expectancy_r": 0.015735,
+      "development_count": 111,
+      "later_count": 110
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "BREAKOUT_FAILURE",
+      "co_occurrence": 220,
+      "jaccard": 0.242826,
+      "conditional_expectancy_r": -0.567466,
+      "development_count": 117,
+      "later_count": 103
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "KEY_LEVEL_OBSTRUCTION",
+      "co_occurrence": 220,
+      "jaccard": 0.28133,
+      "conditional_expectancy_r": 0.133536,
+      "development_count": 95,
+      "later_count": 125
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 211,
+      "jaccard": 0.295518,
+      "conditional_expectancy_r": -0.726474,
+      "development_count": 104,
+      "later_count": 107
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 211,
+      "jaccard": 0.27086,
+      "conditional_expectancy_r": 0.099095,
+      "development_count": 90,
+      "later_count": 121
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "WRONG_SIDE_TREND",
+      "co_occurrence": 210,
+      "jaccard": 0.229258,
+      "conditional_expectancy_r": 0.129335,
+      "development_count": 107,
+      "later_count": 103
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 204,
+      "jaccard": 0.224176,
+      "conditional_expectancy_r": -0.587423,
+      "development_count": 106,
+      "later_count": 98
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 203,
+      "jaccard": 0.226058,
+      "conditional_expectancy_r": -0.017589,
+      "development_count": 95,
+      "later_count": 108
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 200,
+      "jaccard": 0.229358,
+      "conditional_expectancy_r": -0.652764,
+      "development_count": 111,
+      "later_count": 89
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 200,
+      "jaccard": 0.42735,
+      "conditional_expectancy_r": -0.5786,
+      "development_count": 93,
+      "later_count": 107
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 194,
+      "jaccard": 0.222732,
+      "conditional_expectancy_r": -0.451202,
+      "development_count": 92,
+      "later_count": 102
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 193,
+      "jaccard": 0.224419,
+      "conditional_expectancy_r": -0.466865,
+      "development_count": 90,
+      "later_count": 103
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 193,
+      "jaccard": 0.220824,
+      "conditional_expectancy_r": 0.156892,
+      "development_count": 97,
+      "later_count": 96
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 192,
+      "jaccard": 0.214047,
+      "conditional_expectancy_r": -0.033956,
+      "development_count": 91,
+      "later_count": 101
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 192,
+      "jaccard": 0.534819,
+      "conditional_expectancy_r": 0.37135,
+      "development_count": 99,
+      "later_count": 93
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 187,
+      "jaccard": 0.211299,
+      "conditional_expectancy_r": 0.150852,
+      "development_count": 94,
+      "later_count": 93
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 184,
+      "jaccard": 0.238961,
+      "conditional_expectancy_r": -0.2753,
+      "development_count": 91,
+      "later_count": 93
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 182,
+      "jaccard": 0.210405,
+      "conditional_expectancy_r": -0.073949,
+      "development_count": 100,
+      "later_count": 82
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "BREAKOUT_FAILURE",
+      "co_occurrence": 181,
+      "jaccard": 0.276758,
+      "conditional_expectancy_r": -0.850765,
+      "development_count": 104,
+      "later_count": 77
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "BREAKOUT_FAILURE",
+      "co_occurrence": 179,
+      "jaccard": 0.214115,
+      "conditional_expectancy_r": -0.610791,
+      "development_count": 91,
+      "later_count": 88
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 178,
+      "jaccard": 0.289431,
+      "conditional_expectancy_r": -0.647594,
+      "development_count": 91,
+      "later_count": 87
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 175,
+      "jaccard": 0.20933,
+      "conditional_expectancy_r": -0.517341,
+      "development_count": 92,
+      "later_count": 83
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "BREAKOUT_FAILURE",
+      "co_occurrence": 172,
+      "jaccard": 0.185946,
+      "conditional_expectancy_r": -0.496799,
+      "development_count": 93,
+      "later_count": 79
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 171,
+      "jaccard": 0.185668,
+      "conditional_expectancy_r": -0.513291,
+      "development_count": 96,
+      "later_count": 75
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 170,
+      "jaccard": 0.196305,
+      "conditional_expectancy_r": -0.161663,
+      "development_count": 81,
+      "later_count": 89
+    },
+    {
+      "source": "PRIOR_DAY_CONFLICT",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 168,
+      "jaccard": 0.19467,
+      "conditional_expectancy_r": -0.15375,
+      "development_count": 81,
+      "later_count": 87
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 166,
+      "jaccard": 0.201456,
+      "conditional_expectancy_r": 0.10366,
+      "development_count": 80,
+      "later_count": 86
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 164,
+      "jaccard": 0.175027,
+      "conditional_expectancy_r": -0.084676,
+      "development_count": 89,
+      "later_count": 75
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "KEY_LEVEL_OBSTRUCTION",
+      "co_occurrence": 160,
+      "jaccard": 0.22792,
+      "conditional_expectancy_r": -0.453016,
+      "development_count": 79,
+      "later_count": 81
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 158,
+      "jaccard": 0.196762,
+      "conditional_expectancy_r": -0.554815,
+      "development_count": 79,
+      "later_count": 79
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 158,
+      "jaccard": 0.202046,
+      "conditional_expectancy_r": -0.706859,
+      "development_count": 91,
+      "later_count": 67
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "KEY_LEVEL_OBSTRUCTION",
+      "co_occurrence": 148,
+      "jaccard": 0.179394,
+      "conditional_expectancy_r": 0.161714,
+      "development_count": 69,
+      "later_count": 79
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 147,
+      "jaccard": 0.173554,
+      "conditional_expectancy_r": -0.574913,
+      "development_count": 82,
+      "later_count": 65
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 143,
+      "jaccard": 0.173333,
+      "conditional_expectancy_r": 0.184326,
+      "development_count": 65,
+      "later_count": 78
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 141,
+      "jaccard": 0.167658,
+      "conditional_expectancy_r": -0.593611,
+      "development_count": 78,
+      "later_count": 63
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "OVERNIGHT_CONFLICT",
+      "co_occurrence": 136,
+      "jaccard": 0.162098,
+      "conditional_expectancy_r": -0.645968,
+      "development_count": 76,
+      "later_count": 60
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 133,
+      "jaccard": 0.173403,
+      "conditional_expectancy_r": -0.479501,
+      "development_count": 68,
+      "later_count": 65
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 131,
+      "jaccard": 0.157452,
+      "conditional_expectancy_r": -0.620723,
+      "development_count": 72,
+      "later_count": 59
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 129,
+      "jaccard": 0.157509,
+      "conditional_expectancy_r": -0.191367,
+      "development_count": 60,
+      "later_count": 69
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "KEY_LEVEL_OBSTRUCTION",
+      "co_occurrence": 127,
+      "jaccard": 0.16623,
+      "conditional_expectancy_r": 0.007353,
+      "development_count": 62,
+      "later_count": 65
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "WRONG_SIDE_TREND",
+      "co_occurrence": 127,
+      "jaccard": 0.155067,
+      "conditional_expectancy_r": -0.419226,
+      "development_count": 63,
+      "later_count": 64
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 127,
+      "jaccard": 0.15995,
+      "conditional_expectancy_r": -0.774973,
+      "development_count": 72,
+      "later_count": 55
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 127,
+      "jaccard": 0.196291,
+      "conditional_expectancy_r": -0.793218,
+      "development_count": 66,
+      "later_count": 61
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 127,
+      "jaccard": 0.152461,
+      "conditional_expectancy_r": -0.338912,
+      "development_count": 62,
+      "later_count": 65
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 125,
+      "jaccard": 0.14881,
+      "conditional_expectancy_r": -0.302509,
+      "development_count": 60,
+      "later_count": 65
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 125,
+      "jaccard": 0.161082,
+      "conditional_expectancy_r": 0.547786,
+      "development_count": 50,
+      "later_count": 75
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 124,
+      "jaccard": 0.151775,
+      "conditional_expectancy_r": -0.477339,
+      "development_count": 63,
+      "later_count": 61
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 124,
+      "jaccard": 0.183161,
+      "conditional_expectancy_r": -0.362719,
+      "development_count": 59,
+      "later_count": 65
+    },
+    {
+      "source": "EXTREME_OPEN",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 124,
+      "jaccard": 0.160622,
+      "conditional_expectancy_r": 0.404235,
+      "development_count": 52,
+      "later_count": 72
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 121,
+      "jaccard": 0.155727,
+      "conditional_expectancy_r": 0.670001,
+      "development_count": 63,
+      "later_count": 58
+    },
+    {
+      "source": "EXTREME_GAP",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 121,
+      "jaccard": 0.156736,
+      "conditional_expectancy_r": 0.569373,
+      "development_count": 64,
+      "later_count": 57
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 120,
+      "jaccard": 0.159363,
+      "conditional_expectancy_r": 0.27662,
+      "development_count": 71,
+      "later_count": 49
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 115,
+      "jaccard": 0.141104,
+      "conditional_expectancy_r": 0.192761,
+      "development_count": 48,
+      "later_count": 67
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 115,
+      "jaccard": 0.15928,
+      "conditional_expectancy_r": 0.086415,
+      "development_count": 58,
+      "later_count": 57
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 115,
+      "jaccard": 0.143213,
+      "conditional_expectancy_r": 0.184385,
+      "development_count": 44,
+      "later_count": 71
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 115,
+      "jaccard": 0.161064,
+      "conditional_expectancy_r": -0.526496,
+      "development_count": 57,
+      "later_count": 58
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 113,
+      "jaccard": 0.146753,
+      "conditional_expectancy_r": -0.476599,
+      "development_count": 53,
+      "later_count": 60
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 113,
+      "jaccard": 0.152086,
+      "conditional_expectancy_r": 0.587042,
+      "development_count": 59,
+      "later_count": 54
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 113,
+      "jaccard": 0.1481,
+      "conditional_expectancy_r": 0.176805,
+      "development_count": 53,
+      "later_count": 60
+    },
+    {
+      "source": "EXTREME_OPEN",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 113,
+      "jaccard": 0.236402,
+      "conditional_expectancy_r": 0.397173,
+      "development_count": 47,
+      "later_count": 66
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 112,
+      "jaccard": 0.149533,
+      "conditional_expectancy_r": 0.573368,
+      "development_count": 58,
+      "later_count": 54
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 111,
+      "jaccard": 0.136029,
+      "conditional_expectancy_r": 0.4262,
+      "development_count": 53,
+      "later_count": 58
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 111,
+      "jaccard": 0.190722,
+      "conditional_expectancy_r": -0.754021,
+      "development_count": 54,
+      "later_count": 57
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "EARLY_ADVERSE_EXCURSION",
+      "co_occurrence": 105,
+      "jaccard": 0.13834,
+      "conditional_expectancy_r": -0.53609,
+      "development_count": 47,
+      "later_count": 58
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 105,
+      "jaccard": 0.147059,
+      "conditional_expectancy_r": 0.276304,
+      "development_count": 43,
+      "later_count": 62
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 102,
+      "jaccard": 0.125461,
+      "conditional_expectancy_r": 0.427933,
+      "development_count": 49,
+      "later_count": 53
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 100,
+      "jaccard": 0.140845,
+      "conditional_expectancy_r": -0.81138,
+      "development_count": 51,
+      "later_count": 49
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 100,
+      "jaccard": 0.226244,
+      "conditional_expectancy_r": -0.81138,
+      "development_count": 51,
+      "later_count": 49
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 99,
+      "jaccard": 0.149321,
+      "conditional_expectancy_r": 0.14084,
+      "development_count": 40,
+      "later_count": 59
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 98,
+      "jaccard": 0.13649,
+      "conditional_expectancy_r": 0.413666,
+      "development_count": 51,
+      "later_count": 47
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 98,
+      "jaccard": 0.132791,
+      "conditional_expectancy_r": 0.266189,
+      "development_count": 62,
+      "later_count": 36
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 97,
+      "jaccard": 0.139971,
+      "conditional_expectancy_r": -0.613558,
+      "development_count": 50,
+      "later_count": 47
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 94,
+      "jaccard": 0.127199,
+      "conditional_expectancy_r": -0.68013,
+      "development_count": 47,
+      "later_count": 47
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 93,
+      "jaccard": 0.198718,
+      "conditional_expectancy_r": -0.676116,
+      "development_count": 46,
+      "later_count": 47
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 91,
+      "jaccard": 0.130747,
+      "conditional_expectancy_r": -0.579532,
+      "development_count": 46,
+      "later_count": 45
+    },
+    {
+      "source": "CHOP",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 90,
+      "jaccard": 0.178218,
+      "conditional_expectancy_r": -0.027386,
+      "development_count": 40,
+      "later_count": 50
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 89,
+      "jaccard": 0.259475,
+      "conditional_expectancy_r": 0.009727,
+      "development_count": 52,
+      "later_count": 37
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 89,
+      "jaccard": 0.139937,
+      "conditional_expectancy_r": 0.121475,
+      "development_count": 46,
+      "later_count": 43
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 89,
+      "jaccard": 0.131657,
+      "conditional_expectancy_r": 0.190164,
+      "development_count": 35,
+      "later_count": 54
+    },
+    {
+      "source": "EXTREME_OPEN",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 89,
+      "jaccard": 0.139063,
+      "conditional_expectancy_r": -0.442173,
+      "development_count": 38,
+      "later_count": 51
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 88,
+      "jaccard": 0.126074,
+      "conditional_expectancy_r": 0.323226,
+      "development_count": 51,
+      "later_count": 37
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 87,
+      "jaccard": 0.112694,
+      "conditional_expectancy_r": -0.182957,
+      "development_count": 33,
+      "later_count": 54
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 87,
+      "jaccard": 0.131222,
+      "conditional_expectancy_r": -0.59059,
+      "development_count": 49,
+      "later_count": 38
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 87,
+      "jaccard": 0.114474,
+      "conditional_expectancy_r": -0.304221,
+      "development_count": 34,
+      "later_count": 53
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 86,
+      "jaccard": 0.117007,
+      "conditional_expectancy_r": -0.675279,
+      "development_count": 42,
+      "later_count": 44
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 86,
+      "jaccard": 0.183761,
+      "conditional_expectancy_r": 0.347891,
+      "development_count": 38,
+      "later_count": 48
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 85,
+      "jaccard": 0.118056,
+      "conditional_expectancy_r": -0.18788,
+      "development_count": 48,
+      "later_count": 37
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 85,
+      "jaccard": 0.122126,
+      "conditional_expectancy_r": 0.361568,
+      "development_count": 50,
+      "later_count": 35
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 84,
+      "jaccard": 0.111258,
+      "conditional_expectancy_r": -0.069349,
+      "development_count": 40,
+      "later_count": 44
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 83,
+      "jaccard": 0.111559,
+      "conditional_expectancy_r": -0.235281,
+      "development_count": 40,
+      "later_count": 43
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 81,
+      "jaccard": 0.124807,
+      "conditional_expectancy_r": -0.334109,
+      "development_count": 43,
+      "later_count": 38
+    },
+    {
+      "source": "EVENT_VOLATILITY",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 81,
+      "jaccard": 0.147005,
+      "conditional_expectancy_r": -0.587764,
+      "development_count": 38,
+      "later_count": 43
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 80,
+      "jaccard": 0.11976,
+      "conditional_expectancy_r": 0.04402,
+      "development_count": 42,
+      "later_count": 38
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 80,
+      "jaccard": 0.114449,
+      "conditional_expectancy_r": 0.349489,
+      "development_count": 42,
+      "later_count": 38
+    },
+    {
+      "source": "EXTREME_GAP",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 80,
+      "jaccard": 0.123839,
+      "conditional_expectancy_r": -0.447466,
+      "development_count": 47,
+      "later_count": 33
+    },
+    {
+      "source": "PRIOR_DAY_CONFLICT",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 80,
+      "jaccard": 0.116788,
+      "conditional_expectancy_r": -0.506335,
+      "development_count": 40,
+      "later_count": 40
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 79,
+      "jaccard": 0.105193,
+      "conditional_expectancy_r": 0.098857,
+      "development_count": 40,
+      "later_count": 39
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 78,
+      "jaccard": 0.107438,
+      "conditional_expectancy_r": -0.471708,
+      "development_count": 40,
+      "later_count": 38
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 78,
+      "jaccard": 0.121685,
+      "conditional_expectancy_r": -0.624265,
+      "development_count": 38,
+      "later_count": 40
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 78,
+      "jaccard": 0.134251,
+      "conditional_expectancy_r": -0.729797,
+      "development_count": 43,
+      "later_count": 35
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "GAP_CONFLICT",
+      "co_occurrence": 78,
+      "jaccard": 0.108939,
+      "conditional_expectancy_r": 0.269519,
+      "development_count": 52,
+      "later_count": 26
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 78,
+      "jaccard": 0.110325,
+      "conditional_expectancy_r": -0.109795,
+      "development_count": 44,
+      "later_count": 34
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 77,
+      "jaccard": 0.11938,
+      "conditional_expectancy_r": -0.367814,
+      "development_count": 35,
+      "later_count": 42
+    },
+    {
+      "source": "EVENT_VOLATILITY",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 77,
+      "jaccard": 0.106648,
+      "conditional_expectancy_r": -0.446818,
+      "development_count": 38,
+      "later_count": 39
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 76,
+      "jaccard": 0.102842,
+      "conditional_expectancy_r": -0.241429,
+      "development_count": 50,
+      "later_count": 26
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "CHOP",
+      "co_occurrence": 76,
+      "jaccard": 0.109986,
+      "conditional_expectancy_r": 0.30138,
+      "development_count": 41,
+      "later_count": 35
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 76,
+      "jaccard": 0.101469,
+      "conditional_expectancy_r": -0.069592,
+      "development_count": 34,
+      "later_count": 42
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 76,
+      "jaccard": 0.108108,
+      "conditional_expectancy_r": -0.825554,
+      "development_count": 40,
+      "later_count": 36
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 75,
+      "jaccard": 0.107914,
+      "conditional_expectancy_r": -0.380495,
+      "development_count": 34,
+      "later_count": 41
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 75,
+      "jaccard": 0.120192,
+      "conditional_expectancy_r": -0.624397,
+      "development_count": 41,
+      "later_count": 34
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 75,
+      "jaccard": 0.12215,
+      "conditional_expectancy_r": -0.368883,
+      "development_count": 45,
+      "later_count": 30
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 75,
+      "jaccard": 0.12931,
+      "conditional_expectancy_r": -0.361748,
+      "development_count": 38,
+      "later_count": 37
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 74,
+      "jaccard": 0.109145,
+      "conditional_expectancy_r": 0.008627,
+      "development_count": 50,
+      "later_count": 24
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 73,
+      "jaccard": 0.099591,
+      "conditional_expectancy_r": 0.0811,
+      "development_count": 46,
+      "later_count": 27
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 73,
+      "jaccard": 0.133945,
+      "conditional_expectancy_r": -0.276708,
+      "development_count": 43,
+      "later_count": 30
+    },
+    {
+      "source": "RAPID_REVERSAL",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 73,
+      "jaccard": 0.124786,
+      "conditional_expectancy_r": -0.589471,
+      "development_count": 34,
+      "later_count": 39
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 72,
+      "jaccard": 0.109756,
+      "conditional_expectancy_r": -0.027672,
+      "development_count": 38,
+      "later_count": 34
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 72,
+      "jaccard": 0.12766,
+      "conditional_expectancy_r": -0.195157,
+      "development_count": 36,
+      "later_count": 36
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 72,
+      "jaccard": 0.122867,
+      "conditional_expectancy_r": -0.413017,
+      "development_count": 34,
+      "later_count": 38
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 72,
+      "jaccard": 0.127208,
+      "conditional_expectancy_r": -0.427928,
+      "development_count": 36,
+      "later_count": 36
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 71,
+      "jaccard": 0.101284,
+      "conditional_expectancy_r": 0.22911,
+      "development_count": 45,
+      "later_count": 26
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 70,
+      "jaccard": 0.096022,
+      "conditional_expectancy_r": -0.29828,
+      "development_count": 30,
+      "later_count": 40
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 70,
+      "jaccard": 0.09901,
+      "conditional_expectancy_r": 0.295263,
+      "development_count": 44,
+      "later_count": 26
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "CHOP",
+      "co_occurrence": 70,
+      "jaccard": 0.098039,
+      "conditional_expectancy_r": 0.01658,
+      "development_count": 36,
+      "later_count": 34
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 68,
+      "jaccard": 0.092517,
+      "conditional_expectancy_r": -0.039343,
+      "development_count": 46,
+      "later_count": 22
+    },
+    {
+      "source": "GAP_CONFLICT",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 68,
+      "jaccard": 0.094576,
+      "conditional_expectancy_r": -0.373216,
+      "development_count": 25,
+      "later_count": 43
+    },
+    {
+      "source": "CHOP",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 67,
+      "jaccard": 0.099259,
+      "conditional_expectancy_r": 0.077636,
+      "development_count": 37,
+      "later_count": 30
+    },
+    {
+      "source": "CHOP",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 67,
+      "jaccard": 0.096403,
+      "conditional_expectancy_r": 0.340737,
+      "development_count": 37,
+      "later_count": 30
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 66,
+      "jaccard": 0.115183,
+      "conditional_expectancy_r": -0.726077,
+      "development_count": 29,
+      "later_count": 37
+    },
+    {
+      "source": "OVERNIGHT_CONFLICT",
+      "target": "CHOP",
+      "co_occurrence": 66,
+      "jaccard": 0.090411,
+      "conditional_expectancy_r": 0.2048,
+      "development_count": 33,
+      "later_count": 33
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 66,
+      "jaccard": 0.108374,
+      "conditional_expectancy_r": -0.299377,
+      "development_count": 45,
+      "later_count": 21
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 66,
+      "jaccard": 0.124764,
+      "conditional_expectancy_r": -0.036892,
+      "development_count": 29,
+      "later_count": 37
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 64,
+      "jaccard": 0.125245,
+      "conditional_expectancy_r": -0.091523,
+      "development_count": 37,
+      "later_count": 27
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 64,
+      "jaccard": 0.106312,
+      "conditional_expectancy_r": 0.033022,
+      "development_count": 26,
+      "later_count": 38
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 64,
+      "jaccard": 0.110919,
+      "conditional_expectancy_r": 0.106753,
+      "development_count": 34,
+      "later_count": 30
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "LATE_BREAKOUT",
+      "co_occurrence": 64,
+      "jaccard": 0.091822,
+      "conditional_expectancy_r": -0.081886,
+      "development_count": 40,
+      "later_count": 24
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 63,
+      "jaccard": 0.107325,
+      "conditional_expectancy_r": 0.203159,
+      "development_count": 41,
+      "later_count": 22
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "CHOP",
+      "co_occurrence": 62,
+      "jaccard": 0.099518,
+      "conditional_expectancy_r": 0.24771,
+      "development_count": 29,
+      "later_count": 33
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 62,
+      "jaccard": 0.115456,
+      "conditional_expectancy_r": -0.31105,
+      "development_count": 34,
+      "later_count": 28
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 62,
+      "jaccard": 0.118095,
+      "conditional_expectancy_r": -0.553939,
+      "development_count": 35,
+      "later_count": 27
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 61,
+      "jaccard": 0.099511,
+      "conditional_expectancy_r": -0.225302,
+      "development_count": 33,
+      "later_count": 28
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 60,
+      "jaccard": 0.118343,
+      "conditional_expectancy_r": -0.641848,
+      "development_count": 40,
+      "later_count": 20
+    },
+    {
+      "source": "WRONG_SIDE_TREND",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 57,
+      "jaccard": 0.075697,
+      "conditional_expectancy_r": -0.14837,
+      "development_count": 29,
+      "later_count": 28
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 57,
+      "jaccard": 0.094059,
+      "conditional_expectancy_r": 0.233098,
+      "development_count": 25,
+      "later_count": 32
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 56,
+      "jaccard": 0.091803,
+      "conditional_expectancy_r": -0.532721,
+      "development_count": 39,
+      "later_count": 17
+    },
+    {
+      "source": "LATE_BREAKOUT",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 56,
+      "jaccard": 0.081277,
+      "conditional_expectancy_r": -0.580807,
+      "development_count": 25,
+      "later_count": 31
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 55,
+      "jaccard": 0.084746,
+      "conditional_expectancy_r": 0.079989,
+      "development_count": 36,
+      "later_count": 19
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "RANGE_TOO_SMALL",
+      "co_occurrence": 55,
+      "jaccard": 0.107212,
+      "conditional_expectancy_r": -0.69496,
+      "development_count": 31,
+      "later_count": 24
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 55,
+      "jaccard": 0.133495,
+      "conditional_expectancy_r": 0.269765,
+      "development_count": 34,
+      "later_count": 21
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 54,
+      "jaccard": 0.084243,
+      "conditional_expectancy_r": 0.415419,
+      "development_count": 40,
+      "later_count": 14
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 54,
+      "jaccard": 0.109312,
+      "conditional_expectancy_r": -0.771246,
+      "development_count": 32,
+      "later_count": 22
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 54,
+      "jaccard": 0.179402,
+      "conditional_expectancy_r": 0.218519,
+      "development_count": 40,
+      "later_count": 14
+    },
+    {
+      "source": "CHOP",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 54,
+      "jaccard": 0.093588,
+      "conditional_expectancy_r": -0.070685,
+      "development_count": 27,
+      "later_count": 27
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "KEY_LEVEL_OBSTRUCTION",
+      "co_occurrence": 53,
+      "jaccard": 0.080547,
+      "conditional_expectancy_r": -0.708155,
+      "development_count": 26,
+      "later_count": 27
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 53,
+      "jaccard": 0.125296,
+      "conditional_expectancy_r": 0.645587,
+      "development_count": 32,
+      "later_count": 21
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 53,
+      "jaccard": 0.094474,
+      "conditional_expectancy_r": -0.311347,
+      "development_count": 32,
+      "later_count": 21
+    },
+    {
+      "source": "NEWS_PROXIMITY",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 52,
+      "jaccard": 0.089347,
+      "conditional_expectancy_r": -0.364356,
+      "development_count": 21,
+      "later_count": 31
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "NEWS_PROXIMITY",
+      "co_occurrence": 51,
+      "jaccard": 0.079316,
+      "conditional_expectancy_r": -0.057612,
+      "development_count": 22,
+      "later_count": 29
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "CHOP",
+      "co_occurrence": 49,
+      "jaccard": 0.101449,
+      "conditional_expectancy_r": 0.283457,
+      "development_count": 23,
+      "later_count": 26
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 49,
+      "jaccard": 0.103376,
+      "conditional_expectancy_r": -0.190488,
+      "development_count": 19,
+      "later_count": 30
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "PRIOR_DAY_CONFLICT",
+      "co_occurrence": 48,
+      "jaccard": 0.063408,
+      "conditional_expectancy_r": -0.07976,
+      "development_count": 24,
+      "later_count": 24
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "NO_FOLLOW_THROUGH",
+      "co_occurrence": 47,
+      "jaccard": 0.084229,
+      "conditional_expectancy_r": -0.400453,
+      "development_count": 30,
+      "later_count": 17
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 46,
+      "jaccard": 0.094262,
+      "conditional_expectancy_r": -0.574687,
+      "development_count": 30,
+      "later_count": 16
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 46,
+      "jaccard": 0.117048,
+      "conditional_expectancy_r": 0.731057,
+      "development_count": 25,
+      "later_count": 21
+    },
+    {
+      "source": "LOW_VOLUME_FOLLOW_THROUGH",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 45,
+      "jaccard": 0.069984,
+      "conditional_expectancy_r": -0.47622,
+      "development_count": 20,
+      "later_count": 25
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 44,
+      "jaccard": 0.086785,
+      "conditional_expectancy_r": -0.124845,
+      "development_count": 30,
+      "later_count": 14
+    },
+    {
+      "source": "CHOP",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 43,
+      "jaccard": 0.103118,
+      "conditional_expectancy_r": -0.201763,
+      "development_count": 14,
+      "later_count": 29
+    },
+    {
+      "source": "EVENT_VOLATILITY",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 42,
+      "jaccard": 0.09292,
+      "conditional_expectancy_r": -0.418752,
+      "development_count": 16,
+      "later_count": 26
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 41,
+      "jaccard": 0.086498,
+      "conditional_expectancy_r": -0.14989,
+      "development_count": 25,
+      "later_count": 16
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 41,
+      "jaccard": 0.077652,
+      "conditional_expectancy_r": -0.569129,
+      "development_count": 20,
+      "later_count": 21
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 41,
+      "jaccard": 0.093607,
+      "conditional_expectancy_r": 0.512302,
+      "development_count": 24,
+      "later_count": 17
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 39,
+      "jaccard": 0.078629,
+      "conditional_expectancy_r": -0.127,
+      "development_count": 22,
+      "later_count": 17
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 39,
+      "jaccard": 0.099744,
+      "conditional_expectancy_r": 0.155733,
+      "development_count": 26,
+      "later_count": 13
+    },
+    {
+      "source": "EARLY_ADVERSE_EXCURSION",
+      "target": "HIGH_VOLATILITY",
+      "co_occurrence": 38,
+      "jaccard": 0.078189,
+      "conditional_expectancy_r": -0.104808,
+      "development_count": 24,
+      "later_count": 14
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "RAPID_REVERSAL",
+      "co_occurrence": 38,
+      "jaccard": 0.075248,
+      "conditional_expectancy_r": 0.159508,
+      "development_count": 27,
+      "later_count": 11
+    },
+    {
+      "source": "EXTREME_GAP",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 35,
+      "jaccard": 0.082353,
+      "conditional_expectancy_r": 0.013149,
+      "development_count": 20,
+      "later_count": 15
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 34,
+      "jaccard": 0.080378,
+      "conditional_expectancy_r": -0.232265,
+      "development_count": 15,
+      "later_count": 19
+    },
+    {
+      "source": "EVENT_VOLATILITY",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 34,
+      "jaccard": 0.073434,
+      "conditional_expectancy_r": -0.447738,
+      "development_count": 12,
+      "later_count": 22
+    },
+    {
+      "source": "EXTREME_OPEN",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 34,
+      "jaccard": 0.079254,
+      "conditional_expectancy_r": -0.572803,
+      "development_count": 15,
+      "later_count": 19
+    },
+    {
+      "source": "BREAKOUT_FAILURE",
+      "target": "CHOP",
+      "co_occurrence": 33,
+      "jaccard": 0.05297,
+      "conditional_expectancy_r": -0.202048,
+      "development_count": 14,
+      "later_count": 19
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "RANGE_TOO_LARGE",
+      "co_occurrence": 33,
+      "jaccard": 0.064833,
+      "conditional_expectancy_r": 0.275315,
+      "development_count": 17,
+      "later_count": 16
+    },
+    {
+      "source": "KEY_LEVEL_OBSTRUCTION",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 33,
+      "jaccard": 0.055649,
+      "conditional_expectancy_r": -0.228112,
+      "development_count": 19,
+      "later_count": 14
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 33,
+      "jaccard": 0.088472,
+      "conditional_expectancy_r": -0.682985,
+      "development_count": 16,
+      "later_count": 17
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 32,
+      "jaccard": 0.067941,
+      "conditional_expectancy_r": -0.272897,
+      "development_count": 14,
+      "later_count": 18
+    },
+    {
+      "source": "EVENT_VOLATILITY",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 32,
+      "jaccard": 0.095808,
+      "conditional_expectancy_r": -0.723637,
+      "development_count": 13,
+      "later_count": 19
+    },
+    {
+      "source": "CHOP",
+      "target": "EXTREME_GAP",
+      "co_occurrence": 31,
+      "jaccard": 0.07277,
+      "conditional_expectancy_r": 0.146194,
+      "development_count": 18,
+      "later_count": 13
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "GAP_EXHAUSTION",
+      "co_occurrence": 30,
+      "jaccard": 0.066225,
+      "conditional_expectancy_r": 0.615033,
+      "development_count": 17,
+      "later_count": 13
+    },
+    {
+      "source": "RANGE_TOO_SMALL",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 30,
+      "jaccard": 0.075758,
+      "conditional_expectancy_r": -0.219447,
+      "development_count": 14,
+      "later_count": 16
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "EXTREME_OPEN",
+      "co_occurrence": 29,
+      "jaccard": 0.06576,
+      "conditional_expectancy_r": 0.433552,
+      "development_count": 18,
+      "later_count": 11
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 29,
+      "jaccard": 0.073604,
+      "conditional_expectancy_r": -0.356941,
+      "development_count": 17,
+      "later_count": 12
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "CHOP",
+      "co_occurrence": 28,
+      "jaccard": 0.071429,
+      "conditional_expectancy_r": -0.009221,
+      "development_count": 15,
+      "later_count": 13
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 28,
+      "jaccard": 0.079096,
+      "conditional_expectancy_r": -0.306211,
+      "development_count": 19,
+      "later_count": 9
+    },
+    {
+      "source": "HIGH_VOLATILITY",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 28,
+      "jaccard": 0.0875,
+      "conditional_expectancy_r": -0.629721,
+      "development_count": 21,
+      "later_count": 7
+    },
+    {
+      "source": "LOW_VOLATILITY",
+      "target": "CHOP",
+      "co_occurrence": 26,
+      "jaccard": 0.075802,
+      "conditional_expectancy_r": -0.225581,
+      "development_count": 14,
+      "later_count": 12
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "EVENT_VOLATILITY",
+      "co_occurrence": 25,
+      "jaccard": 0.071839,
+      "conditional_expectancy_r": -0.45934,
+      "development_count": 13,
+      "later_count": 12
+    },
+    {
+      "source": "RANGE_TOO_LARGE",
+      "target": "MOMENTUM_DECAY",
+      "co_occurrence": 25,
+      "jaccard": 0.079618,
+      "conditional_expectancy_r": -0.5995,
+      "development_count": 17,
+      "later_count": 8
+    },
+    {
+      "source": "GAP_EXHAUSTION",
+      "target": "LOW_VOLATILITY",
+      "co_occurrence": 25,
+      "jaccard": 0.057078,
+      "conditional_expectancy_r": 0.768952,
+      "development_count": 16,
+      "later_count": 9
+    }
+  ],
+  "interpretation": "Edges are overlap, not causality; dense post-entry labels may describe one failed-follow-through mechanism."
+}

@@ -1,0 +1,8 @@
+{
+  "status": "INCONCLUSIVE",
+  "run": false,
+  "reason": "True TCN dependency/exact 64x12 bar-sequence specification unavailable and mechanical promotion gate failed; no substitute architecture was mislabeled as TCN.",
+  "torch_available": false,
+  "tensorflow_available": false,
+  "selection_eligible": false
+}

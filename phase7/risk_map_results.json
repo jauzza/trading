@@ -1,0 +1,15 @@
+{
+  "status": "INCONCLUSIVE",
+  "run": false,
+  "reason": "Risk-map stage gated by non-promoted predictor/TCN; dynamic sizing may not hide weak signal.",
+  "components": {
+    "NO_SCALING": "DEFERRED_NEXT_PHASE",
+    "NEUTRAL_ONLY": "DEFERRED_NEXT_PHASE",
+    "VOLATILITY_ONLY": "DEFERRED_NEXT_PHASE",
+    "CAP_ONLY": "DEFERRED_NEXT_PHASE",
+    "NEUTRAL_VOL": "DEFERRED_NEXT_PHASE",
+    "NEUTRAL_CAP": "DEFERRED_NEXT_PHASE",
+    "VOL_CAP": "DEFERRED_NEXT_PHASE",
+    "ALL_THREE": "DEFERRED_NEXT_PHASE"
+  }
+}

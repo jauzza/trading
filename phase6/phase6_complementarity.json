@@ -1,0 +1,542 @@
+{
+  "C01_LONG_ONLY": {
+    "correlation_with_c01": 0.601468,
+    "overlap_sessions": 886,
+    "candidate_net_when_c01_loses": -304649.9,
+    "candidate_net_when_c01_wins": 403761.3,
+    "candidate_net_when_c01_no_trade": 0.0,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 216701.9,
+      "max_drawdown": -0.177674,
+      "drawdown_duration_sessions": 383,
+      "positive_years": 7,
+      "by_year": {
+        "2018": 34900.7,
+        "2019": -8919.2,
+        "2020": 30334.3,
+        "2021": 11484.4,
+        "2022": 49103.1,
+        "2023": 27563.3,
+        "2024": 35635.8,
+        "2025": 36599.5
+      },
+      "net_after_best_1pct": 16685.2,
+      "median_session": 0.0
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C01_SHORT_ONLY": {
+    "correlation_with_c01": 0.798591,
+    "overlap_sessions": 609,
+    "candidate_net_when_c01_loses": -420850.9,
+    "candidate_net_when_c01_wins": 439330.0,
+    "candidate_net_when_c01_no_trade": 0.0,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 136069.6,
+      "max_drawdown": -0.26616,
+      "drawdown_duration_sessions": 472,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 40732.9,
+        "2019": -10933.6,
+        "2020": 18195.8,
+        "2021": -22896.4,
+        "2022": 72504.6,
+        "2023": 5737.3,
+        "2024": 4224.3,
+        "2025": 28504.7
+      },
+      "net_after_best_1pct": -146651.5,
+      "median_session": 0.0
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C02": {
+    "correlation_with_c01": 0.090977,
+    "overlap_sessions": 1199,
+    "candidate_net_when_c01_loses": -52690.7,
+    "candidate_net_when_c01_wins": 80445.8,
+    "candidate_net_when_c01_no_trade": -38934.1,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 106411.5,
+      "max_drawdown": -0.292065,
+      "drawdown_duration_sessions": 756,
+      "positive_years": 4,
+      "by_year": {
+        "2018": 18875.6,
+        "2019": -6966.7,
+        "2020": -1247.9,
+        "2021": -3548.1,
+        "2022": 41390.2,
+        "2023": -1585.2,
+        "2024": 41541.4,
+        "2025": 17952.2
+      },
+      "net_after_best_1pct": -83235.0,
+      "median_session": -250.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C04": {
+    "correlation_with_c01": 0.144873,
+    "overlap_sessions": 1481,
+    "candidate_net_when_c01_loses": 8140.3,
+    "candidate_net_when_c01_wins": 513266.6,
+    "candidate_net_when_c01_no_trade": -449105.4,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 189892.0,
+      "max_drawdown": -0.32961,
+      "drawdown_duration_sessions": 422,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 25772.1,
+        "2019": -13031.6,
+        "2020": 11197.6,
+        "2021": 15451.8,
+        "2022": 103641.7,
+        "2023": 44321.0,
+        "2024": 45617.0,
+        "2025": -43077.6
+      },
+      "net_after_best_1pct": -40214.0,
+      "median_session": -375.15
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C05": {
+    "correlation_with_c01": 0.200087,
+    "overlap_sessions": 1488,
+    "candidate_net_when_c01_loses": -21865.3,
+    "candidate_net_when_c01_wins": 461481.5,
+    "candidate_net_when_c01_no_trade": -403147.1,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 154059.6,
+      "max_drawdown": -0.506739,
+      "drawdown_duration_sessions": 776,
+      "positive_years": 5,
+      "by_year": {
+        "2018": 5336.6,
+        "2019": -2202.0,
+        "2020": -8122.3,
+        "2021": 1091.3,
+        "2022": 108046.2,
+        "2023": 23765.7,
+        "2024": 48021.9,
+        "2025": -21877.8
+      },
+      "net_after_best_1pct": -129231.4,
+      "median_session": -400.2
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C08": {
+    "correlation_with_c01": 0.035464,
+    "overlap_sessions": 763,
+    "candidate_net_when_c01_loses": -49320.4,
+    "candidate_net_when_c01_wins": -8660.9,
+    "candidate_net_when_c01_no_trade": -20363.3,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 39245.9,
+      "max_drawdown": -0.287854,
+      "drawdown_duration_sessions": 482,
+      "positive_years": 5,
+      "by_year": {
+        "2018": 12582.2,
+        "2019": -1874.8,
+        "2020": 24334.5,
+        "2021": -2257.7,
+        "2022": 8301.1,
+        "2023": 3131.8,
+        "2024": 3578.5,
+        "2025": -8549.7
+      },
+      "net_after_best_1pct": -128395.9,
+      "median_session": -200.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C09": {
+    "correlation_with_c01": 0.11738,
+    "overlap_sessions": 715,
+    "candidate_net_when_c01_loses": -56347.1,
+    "candidate_net_when_c01_wins": 43475.6,
+    "candidate_net_when_c01_no_trade": -65234.2,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 39484.8,
+      "max_drawdown": -0.34842,
+      "drawdown_duration_sessions": 891,
+      "positive_years": 3,
+      "by_year": {
+        "2018": 28925.4,
+        "2019": -12491.5,
+        "2020": -9752.2,
+        "2021": -1193.9,
+        "2022": 19830.6,
+        "2023": -5559.6,
+        "2024": -1975.4,
+        "2025": 21701.4
+      },
+      "net_after_best_1pct": -120347.3,
+      "median_session": -182.6
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C10": {
+    "correlation_with_c01": 0.182992,
+    "overlap_sessions": 1406,
+    "candidate_net_when_c01_loses": -88638.4,
+    "candidate_net_when_c01_wins": 290717.8,
+    "candidate_net_when_c01_no_trade": -181776.2,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 137893.7,
+      "max_drawdown": -0.2169,
+      "drawdown_duration_sessions": 239,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 27977.4,
+        "2019": -1033.8,
+        "2020": 5140.9,
+        "2021": 14358.2,
+        "2022": 65732.4,
+        "2023": 4731.5,
+        "2024": 46668.2,
+        "2025": -25681.1
+      },
+      "net_after_best_1pct": -59952.3,
+      "median_session": -375.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C11": {
+    "correlation_with_c01": 0.10672,
+    "overlap_sessions": 1451,
+    "candidate_net_when_c01_loses": -49904.2,
+    "candidate_net_when_c01_wins": 173734.1,
+    "candidate_net_when_c01_no_trade": -62876.7,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 178543.7,
+      "max_drawdown": -0.197338,
+      "drawdown_duration_sessions": 304,
+      "positive_years": 5,
+      "by_year": {
+        "2018": 37587.2,
+        "2019": -461.4,
+        "2020": 12122.8,
+        "2021": -1558.1,
+        "2022": 73922.1,
+        "2023": -17793.8,
+        "2024": 36907.3,
+        "2025": 37817.6
+      },
+      "net_after_best_1pct": -12927.4,
+      "median_session": -330.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C14": {
+    "correlation_with_c01": 0.081133,
+    "overlap_sessions": 726,
+    "candidate_net_when_c01_loses": -46942.0,
+    "candidate_net_when_c01_wins": 50179.4,
+    "candidate_net_when_c01_no_trade": 37980.5,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 158808.4,
+      "max_drawdown": -0.184477,
+      "drawdown_duration_sessions": 244,
+      "positive_years": 7,
+      "by_year": {
+        "2018": 22614.2,
+        "2019": 256.2,
+        "2020": 12589.4,
+        "2021": -10871.4,
+        "2022": 66928.2,
+        "2023": 12039.2,
+        "2024": 21923.0,
+        "2025": 33329.6
+      },
+      "net_after_best_1pct": -30023.4,
+      "median_session": -180.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C15": {
+    "correlation_with_c01": 0.108889,
+    "overlap_sessions": 649,
+    "candidate_net_when_c01_loses": -75516.5,
+    "candidate_net_when_c01_wins": 32761.6,
+    "candidate_net_when_c01_no_trade": -35402.7,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 39432.9,
+      "max_drawdown": -0.311327,
+      "drawdown_duration_sessions": 863,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 10958.8,
+        "2019": -1562.8,
+        "2020": 5825.7,
+        "2021": -27140.8,
+        "2022": 14172.7,
+        "2023": 2191.2,
+        "2024": 13286.7,
+        "2025": 21701.4
+      },
+      "net_after_best_1pct": -137319.0,
+      "median_session": -190.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C16": {
+    "correlation_with_c01": 0.353842,
+    "overlap_sessions": 1425,
+    "candidate_net_when_c01_loses": -201219.8,
+    "candidate_net_when_c01_wins": 269477.3,
+    "candidate_net_when_c01_no_trade": -58520.1,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 127327.9,
+      "max_drawdown": -0.206221,
+      "drawdown_duration_sessions": 387,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 33498.1,
+        "2019": -10759.3,
+        "2020": 17183.7,
+        "2021": -9076.6,
+        "2022": 44772.7,
+        "2023": 16817.2,
+        "2024": 23218.4,
+        "2025": 11673.7
+      },
+      "net_after_best_1pct": -82668.1,
+      "median_session": -335.2
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "C17": {
+    "correlation_with_c01": 0.009322,
+    "overlap_sessions": 1458,
+    "candidate_net_when_c01_loses": 52356.7,
+    "candidate_net_when_c01_wins": 104932.5,
+    "candidate_net_when_c01_no_trade": -114471.0,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 160408.7,
+      "max_drawdown": -0.165872,
+      "drawdown_duration_sessions": 399,
+      "positive_years": 7,
+      "by_year": {
+        "2018": 29542.7,
+        "2019": -5311.4,
+        "2020": 12498.3,
+        "2021": 17061.4,
+        "2022": 47112.1,
+        "2023": 13165.8,
+        "2024": 34687.2,
+        "2025": 11652.6
+      },
+      "net_after_best_1pct": 11822.5,
+      "median_session": -425.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "BASE_CANDLE": {
+    "correlation_with_c01": 0.13375,
+    "overlap_sessions": 1488,
+    "candidate_net_when_c01_loses": -50770.5,
+    "candidate_net_when_c01_wins": 220521.7,
+    "candidate_net_when_c01_no_trade": -73482.1,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 213859.6,
+      "max_drawdown": -0.185245,
+      "drawdown_duration_sessions": 285,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 31201.6,
+        "2019": -6171.8,
+        "2020": 19242.5,
+        "2021": 4986.3,
+        "2022": 88441.2,
+        "2023": -1879.1,
+        "2024": 44706.8,
+        "2025": 33332.1
+      },
+      "net_after_best_1pct": 9493.5,
+      "median_session": -395.2
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "BASE_EMA": {
+    "correlation_with_c01": 0.154114,
+    "overlap_sessions": 1495,
+    "candidate_net_when_c01_loses": -54125.8,
+    "candidate_net_when_c01_wins": 243731.3,
+    "candidate_net_when_c01_no_trade": -76222.1,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 230973.9,
+      "max_drawdown": -0.14273,
+      "drawdown_duration_sessions": 272,
+      "positive_years": 8,
+      "by_year": {
+        "2018": 38426.5,
+        "2019": 2253.0,
+        "2020": 18482.5,
+        "2021": 10846.2,
+        "2022": 68266.2,
+        "2023": 1125.6,
+        "2024": 53321.8,
+        "2025": 38252.1
+      },
+      "net_after_best_1pct": 24497.8,
+      "median_session": -367.65
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "BASE_LONG": {
+    "correlation_with_c01": 0.108898,
+    "overlap_sessions": 1492,
+    "candidate_net_when_c01_loses": -54480.5,
+    "candidate_net_when_c01_wins": 125576.3,
+    "candidate_net_when_c01_no_trade": -65166.9,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 123519.4,
+      "max_drawdown": -0.216418,
+      "drawdown_duration_sessions": 311,
+      "positive_years": 8,
+      "by_year": {
+        "2018": 21091.5,
+        "2019": 1273.1,
+        "2020": 3697.6,
+        "2021": 5106.3,
+        "2022": 67131.4,
+        "2023": 6170.6,
+        "2024": 15676.8,
+        "2025": 3372.1
+      },
+      "net_after_best_1pct": -53776.7,
+      "median_session": -280.15
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "BASE_SHORT": {
+    "correlation_with_c01": 0.053649,
+    "overlap_sessions": 1489,
+    "candidate_net_when_c01_loses": -29600.5,
+    "candidate_net_when_c01_wins": 84946.6,
+    "candidate_net_when_c01_no_trade": -20736.8,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 152199.8,
+      "max_drawdown": -0.209703,
+      "drawdown_duration_sessions": 435,
+      "positive_years": 5,
+      "by_year": {
+        "2018": 31131.8,
+        "2019": -12032.0,
+        "2020": 18552.6,
+        "2021": -13198.7,
+        "2022": 52866.2,
+        "2023": -4029.2,
+        "2024": 49106.9,
+        "2025": 29802.2
+      },
+      "net_after_best_1pct": -37061.2,
+      "median_session": -260.2
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "BASE_RANDOM": {
+    "correlation_with_c01": 0.106054,
+    "overlap_sessions": 1493,
+    "candidate_net_when_c01_loses": -62015.6,
+    "candidate_net_when_c01_wins": 115106.3,
+    "candidate_net_when_c01_no_trade": -38806.9,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 131874.3,
+      "max_drawdown": -0.222176,
+      "drawdown_duration_sessions": 450,
+      "positive_years": 4,
+      "by_year": {
+        "2018": 24991.5,
+        "2019": -3572.0,
+        "2020": -2187.5,
+        "2021": -1738.7,
+        "2022": 57431.2,
+        "2023": -3179.2,
+        "2024": 49201.8,
+        "2025": 10927.2
+      },
+      "net_after_best_1pct": -54326.7,
+      "median_session": -280.1
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "P6_RETEST": {
+    "correlation_with_c01": 0.155949,
+    "overlap_sessions": 629,
+    "candidate_net_when_c01_loses": -28281.1,
+    "candidate_net_when_c01_wins": 26998.2,
+    "candidate_net_when_c01_no_trade": 0.0,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 116307.6,
+      "max_drawdown": -0.164784,
+      "drawdown_duration_sessions": 435,
+      "positive_years": 6,
+      "by_year": {
+        "2018": 24388.2,
+        "2019": -8520.4,
+        "2020": 16358.2,
+        "2021": -3721.2,
+        "2022": 40699.0,
+        "2023": 13006.5,
+        "2024": 10033.2,
+        "2025": 24064.1
+      },
+      "net_after_best_1pct": -45924.7,
+      "median_session": 0.0
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  },
+  "P6_FAILURE_REVERSAL": {
+    "correlation_with_c01": -0.055696,
+    "overlap_sessions": 478,
+    "candidate_net_when_c01_loses": 31325.0,
+    "candidate_net_when_c01_wins": -38757.8,
+    "candidate_net_when_c01_no_trade": 0.0,
+    "combined_one_contract_each": {
+      "sessions": 1966,
+      "net_profit": 110157.7,
+      "max_drawdown": -0.190238,
+      "drawdown_duration_sessions": 508,
+      "positive_years": 5,
+      "by_year": {
+        "2018": 29534.9,
+        "2019": -1873.3,
+        "2020": 24400.0,
+        "2021": -5414.8,
+        "2022": 43905.5,
+        "2023": -9196.6,
+        "2024": 14546.2,
+        "2025": 14255.8
+      },
+      "net_after_best_1pct": -39794.8,
+      "median_session": 0.0
+    },
+    "allocation": "one fixed NQ contract per active strategy; no weight optimization"
+  }
+}

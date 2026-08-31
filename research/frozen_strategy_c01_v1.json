@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "candidate_id": "C01",
+  "version": "C01-v1",
+  "evidence_at_freeze": "robust_historical_candidate",
+  "selection_eligible": true,
+  "market_training_window": {
+    "start": "2018-01-01",
+    "end_inclusive": "2025-12-31"
+  },
+  "protected_future_market_data_opened": false,
+  "candidate_specification_hash": "1cd8ab1a8d7512861a2814c10a805b02127bd7a3bf73c8ac058c49f296e99c1a",
+  "rule": {
+    "entry_timestamp": "first one-minute open after a completed 15-minute close beyond the 09:30-09:44 range",
+    "feature_cutoff": "qualifying close",
+    "indicator_formula": "200-period EMA of completed 15-minute RTH closes; breakout 15-minute volume > preceding completed 15-minute volume",
+    "warmup": "200 completed 15-minute RTH bars",
+    "stop": "opposite extreme of qualifying breakout 15-minute bar",
+    "target": "matched overlay",
+    "time_exit": "15:55 ET",
+    "reentry": false,
+    "max_trades": 1
+  },
+  "primary_contract": "NQ",
+  "primary_management": "matched_4R",
+  "primary_sizing": "fixed1",
+  "execution": {
+    "adverse_first_same_bar": true,
+    "NQ_point_value": 20,
+    "round_trip_fees": 5.1,
+    "slippage_ticks_per_side": 1,
+    "spread_ticks_round_trip": 1,
+    "time_zone": "America/New_York"
+  },
+  "permitted_next_use": "prospective paper/manual rehearsal or separately authorized future holdout only",
+  "prohibited_claims": [
+    "validated",
+    "live-ready",
+    "approved for automation"
+  ],
+  "phase5_result_sha256": "32cdb5002701d30260c8b2072db1d624e5fa9538cca40146f0a43f6d3b54ff3e"
+}

@@ -1,0 +1,43 @@
+{
+  "C01_CAUSAL": {
+    "trades": 1495,
+    "original_net": 117590.5,
+    "best_trade_removed": 99385.6,
+    "best_3_removed": 76425.8,
+    "best_5_removed": 58426.0,
+    "best_10_removed": 23366.5,
+    "best_1pct_removed": -7373.0,
+    "best_5pct_removed": -237617.0,
+    "winsorized_1pct_net": 82678.0,
+    "median_trade": -270.1,
+    "mean_trade": 78.66,
+    "skew": 2.655279,
+    "payoff_ratio": 2.073137,
+    "expected_shortfall_5pct": -2379.3,
+    "max_losing_streak": 16,
+    "best_winner_share_gross_profit": 0.021593,
+    "top5_share_gross_profit": 0.070176,
+    "top1pct_share_gross_profit": 0.148221,
+    "best_month_share_total": 0.208633,
+    "best_year_share_total": 0.349484,
+    "session_level_net_after_best_1pct": -33782.5
+  },
+  "C04": {
+    "net_after_best_1pct": -81341.5
+  },
+  "C05": {
+    "net_after_best_1pct": -154008.9
+  },
+  "C10": {
+    "net_after_best_1pct": -99684.8
+  },
+  "C11": {
+    "net_after_best_1pct": -49609.8
+  },
+  "C14": {
+    "net_after_best_1pct": -77435.1
+  },
+  "C16": {
+    "net_after_best_1pct": -92945.6
+  }
+}

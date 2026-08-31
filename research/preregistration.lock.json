@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "locked_at_local": "2026-08-25",
+  "result_generation_started": true,
+  "files": {
+    "docs/strategy_tournament_preregistration.md": "8ccf6bc88d20cc43dd43cb08c0d167711be25bfb6597c558d60090aa7022cbb7",
+    "research/candidate_resolution_manifest.json": "182aebc3de3c6187527b1323a03f5842ac74915fbbbdc98202c040b125e272a3",
+    "docs/reddit_handoff_audit.md": "403b75ffcc16cb2862572ae0865fd8a0f35998f25730bc3777c89cd6d352a999"
+  },
+  "note": "Hashes were recorded after handoff verification and before any Phase 5 market result was generated."
+}

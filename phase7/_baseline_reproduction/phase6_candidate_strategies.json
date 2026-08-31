@@ -1,0 +1,10 @@
+{
+  "P6_RETEST": {
+    "rule": "after causal C01 signal, first opening-range-boundary touch that closes on breakout side; next-minute entry; retest-bar stop; 4R",
+    "pre_registered_in_phase6_prompt": true
+  },
+  "P6_FAILURE_REVERSAL": {
+    "rule": "within 30 minutes after causal C01 signal, first close back through opening-range boundary; reverse next minute; breakout/failure extreme stop; 4R",
+    "pre_registered_in_phase6_prompt": true
+  }
+}

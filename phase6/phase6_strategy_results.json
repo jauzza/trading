@@ -1,0 +1,401 @@
+{
+  "C01_CAUSAL": {
+    "sessions": 1966,
+    "net_profit": 117590.5,
+    "max_drawdown": -0.146775,
+    "drawdown_duration_sessions": 424,
+    "positive_years": 6,
+    "by_year": {
+      "2018": 25211.2,
+      "2019": -6617.6,
+      "2020": 16176.7,
+      "2021": -3804.0,
+      "2022": 40535.9,
+      "2023": 11100.2,
+      "2024": 13286.7,
+      "2025": 21701.4
+    },
+    "net_after_best_1pct": -33782.5,
+    "median_session": 0.0
+  },
+  "C01_LONG_ONLY": {
+    "sessions": 1966,
+    "net_profit": 99111.4,
+    "max_drawdown": -0.072915,
+    "drawdown_duration_sessions": 354,
+    "positive_years": 7,
+    "by_year": {
+      "2018": 9689.5,
+      "2019": -2301.6,
+      "2020": 14157.6,
+      "2021": 15288.4,
+      "2022": 8567.2,
+      "2023": 16463.1,
+      "2024": 22349.1,
+      "2025": 14898.1
+    },
+    "net_after_best_1pct": 7918.4,
+    "median_session": 0.0
+  },
+  "C01_SHORT_ONLY": {
+    "sessions": 1966,
+    "net_profit": 18479.1,
+    "max_drawdown": -0.293619,
+    "drawdown_duration_sessions": 890,
+    "positive_years": 4,
+    "by_year": {
+      "2018": 15521.7,
+      "2019": -4316.0,
+      "2020": 2019.1,
+      "2021": -19092.4,
+      "2022": 31968.7,
+      "2023": -5362.9,
+      "2024": -9062.4,
+      "2025": 6803.3
+    },
+    "net_after_best_1pct": -118563.9,
+    "median_session": 0.0
+  },
+  "C02": {
+    "sessions": 1966,
+    "net_profit": -11179.0,
+    "max_drawdown": -0.45573,
+    "drawdown_duration_sessions": 1744,
+    "positive_years": 3,
+    "by_year": {
+      "2018": -6335.6,
+      "2019": -349.1,
+      "2020": -17424.6,
+      "2021": 255.9,
+      "2022": 854.3,
+      "2023": -12685.4,
+      "2024": 28254.7,
+      "2025": -3749.2
+    },
+    "net_after_best_1pct": -118492.0,
+    "median_session": -175.1
+  },
+  "C04": {
+    "sessions": 1966,
+    "net_profit": 72301.5,
+    "max_drawdown": -0.324382,
+    "drawdown_duration_sessions": 704,
+    "positive_years": 5,
+    "by_year": {
+      "2018": 560.9,
+      "2019": -6414.0,
+      "2020": -4979.1,
+      "2021": 19255.8,
+      "2022": 63105.8,
+      "2023": 33220.8,
+      "2024": 32330.3,
+      "2025": -64779.0
+    },
+    "net_after_best_1pct": -81341.5,
+    "median_session": -365.1
+  },
+  "C05": {
+    "sessions": 1966,
+    "net_profit": 36469.1,
+    "max_drawdown": -0.612834,
+    "drawdown_duration_sessions": 1051,
+    "positive_years": 5,
+    "by_year": {
+      "2018": -19874.6,
+      "2019": 4415.6,
+      "2020": -24299.0,
+      "2021": 4895.3,
+      "2022": 67510.3,
+      "2023": 12665.5,
+      "2024": 34735.2,
+      "2025": -43579.2
+    },
+    "net_after_best_1pct": -154008.9,
+    "median_session": -427.6
+  },
+  "C08": {
+    "sessions": 1966,
+    "net_profit": -78344.6,
+    "max_drawdown": -0.798739,
+    "drawdown_duration_sessions": 997,
+    "positive_years": 3,
+    "by_year": {
+      "2018": -12629.0,
+      "2019": 4742.8,
+      "2020": 8157.8,
+      "2021": 1546.3,
+      "2022": -32234.8,
+      "2023": -7968.4,
+      "2024": -9708.2,
+      "2025": -30251.1
+    },
+    "net_after_best_1pct": -164842.6,
+    "median_session": 0.0
+  },
+  "C09": {
+    "sessions": 1966,
+    "net_profit": -78105.7,
+    "max_drawdown": -0.797405,
+    "drawdown_duration_sessions": 1889,
+    "positive_years": 2,
+    "by_year": {
+      "2018": 3714.2,
+      "2019": -5873.9,
+      "2020": -25928.9,
+      "2021": 2610.1,
+      "2022": -20705.3,
+      "2023": -16659.8,
+      "2024": -15262.1,
+      "2025": 0.0
+    },
+    "net_after_best_1pct": -144753.7,
+    "median_session": 0.0
+  },
+  "C10": {
+    "sessions": 1966,
+    "net_profit": 20303.2,
+    "max_drawdown": -0.328454,
+    "drawdown_duration_sessions": 319,
+    "positive_years": 5,
+    "by_year": {
+      "2018": 2766.2,
+      "2019": 5583.8,
+      "2020": -11035.8,
+      "2021": 18162.2,
+      "2022": 25196.5,
+      "2023": -6368.7,
+      "2024": 33381.5,
+      "2025": -47382.5
+    },
+    "net_after_best_1pct": -99684.8,
+    "median_session": -350.1
+  },
+  "C11": {
+    "sessions": 1966,
+    "net_profit": 60953.2,
+    "max_drawdown": -0.265461,
+    "drawdown_duration_sessions": 469,
+    "positive_years": 6,
+    "by_year": {
+      "2018": 12376.0,
+      "2019": 6156.2,
+      "2020": -4053.9,
+      "2021": 2245.9,
+      "2022": 33386.2,
+      "2023": -28894.0,
+      "2024": 23620.6,
+      "2025": 16116.2
+    },
+    "net_after_best_1pct": -49609.8,
+    "median_session": -317.6
+  },
+  "C14": {
+    "sessions": 1966,
+    "net_profit": 41217.9,
+    "max_drawdown": -0.314275,
+    "drawdown_duration_sessions": 434,
+    "positive_years": 5,
+    "by_year": {
+      "2018": -2597.0,
+      "2019": 6873.8,
+      "2020": -3587.3,
+      "2021": -7067.4,
+      "2022": 26392.3,
+      "2023": 939.0,
+      "2024": 8636.3,
+      "2025": 11628.2
+    },
+    "net_after_best_1pct": -77435.1,
+    "median_session": 0.0
+  },
+  "C15": {
+    "sessions": 1966,
+    "net_profit": -78157.6,
+    "max_drawdown": -0.781576,
+    "drawdown_duration_sessions": 1962,
+    "positive_years": 1,
+    "by_year": {
+      "2018": -14252.4,
+      "2019": 5054.8,
+      "2020": -10351.0,
+      "2021": -23336.8,
+      "2022": -26363.2,
+      "2023": -8909.0,
+      "2024": 0.0,
+      "2025": 0.0
+    },
+    "net_after_best_1pct": -170505.6,
+    "median_session": 0.0
+  },
+  "C16": {
+    "sessions": 1966,
+    "net_profit": 9737.4,
+    "max_drawdown": -0.267128,
+    "drawdown_duration_sessions": 668,
+    "positive_years": 5,
+    "by_year": {
+      "2018": 8286.9,
+      "2019": -4141.7,
+      "2020": 1007.0,
+      "2021": -5272.6,
+      "2022": 4236.8,
+      "2023": 5717.0,
+      "2024": 9931.7,
+      "2025": -10027.7
+    },
+    "net_after_best_1pct": -92945.6,
+    "median_session": -275.1
+  },
+  "C17": {
+    "sessions": 1966,
+    "net_profit": 42818.2,
+    "max_drawdown": -0.151742,
+    "drawdown_duration_sessions": 694,
+    "positive_years": 6,
+    "by_year": {
+      "2018": 4331.5,
+      "2019": 1306.2,
+      "2020": -3678.4,
+      "2021": 20865.4,
+      "2022": 6576.2,
+      "2023": 2065.6,
+      "2024": 21400.5,
+      "2025": -10048.8
+    },
+    "net_after_best_1pct": 10820.2,
+    "median_session": -425.1
+  },
+  "BASE_CANDLE": {
+    "sessions": 1966,
+    "net_profit": 96269.1,
+    "max_drawdown": -0.279703,
+    "drawdown_duration_sessions": 420,
+    "positive_years": 7,
+    "by_year": {
+      "2018": 5990.4,
+      "2019": 445.8,
+      "2020": 3065.8,
+      "2021": 8790.3,
+      "2022": 47905.3,
+      "2023": -12979.3,
+      "2024": 31420.1,
+      "2025": 11630.7
+    },
+    "net_after_best_1pct": -29048.9,
+    "median_session": -420.1
+  },
+  "BASE_EMA": {
+    "sessions": 1966,
+    "net_profit": 113383.4,
+    "max_drawdown": -0.263476,
+    "drawdown_duration_sessions": 403,
+    "positive_years": 7,
+    "by_year": {
+      "2018": 13215.3,
+      "2019": 8870.6,
+      "2020": 2305.8,
+      "2021": 14650.2,
+      "2022": 27730.3,
+      "2023": -9974.6,
+      "2024": 40035.1,
+      "2025": 16550.7
+    },
+    "net_after_best_1pct": -13094.6,
+    "median_session": -385.1
+  },
+  "BASE_LONG": {
+    "sessions": 1966,
+    "net_profit": 5928.9,
+    "max_drawdown": -0.288456,
+    "drawdown_duration_sessions": 761,
+    "positive_years": 4,
+    "by_year": {
+      "2018": -4119.7,
+      "2019": 7890.7,
+      "2020": -12479.1,
+      "2021": 8910.3,
+      "2022": 26595.5,
+      "2023": -4929.6,
+      "2024": 2390.1,
+      "2025": -18329.3
+    },
+    "net_after_best_1pct": -106184.1,
+    "median_session": -205.1
+  },
+  "BASE_SHORT": {
+    "sessions": 1966,
+    "net_profit": 34609.3,
+    "max_drawdown": -0.416943,
+    "drawdown_duration_sessions": 827,
+    "positive_years": 5,
+    "by_year": {
+      "2018": 5920.6,
+      "2019": -5414.4,
+      "2020": 2375.9,
+      "2021": -9394.7,
+      "2022": 12330.3,
+      "2023": -15129.4,
+      "2024": 35820.2,
+      "2025": 8100.8
+    },
+    "net_after_best_1pct": -78008.7,
+    "median_session": -200.1
+  },
+  "BASE_RANDOM": {
+    "sessions": 1966,
+    "net_profit": 14283.8,
+    "max_drawdown": -0.411454,
+    "drawdown_duration_sessions": 1486,
+    "positive_years": 4,
+    "by_year": {
+      "2018": -219.7,
+      "2019": 3045.6,
+      "2020": -18364.2,
+      "2021": 2065.3,
+      "2022": 16895.3,
+      "2023": -14279.4,
+      "2024": 35915.1,
+      "2025": -10774.2
+    },
+    "net_after_best_1pct": -99699.2,
+    "median_session": -220.1
+  },
+  "P6_RETEST": {
+    "sessions": 1966,
+    "net_profit": -1282.9,
+    "max_drawdown": -0.081637,
+    "drawdown_duration_sessions": 972,
+    "positive_years": 5,
+    "by_year": {
+      "2018": -823.0,
+      "2019": -1902.8,
+      "2020": 181.5,
+      "2021": 82.8,
+      "2022": 163.1,
+      "2023": 1906.3,
+      "2024": -3253.5,
+      "2025": 2362.7
+    },
+    "net_after_best_1pct": -37500.9,
+    "median_session": 0.0
+  },
+  "P6_FAILURE_REVERSAL": {
+    "sessions": 1966,
+    "net_profit": -7432.8,
+    "max_drawdown": -0.338957,
+    "drawdown_duration_sessions": 860,
+    "positive_years": 5,
+    "by_year": {
+      "2018": 4323.7,
+      "2019": 4744.3,
+      "2020": 8223.3,
+      "2021": -1610.8,
+      "2022": 3369.6,
+      "2023": -20296.8,
+      "2024": 1259.5,
+      "2025": -7445.6
+    },
+    "net_after_best_1pct": -95365.8,
+    "median_session": 0.0
+  }
+}

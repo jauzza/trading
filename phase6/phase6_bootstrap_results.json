@@ -1,0 +1,86 @@
+{
+  "BASE_CANDLE": {
+    "low": -0.109068,
+    "median": -0.012206,
+    "high": 0.083658,
+    "p_value": 0.59824804,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 0.8035439200000001,
+    "bh_adjusted_p": 0.8035439200000001,
+    "by_adjusted_p": 1.0
+  },
+  "BASE_EMA": {
+    "low": -0.136825,
+    "median": -0.040754,
+    "high": 0.057993,
+    "p_value": 0.79288414,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 0.41427172000000007,
+    "bh_adjusted_p": 0.48331700666666677,
+    "by_adjusted_p": 1.0
+  },
+  "BASE_LONG": {
+    "low": 0.137977,
+    "median": 0.241835,
+    "high": 0.345038,
+    "p_value": 2e-05,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 4e-05,
+    "bh_adjusted_p": 9.333333333333334e-05,
+    "by_adjusted_p": 0.00024200000000000003
+  },
+  "BASE_SHORT": {
+    "low": 0.199326,
+    "median": 0.309028,
+    "high": 0.416813,
+    "p_value": 2e-05,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 4e-05,
+    "bh_adjusted_p": 9.333333333333334e-05,
+    "by_adjusted_p": 0.00024200000000000003
+  },
+  "BASE_RANDOM": {
+    "low": 0.146569,
+    "median": 0.250766,
+    "high": 0.35433,
+    "p_value": 2e-05,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 4e-05,
+    "bh_adjusted_p": 9.333333333333334e-05,
+    "by_adjusted_p": 0.00024200000000000003
+  },
+  "P6_RETEST": {
+    "low": 0.080047,
+    "median": 0.152724,
+    "high": 0.223362,
+    "p_value": 8e-05,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 0.00016,
+    "bh_adjusted_p": 0.00028000000000000003,
+    "by_adjusted_p": 0.0007260000000000001
+  },
+  "P6_FAILURE_REVERSAL": {
+    "low": 0.019807,
+    "median": 0.084978,
+    "high": 0.150461,
+    "p_value": 0.0049999,
+    "samples": 50000,
+    "mean_block_sessions": 10,
+    "minimum_p_value": 2e-05,
+    "two_sided_p": 0.0099998,
+    "bh_adjusted_p": 0.013999719999999998,
+    "by_adjusted_p": 0.036299274
+  }
+}

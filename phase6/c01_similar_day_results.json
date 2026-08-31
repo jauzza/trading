@@ -1,0 +1,30 @@
+{
+  "5": {
+    "sessions": 1395,
+    "correlation_with_current_net_r": -0.02445,
+    "bad_day_auc": 0.498066,
+    "rule": "Euclidean distance after expanding earlier-only median imputation and scaling; mean outcome of 5 earlier neighbors",
+    "selection_eligible": false
+  },
+  "10": {
+    "sessions": 1395,
+    "correlation_with_current_net_r": -0.028681,
+    "bad_day_auc": 0.510269,
+    "rule": "Euclidean distance after expanding earlier-only median imputation and scaling; mean outcome of 10 earlier neighbors",
+    "selection_eligible": false
+  },
+  "20": {
+    "sessions": 1395,
+    "correlation_with_current_net_r": 0.014126,
+    "bad_day_auc": 0.525094,
+    "rule": "Euclidean distance after expanding earlier-only median imputation and scaling; mean outcome of 20 earlier neighbors",
+    "selection_eligible": false
+  },
+  "50": {
+    "sessions": 1395,
+    "correlation_with_current_net_r": -0.007081,
+    "bad_day_auc": 0.513273,
+    "rule": "Euclidean distance after expanding earlier-only median imputation and scaling; mean outcome of 50 earlier neighbors",
+    "selection_eligible": false
+  }
+}

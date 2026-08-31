@@ -1,0 +1,396 @@
+{
+  "null_hypothesis": "candidate and comparator have equal mean accepted-session net R",
+  "unit_of_analysis": "accepted market session; no-trade session equals zero",
+  "resampling_unit": "stationary blocks of aligned sessions",
+  "interpretation_limit": "A small p-value does not prove future profitability, causality, or operational feasibility.",
+  "bootstrap_samples": 50000,
+  "block_sensitivity": [
+    5,
+    10,
+    20,
+    60
+  ],
+  "paired_comparisons": {
+    "BASE_CANDLE": {
+      "5": {
+        "low": -0.112887,
+        "median": -0.011757,
+        "high": 0.08674,
+        "p_value": 0.59060819,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.8188236200000001
+      },
+      "10": {
+        "low": -0.108723,
+        "median": -0.012352,
+        "high": 0.082979,
+        "p_value": 0.59796804,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.80410392,
+        "bh_adjusted_p": 0.80410392,
+        "by_adjusted_p": 1.0
+      },
+      "20": {
+        "low": -0.106431,
+        "median": -0.012922,
+        "high": 0.081461,
+        "p_value": 0.60600788,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.7880242399999999
+      },
+      "60": {
+        "low": -0.097322,
+        "median": -0.012441,
+        "high": 0.074096,
+        "p_value": 0.61140777,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.77722446
+      }
+    },
+    "BASE_EMA": {
+      "5": {
+        "low": -0.140893,
+        "median": -0.041264,
+        "high": 0.057548,
+        "p_value": 0.79164417,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.41675166
+      },
+      "10": {
+        "low": -0.13911,
+        "median": -0.041233,
+        "high": 0.057295,
+        "p_value": 0.79558409,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.40887182000000005,
+        "bh_adjusted_p": 0.4770171233333334,
+        "by_adjusted_p": 1.0
+      },
+      "20": {
+        "low": -0.13715,
+        "median": -0.040953,
+        "high": 0.056306,
+        "p_value": 0.79630407,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.4074318599999999
+      },
+      "60": {
+        "low": -0.134546,
+        "median": -0.040777,
+        "high": 0.053462,
+        "p_value": 0.80124398,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.39755204000000005
+      }
+    },
+    "BASE_LONG": {
+      "5": {
+        "low": 0.138119,
+        "median": 0.241325,
+        "high": 0.344813,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "10": {
+        "low": 0.13802,
+        "median": 0.242149,
+        "high": 0.345226,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05,
+        "bh_adjusted_p": 7.000000000000001e-05,
+        "by_adjusted_p": 0.00018150000000000002
+      },
+      "20": {
+        "low": 0.142633,
+        "median": 0.242054,
+        "high": 0.341242,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "60": {
+        "low": 0.154938,
+        "median": 0.242069,
+        "high": 0.329088,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      }
+    },
+    "BASE_SHORT": {
+      "5": {
+        "low": 0.198885,
+        "median": 0.309303,
+        "high": 0.416724,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "10": {
+        "low": 0.199555,
+        "median": 0.308302,
+        "high": 0.415614,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05,
+        "bh_adjusted_p": 7.000000000000001e-05,
+        "by_adjusted_p": 0.00018150000000000002
+      },
+      "20": {
+        "low": 0.200647,
+        "median": 0.309376,
+        "high": 0.416301,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "60": {
+        "low": 0.203695,
+        "median": 0.3094,
+        "high": 0.41048,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      }
+    },
+    "BASE_RANDOM": {
+      "5": {
+        "low": 0.147233,
+        "median": 0.251118,
+        "high": 0.354895,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "10": {
+        "low": 0.147465,
+        "median": 0.250792,
+        "high": 0.354268,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05,
+        "bh_adjusted_p": 7.000000000000001e-05,
+        "by_adjusted_p": 0.00018150000000000002
+      },
+      "20": {
+        "low": 0.148904,
+        "median": 0.251178,
+        "high": 0.355792,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "60": {
+        "low": 0.150039,
+        "median": 0.250425,
+        "high": 0.354221,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      }
+    },
+    "P6_RETEST": {
+      "5": {
+        "low": 0.079741,
+        "median": 0.152407,
+        "high": 0.224341,
+        "p_value": 6e-05,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.00012
+      },
+      "10": {
+        "low": 0.081175,
+        "median": 0.152997,
+        "high": 0.224274,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05,
+        "bh_adjusted_p": 7.000000000000001e-05,
+        "by_adjusted_p": 0.00018150000000000002
+      },
+      "20": {
+        "low": 0.082029,
+        "median": 0.152845,
+        "high": 0.222803,
+        "p_value": 2e-05,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 4e-05
+      },
+      "60": {
+        "low": 0.081943,
+        "median": 0.152632,
+        "high": 0.220533,
+        "p_value": 4e-05,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 8e-05
+      }
+    },
+    "P6_FAILURE_REVERSAL": {
+      "5": {
+        "low": 0.015738,
+        "median": 0.08484,
+        "high": 0.154242,
+        "p_value": 0.00833983,
+        "samples": 50000,
+        "mean_block_sessions": 5,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.01667966
+      },
+      "10": {
+        "low": 0.0198,
+        "median": 0.085426,
+        "high": 0.15044,
+        "p_value": 0.00561989,
+        "samples": 50000,
+        "mean_block_sessions": 10,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.01123978,
+        "bh_adjusted_p": 0.015735692,
+        "by_adjusted_p": 0.0408004014
+      },
+      "20": {
+        "low": 0.023222,
+        "median": 0.085213,
+        "high": 0.146095,
+        "p_value": 0.00363993,
+        "samples": 50000,
+        "mean_block_sessions": 20,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.00727986
+      },
+      "60": {
+        "low": 0.026215,
+        "median": 0.085851,
+        "high": 0.140998,
+        "p_value": 0.00255995,
+        "samples": 50000,
+        "mean_block_sessions": 60,
+        "minimum_p_value": 2e-05,
+        "two_sided_p": 0.0051199
+      }
+    }
+  },
+  "multiple_testing": {
+    "family": [
+      "BASE_CANDLE",
+      "BASE_EMA",
+      "BASE_LONG",
+      "BASE_SHORT",
+      "BASE_RANDOM",
+      "P6_RETEST",
+      "P6_FAILURE_REVERSAL"
+    ],
+    "BH": {
+      "BASE_CANDLE": 0.80410392,
+      "BASE_EMA": 0.4770171233333334,
+      "BASE_LONG": 7.000000000000001e-05,
+      "BASE_SHORT": 7.000000000000001e-05,
+      "BASE_RANDOM": 7.000000000000001e-05,
+      "P6_RETEST": 7.000000000000001e-05,
+      "P6_FAILURE_REVERSAL": 0.015735692
+    },
+    "BY": {
+      "BASE_CANDLE": 1.0,
+      "BASE_EMA": 1.0,
+      "BASE_LONG": 0.00018150000000000002,
+      "BASE_SHORT": 0.00018150000000000002,
+      "BASE_RANDOM": 0.00018150000000000002,
+      "P6_RETEST": 0.00018150000000000002,
+      "P6_FAILURE_REVERSAL": 0.0408004014
+    }
+  },
+  "reality_check_spa": {
+    "5": {
+      "observed_best_mean_difference": -0.012351,
+      "reality_check_p_value": 0.77112458,
+      "spa_p_value": 0.76912462,
+      "samples": 50000,
+      "mean_block_sessions": 5,
+      "minimum_p_value": 2e-05
+    },
+    "10": {
+      "observed_best_mean_difference": -0.012351,
+      "reality_check_p_value": 0.7698846,
+      "spa_p_value": 0.76798464,
+      "samples": 50000,
+      "mean_block_sessions": 10,
+      "minimum_p_value": 2e-05
+    },
+    "20": {
+      "observed_best_mean_difference": -0.012351,
+      "reality_check_p_value": 0.76846463,
+      "spa_p_value": 0.76634467,
+      "samples": 50000,
+      "mean_block_sessions": 20,
+      "minimum_p_value": 2e-05
+    },
+    "60": {
+      "observed_best_mean_difference": -0.012351,
+      "reality_check_p_value": 0.79132417,
+      "spa_p_value": 0.78944421,
+      "samples": 50000,
+      "mean_block_sessions": 60,
+      "minimum_p_value": 2e-05
+    }
+  },
+  "deflated_sharpe": {
+    "annualized_sharpe": 0.69899,
+    "expected_max_null_sharpe": 2.47474,
+    "dsr_probability": 0.0,
+    "trials": 150
+  },
+  "pbo": {
+    "status": "not_meaningful",
+    "reason": "insufficient sessions/configurations"
+  }
+}

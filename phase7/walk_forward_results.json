@@ -1,0 +1,334 @@
+{
+  "LOGISTIC": {
+    "folds": [
+      {
+        "year": 2020,
+        "train": 364,
+        "test": 183,
+        "auc": 0.556338,
+        "pr_auc": 0.648483,
+        "brier": 0.255912,
+        "precision": 0.622222,
+        "recall": 0.75,
+        "coverage": 0.808743,
+        "unfiltered_net": 16176.7,
+        "filtered_net": 24280.2
+      },
+      {
+        "year": 2021,
+        "train": 547,
+        "test": 190,
+        "auc": 0.502781,
+        "pr_auc": 0.632714,
+        "brier": 0.248758,
+        "precision": 0.644295,
+        "recall": 0.806723,
+        "coverage": 0.868421,
+        "unfiltered_net": -3804.0,
+        "filtered_net": -2276.5
+      },
+      {
+        "year": 2022,
+        "train": 737,
+        "test": 191,
+        "auc": 0.535638,
+        "pr_auc": 0.680408,
+        "brier": 0.239308,
+        "precision": 0.636364,
+        "recall": 0.860656,
+        "coverage": 0.795812,
+        "unfiltered_net": 40535.9,
+        "filtered_net": 42759.8
+      },
+      {
+        "year": 2023,
+        "train": 928,
+        "test": 198,
+        "auc": 0.632042,
+        "pr_auc": 0.772646,
+        "brier": 0.215403,
+        "precision": 0.680723,
+        "recall": 0.849624,
+        "coverage": 0.828283,
+        "unfiltered_net": 11100.2,
+        "filtered_net": 19178.6
+      },
+      {
+        "year": 2024,
+        "train": 1126,
+        "test": 183,
+        "auc": 0.462832,
+        "pr_auc": 0.626094,
+        "brier": 0.255221,
+        "precision": 0.619632,
+        "recall": 0.893805,
+        "coverage": 0.775956,
+        "unfiltered_net": 13286.7,
+        "filtered_net": 2105.8
+      },
+      {
+        "year": 2025,
+        "train": 1309,
+        "test": 186,
+        "auc": 0.581107,
+        "pr_auc": 0.723979,
+        "brier": 0.22344,
+        "precision": 0.679245,
+        "recall": 0.878049,
+        "coverage": 0.768817,
+        "unfiltered_net": 21701.4,
+        "filtered_net": 29380.7
+      }
+    ],
+    "status": "DESCRIPTIVE"
+  },
+  "TREE_DEPTH2": {
+    "folds": [
+      {
+        "year": 2020,
+        "train": 364,
+        "test": 183,
+        "auc": 0.553949,
+        "pr_auc": 0.641645,
+        "brier": 0.240482,
+        "precision": 0.612022,
+        "recall": 1.0,
+        "coverage": 0.797814,
+        "unfiltered_net": 16176.7,
+        "filtered_net": 14810.4
+      },
+      {
+        "year": 2021,
+        "train": 547,
+        "test": 190,
+        "auc": 0.594272,
+        "pr_auc": 0.678897,
+        "brier": 0.230321,
+        "precision": 0.671329,
+        "recall": 0.806723,
+        "coverage": 0.5,
+        "unfiltered_net": -3804.0,
+        "filtered_net": 7030.5
+      },
+      {
+        "year": 2022,
+        "train": 737,
+        "test": 191,
+        "auc": 0.487111,
+        "pr_auc": 0.632238,
+        "brier": 0.248225,
+        "precision": 0.628378,
+        "recall": 0.762295,
+        "coverage": 0.492147,
+        "unfiltered_net": 40535.9,
+        "filtered_net": 7185.6
+      },
+      {
+        "year": 2023,
+        "train": 928,
+        "test": 198,
+        "auc": 0.592828,
+        "pr_auc": 0.715615,
+        "brier": 0.216984,
+        "precision": 0.671717,
+        "recall": 1.0,
+        "coverage": 0.358586,
+        "unfiltered_net": 11100.2,
+        "filtered_net": 22287.9
+      },
+      {
+        "year": 2024,
+        "train": 1126,
+        "test": 183,
+        "auc": 0.481353,
+        "pr_auc": 0.605288,
+        "brier": 0.250239,
+        "precision": 0.617486,
+        "recall": 1.0,
+        "coverage": 0.371585,
+        "unfiltered_net": 13286.7,
+        "filtered_net": -3311.8
+      },
+      {
+        "year": 2025,
+        "train": 1309,
+        "test": 186,
+        "auc": 0.573042,
+        "pr_auc": 0.707429,
+        "brier": 0.220146,
+        "precision": 0.66129,
+        "recall": 1.0,
+        "coverage": 0.33871,
+        "unfiltered_net": 21701.4,
+        "filtered_net": 21883.7
+      }
+    ],
+    "status": "DESCRIPTIVE"
+  },
+  "GRADIENT_BOOSTING_SHALLOW": {
+    "folds": [
+      {
+        "year": 2020,
+        "train": 364,
+        "test": 183,
+        "auc": 0.608903,
+        "pr_auc": 0.702373,
+        "brier": 0.230633,
+        "precision": 0.611429,
+        "recall": 0.955357,
+        "coverage": 0.819672,
+        "unfiltered_net": 16176.7,
+        "filtered_net": 19335.0
+      },
+      {
+        "year": 2021,
+        "train": 547,
+        "test": 190,
+        "auc": 0.564801,
+        "pr_auc": 0.677179,
+        "brier": 0.232282,
+        "precision": 0.634831,
+        "recall": 0.94958,
+        "coverage": 0.789474,
+        "unfiltered_net": -3804.0,
+        "filtered_net": -4390.0
+      },
+      {
+        "year": 2022,
+        "train": 737,
+        "test": 191,
+        "auc": 0.553694,
+        "pr_auc": 0.700285,
+        "brier": 0.233378,
+        "precision": 0.626437,
+        "recall": 0.893443,
+        "coverage": 0.827225,
+        "unfiltered_net": 40535.9,
+        "filtered_net": 45269.2
+      },
+      {
+        "year": 2023,
+        "train": 928,
+        "test": 198,
+        "auc": 0.615153,
+        "pr_auc": 0.749034,
+        "brier": 0.216035,
+        "precision": 0.680412,
+        "recall": 0.992481,
+        "coverage": 0.813131,
+        "unfiltered_net": 11100.2,
+        "filtered_net": 13743.9
+      },
+      {
+        "year": 2024,
+        "train": 1126,
+        "test": 183,
+        "auc": 0.490582,
+        "pr_auc": 0.603147,
+        "brier": 0.243805,
+        "precision": 0.616667,
+        "recall": 0.982301,
+        "coverage": 0.825137,
+        "unfiltered_net": 13286.7,
+        "filtered_net": 9279.9
+      },
+      {
+        "year": 2025,
+        "train": 1309,
+        "test": 186,
+        "auc": 0.600981,
+        "pr_auc": 0.755841,
+        "brier": 0.21936,
+        "precision": 0.657609,
+        "recall": 0.98374,
+        "coverage": 0.768817,
+        "unfiltered_net": 21701.4,
+        "filtered_net": 38730.7
+      }
+    ],
+    "status": "DESCRIPTIVE"
+  },
+  "REGULARIZED_LINEAR": {
+    "folds": [
+      {
+        "year": 2020,
+        "train": 364,
+        "test": 183,
+        "auc": 0.562123,
+        "pr_auc": 0.650065,
+        "brier": 0.236761,
+        "precision": 0.612022,
+        "recall": 1.0,
+        "coverage": 0.754098,
+        "unfiltered_net": 16176.7,
+        "filtered_net": 8581.2
+      },
+      {
+        "year": 2021,
+        "train": 547,
+        "test": 190,
+        "auc": 0.595337,
+        "pr_auc": 0.693269,
+        "brier": 0.228572,
+        "precision": 0.624339,
+        "recall": 0.991597,
+        "coverage": 0.8,
+        "unfiltered_net": -3804.0,
+        "filtered_net": -4380.2
+      },
+      {
+        "year": 2022,
+        "train": 737,
+        "test": 191,
+        "auc": 0.506771,
+        "pr_auc": 0.650455,
+        "brier": 0.234366,
+        "precision": 0.638743,
+        "recall": 1.0,
+        "coverage": 0.832461,
+        "unfiltered_net": 40535.9,
+        "filtered_net": 29294.1
+      },
+      {
+        "year": 2023,
+        "train": 928,
+        "test": 198,
+        "auc": 0.619318,
+        "pr_auc": 0.764363,
+        "brier": 0.214795,
+        "precision": 0.675127,
+        "recall": 1.0,
+        "coverage": 0.79798,
+        "unfiltered_net": 11100.2,
+        "filtered_net": 18454.2
+      },
+      {
+        "year": 2024,
+        "train": 1126,
+        "test": 183,
+        "auc": 0.471049,
+        "pr_auc": 0.60652,
+        "brier": 0.245802,
+        "precision": 0.617143,
+        "recall": 0.955752,
+        "coverage": 0.775956,
+        "unfiltered_net": 13286.7,
+        "filtered_net": -8219.2
+      },
+      {
+        "year": 2025,
+        "train": 1309,
+        "test": 186,
+        "auc": 0.589495,
+        "pr_auc": 0.732403,
+        "brier": 0.219268,
+        "precision": 0.661202,
+        "recall": 0.98374,
+        "coverage": 0.774194,
+        "unfiltered_net": 21701.4,
+        "filtered_net": 27635.6
+      }
+    ],
+    "status": "DESCRIPTIVE"
+  }
+}
